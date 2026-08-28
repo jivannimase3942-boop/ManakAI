@@ -1,4 +1,4 @@
-const BASE = ''
+const BASE = 'https://manakai-backend.onrender.com'
 
 async function post(path, body) {
   const res = await fetch(`${BASE}${path}`, {
