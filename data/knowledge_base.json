@@ -1,0 +1,289 @@
+[
+  {
+    "id": "kb-001",
+    "title": "Packaged Drinking Water",
+    "standard_number": "IS 14543",
+    "topic": "Food & Beverage / Packaged Water",
+    "summary": "IS 14543 covers the specification for packaged (other than mineral) drinking water, including requirements for physical, chemical and microbiological quality, and packaging. Products sold under this category are commonly required to hold BIS certification (ISI mark) before sale in India.",
+    "applicability": "Applies to packaged drinking water (other than natural mineral water) intended for human consumption.",
+    "requirements": [
+      "Physical quality parameters",
+      "Chemical quality parameters",
+      "Microbiological quality parameters",
+      "Packaging and labeling requirements"
+    ],
+    "testing": {
+      "available": true,
+      "details": [
+        "Product must be tested at a BIS-recognised laboratory."
+      ]
+    },
+    "certification": {
+      "available": true,
+      "scheme": "BIS Product Certification / ISI Mark",
+      "steps": [
+        "Submit application to BIS.",
+        "Undergo sample testing at BIS-recognised lab or in-house lab.",
+        "Pass factory inspection.",
+        "Obtain grant of licence."
+      ]
+    },
+    "required_documents": [],
+    "next_actions": [
+      "Identify the applicable standard.",
+      "Determine applicable certification.",
+      "Complete applicable testing.",
+      "Follow the applicable BIS certification process."
+    ],
+    "guidance": "Manufacturers of packaged drinking water are generally required to obtain a BIS product certification licence and get their product tested at a BIS-recognised laboratory before using the ISI mark. Exact testing parameters and licensing steps should be confirmed with BIS directly.",
+    "keywords": ["packaged drinking water", "drinking water", "mineral water", "bottled water", "water bottle", "is 14543"],
+    "source_name": "BIS (Bureau of Indian Standards) — publicly listed standard",
+    "source_url": "https://www.bis.gov.in",
+    "verified": true
+  },
+  {
+    "id": "kb-002",
+    "title": "Product Certification Scheme (ISI Mark)",
+    "standard_number": "BIS Certification Scheme",
+    "topic": "Certification",
+    "summary": "The BIS Product Certification Scheme allows manufacturers to obtain a licence to use the Standard Mark (ISI mark) on products that conform to the relevant Indian Standard. It is a third-party guarantee of quality, safety and reliability for consumers.",
+    "applicability": "Applies to manufacturers seeking to use the ISI Mark on products conforming to Indian Standards.",
+    "requirements": [
+      "Product conformity to relevant IS",
+      "Establishment of an in-house testing facility (in most cases)",
+      "Acceptance of the Scheme of Testing and Inspection (STI)"
+    ],
+    "testing": {
+      "available": true,
+      "details": [
+        "Sample testing required either at a BIS-recognised lab or in-house lab depending on the specific standard."
+      ]
+    },
+    "certification": {
+      "available": true,
+      "scheme": "BIS Product Certification / ISI Mark",
+      "steps": [
+        "Submit application via CMS/e-BIS.",
+        "Factory inspection by BIS.",
+        "Sample testing.",
+        "Grant of licence."
+      ]
+    },
+    "required_documents": [],
+    "next_actions": [
+      "Verify if product is under mandatory certification (QCO).",
+      "Ensure manufacturing premises has adequate testing facilities.",
+      "Apply through the official BIS CMS/e-BIS portal."
+    ],
+    "guidance": "The typical process involves: applying to BIS, sample testing at a BIS-recognised or in-house lab, factory inspection, and grant of licence. Certain product categories fall under mandatory certification (e.g. via Quality Control Orders) while others are voluntary. Applicants should verify current requirements on the official BIS portal (CMS/e-BIS).",
+    "keywords": ["certification", "isi mark", "bis certification", "product certification", "how to apply", "license", "licence", "apply for bis certification"],
+    "source_name": "BIS official documentation",
+    "source_url": "https://www.bis.gov.in/certification/product-certification-scheme/",
+    "verified": true
+  },
+  {
+    "id": "kb-003",
+    "title": "Hallmarking of Gold & Silver Jewellery",
+    "standard_number": "IS 1417 / IS 2790 series",
+    "topic": "Hallmarking",
+    "summary": "Hallmarking is the official assaying and marking system for gold and silver jewellery/articles in India, administered by BIS. It certifies the purity/fineness of precious metal articles through Assaying and Hallmarking Centres (AHCs).",
+    "applicability": "Applies to gold and silver jewellery and artifacts manufactured and sold in India.",
+    "requirements": [
+      "Jewellers must obtain BIS registration.",
+      "Articles must be assayed and hallmarked at a BIS-recognised AHC.",
+      "Hallmark Unique Identification (HUID) must be present on the article."
+    ],
+    "testing": {
+      "available": true,
+      "details": [
+        "Assaying is conducted at BIS-recognised Assaying & Hallmarking Centres (AHCs)."
+      ]
+    },
+    "certification": {
+      "available": true,
+      "scheme": "BIS Hallmarking Scheme",
+      "steps": [
+        "Jeweller applies for registration.",
+        "Jeweller submits articles to AHC.",
+        "AHC assays and applies hallmark with HUID."
+      ]
+    },
+    "required_documents": [],
+    "next_actions": [
+      "Obtain BIS Registration for Jewellers.",
+      "Send articles to a recognised AHC for hallmarking.",
+      "Verify HUID via BIS Care app (for consumers)."
+    ],
+    "guidance": "Jewellers need BIS registration to sell hallmarked jewellery, and articles are assayed at a BIS-recognised Assaying & Hallmarking Centre. Hallmark Unique Identification (HUID) is used for traceability. Exact caratage rules and applicability should be verified on the BIS Hallmarking portal.",
+    "keywords": ["hallmark", "hallmarking", "gold", "silver", "jewellery", "jewelry", "huid", "purity", "what is hallmarking"],
+    "source_name": "BIS Hallmarking",
+    "source_url": "https://www.bis.gov.in/hallmarking/",
+    "verified": true
+  },
+  {
+    "id": "kb-004",
+    "title": "BIS-Recognised Testing Laboratories",
+    "standard_number": "Laboratory Recognition",
+    "topic": "Testing",
+    "summary": "BIS maintains a network of its own regional/branch laboratories and recognises select private/third-party laboratories for product testing under various certification schemes. Testing verifies whether a product sample conforms to the relevant Indian Standard.",
+    "applicability": "Applies to products requiring sample testing for BIS certification.",
+    "requirements": [
+      "Testing must be performed at an officially recognised BIS laboratory or branch laboratory.",
+      "Test reports must conform to the relevant IS standard."
+    ],
+    "testing": {
+      "available": true,
+      "details": [
+        "Refer to the official BIS Lab Recognition scheme list for authorised labs."
+      ]
+    },
+    "certification": {
+      "available": false,
+      "scheme": "",
+      "steps": []
+    },
+    "required_documents": [],
+    "next_actions": [
+      "Check the BIS Care app or BIS portal for the current list of recognised labs by product and region.",
+      "Send samples to the appropriate lab as directed by the scheme."
+    ],
+    "guidance": "The applicable laboratory depends on the product category and scheme. The official BIS website and BIS Care app list recognised labs by product and region — always confirm the current, region-specific list from BIS rather than relying on a fixed list, as recognitions can change.",
+    "keywords": ["testing laboratory", "lab", "test", "testing", "where to test", "recognised laboratory", "where can i test my product"],
+    "source_name": "BIS official documentation",
+    "source_url": "https://www.bis.gov.in",
+    "verified": true
+  },
+  {
+    "id": "kb-005",
+    "title": "BIS Licensing for Manufacturers",
+    "standard_number": "BIS Licensing Process",
+    "topic": "Licensing",
+    "summary": "A BIS licence permits a manufacturer to apply the Standard Mark on a specific product manufactured at a specific location, after their product and process are found to conform to the applicable Indian Standard.",
+    "applicability": "Applies to manufacturers seeking to apply the Standard Mark (ISI) on their products.",
+    "requirements": [
+      "Manufacturing infrastructure capable of producing conforming products.",
+      "Adequate testing equipment as per standard.",
+      "Competent quality control personnel."
+    ],
+    "testing": {
+      "available": true,
+      "details": [
+        "Both in-house testing and third-party testing may be required."
+      ]
+    },
+    "certification": {
+      "available": true,
+      "scheme": "Manufacturing Licence",
+      "steps": [
+        "Submit online application.",
+        "Document scrutiny.",
+        "Sample testing.",
+        "Factory audit.",
+        "Licence grant and periodic surveillance."
+      ]
+    },
+    "required_documents": [],
+    "next_actions": [
+      "Ensure manufacturing location has necessary testing infrastructure.",
+      "Apply online via the BIS portal.",
+      "Prepare for factory audit and sample testing."
+    ],
+    "guidance": "Applications are generally submitted online via the BIS portal, followed by document scrutiny, sample testing, and factory audit. Licence validity, renewal and surveillance (periodic) inspections follow BIS rules. Fee structure and timelines should be checked on the official portal as they may change.",
+    "keywords": ["license", "licence", "licensing", "manufacturing licence", "apply for licence", "bis license", "how do i get bis licence"],
+    "source_name": "BIS official documentation",
+    "source_url": "https://www.bis.gov.in/certification/",
+    "verified": true
+  },
+  {
+    "id": "kb-006",
+    "title": "Consumer Complaints & Grievance Redressal",
+    "standard_number": "Consumer Services",
+    "topic": "Consumer Services",
+    "summary": "BIS provides consumer-facing services including complaint registration for ISI-marked or hallmarked products that appear substandard, and general consumer awareness on Indian Standards through the BIS Care mobile app and portal.",
+    "applicability": "Applies to consumers wishing to verify products or file complaints regarding BIS certified products.",
+    "requirements": [
+      "Product must carry ISI mark or HUID for BIS verification."
+    ],
+    "testing": {
+      "available": false,
+      "details": []
+    },
+    "certification": {
+      "available": false,
+      "scheme": "",
+      "steps": []
+    },
+    "required_documents": [],
+    "next_actions": [
+      "Download the BIS Care app.",
+      "Enter the license number or HUID to verify.",
+      "Lodge a complaint if the product appears substandard or counterfeit."
+    ],
+    "guidance": "Consumers can verify a licence/HUID and lodge a complaint through the BIS Care app or the BIS website's grievance section. This prototype does not connect to the live BIS Care system.",
+    "keywords": ["consumer complaint", "grievance", "bis care", "verify license", "verify huid", "complaint", "how can a consumer verify a huid", "consumer"],
+    "source_name": "BIS Consumer Services",
+    "source_url": "https://www.bis.gov.in/consumer-corner/",
+    "verified": true
+  },
+  {
+    "id": "kb-007",
+    "title": "Indian Standards — What They Are",
+    "standard_number": "General",
+    "topic": "Indian Standards",
+    "summary": "An Indian Standard is a document, established by consensus and approved by BIS, that provides rules, guidelines or characteristics for products, processes or services to ensure quality, safety and interoperability.",
+    "applicability": "Applies generally to products, processes, and services in India.",
+    "requirements": [],
+    "testing": {
+      "available": false,
+      "details": []
+    },
+    "certification": {
+      "available": false,
+      "scheme": "",
+      "steps": []
+    },
+    "required_documents": [],
+    "next_actions": [
+      "Search for specific standards on the official BIS Standards portal.",
+      "Purchase or access the full text of the standard."
+    ],
+    "guidance": "Standards are identified by an IS number (e.g. IS 14543) and are developed by Technical Committees of BIS with stakeholder participation. The full text of standards is typically available for purchase/access via the official BIS Standards portal.",
+    "keywords": ["what is an indian standard", "indian standard", "is number", "standard meaning"],
+    "source_name": "BIS official documentation",
+    "source_url": "https://www.bis.gov.in",
+    "verified": true
+  },
+  {
+    "id": "kb-008",
+    "title": "BIS Schemes Overview",
+    "standard_number": "Scheme Overview",
+    "topic": "BIS Schemes",
+    "summary": "BIS operates multiple schemes depending on product/sector: Product Certification (ISI Mark), Compulsory Registration Scheme (CRS) for electronics/IT goods, Hallmarking for precious metals, and Management System Certification (ISO-type schemes).",
+    "applicability": "Various schemes apply depending on the product category and sector.",
+    "requirements": [
+      "Electronics typically fall under CRS.",
+      "Food and general products typically fall under Product Certification (ISI Mark).",
+      "Precious metals fall under Hallmarking."
+    ],
+    "testing": {
+      "available": false,
+      "details": []
+    },
+    "certification": {
+      "available": false,
+      "scheme": "",
+      "steps": []
+    },
+    "required_documents": [],
+    "next_actions": [
+      "Identify the nature of the product.",
+      "Determine which scheme (e.g. CRS, ISI, Hallmarking) covers the product.",
+      "Follow the specific scheme's guidelines."
+    ],
+    "guidance": "The applicable scheme depends on the product category — e.g. electronics typically fall under CRS, food/general products under Product Certification. Sample/demo mapping only — always confirm the correct scheme for a specific product with BIS.",
+    "keywords": ["scheme", "which scheme", "crs", "compulsory registration", "management system certification", "electronics"],
+    "source_name": "BIS official documentation",
+    "source_url": "https://www.bis.gov.in",
+    "verified": true
+  }
+]

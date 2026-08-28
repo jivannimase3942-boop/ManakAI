@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-navy-900 antialiased;
+  font-feature-settings: 'cv11', 'ss01';
+}
+
+::selection {
+  background-color: #d6e0ee;
+}
+
+:focus-visible {
+  outline: 2px solid #2c5490;
+  outline-offset: 2px;
+}
+
+.lang-hi, .lang-mr {
+  font-family: 'Noto Sans Devanagari', 'Inter', system-ui, sans-serif;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.25s ease-out;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #adc1dd;
+  border-radius: 999px;
+}
