@@ -29,3 +29,6 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# ManakAI runtime databases
+backend/pending_knowledge.db
