@@ -494,6 +494,16 @@ def generate_compliance_response(query: str, mode: str = "industry", language: s
         verified=record.get("verified", True)
     )
 
+    raw_docs = record.get("documents")
+    normalized_docs = None
+    if isinstance(raw_docs, list):
+        if not raw_docs:
+            normalized_docs = []
+        elif isinstance(raw_docs[0], dict):
+            normalized_docs = [d for d in raw_docs if isinstance(d, dict)]
+        elif isinstance(raw_docs[0], str):
+            normalized_docs = [{"title": d} for d in raw_docs if isinstance(d, str)]
+
     return ComplianceResponse(
         match_found=True,
         intent=detected_intent,
@@ -515,7 +525,7 @@ def generate_compliance_response(query: str, mode: str = "industry", language: s
         answer=composed["answer"],
         why_this_answer=composed["why_this_answer"],
         structured_compliance_journey=record.get("compliance_journey"),
-        structured_documents=record.get("documents"),
+        structured_documents=normalized_docs,
         structured_testing=record.get("testing") if isinstance(record.get("testing"), dict) else None,
         structured_fees=record.get("fees"),
         regulatory_status=record.get("regulatory_status"),
