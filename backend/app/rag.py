@@ -22,7 +22,7 @@ def _is_bis_scope(query: str) -> bool:
         "hallmark", "huid", "lab", "testing", "crs", "licence", "license",
         "compliance", "complaint", "grievance", "pressure cooker", "toy",
         "cement", "laptop", "helmet", "water", "product", "mandatory",
-        "voluntary", "guidance", "mobile", "phone", "smartphone", "power bank"
+        "voluntary", "guidance", "mobile", "phone", "smartphone", "power bank", "lpg cylinder", "lpg cylinders", "gas cylinder", "lpg gas cylinder", "liquefied petroleum gas cylinder", "steel rebar", "steel reinforcement bar", "tmt bar", "reinforcement steel"
     ]
     # Simple deterministic check: if any keyword is present, allow it.
     for kw in bis_keywords:

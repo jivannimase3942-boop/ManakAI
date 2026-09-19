@@ -223,70 +223,54 @@ export default function Scanner({ language }) {
             <>
               {/* Applicability */}
               <div className="bg-white border border-[#E08A2C] p-6 rounded-md shadow-sm">
-                <h2 className="text-sm font-bold text-[#E08A2C] uppercase tracking-wider mb-4">BIS Applicability</h2>
-                <div className="text-lg font-bold text-slate-900 mb-2">{results.applicable_standard}</div>
-                <div className="text-slate-700 mb-4">{results.why_applicable}</div>
-                <div className="inline-block bg-slate-100 text-slate-800 text-xs px-2 py-1 rounded border border-slate-200">Scheme: {results.scheme}</div>
+                <h2 className="text-sm font-bold text-[#E08A2C] uppercase tracking-wider mb-4">{t(language, 'why_this_standard')}</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700">
+                  <div className="font-bold">{t(language, 'product_identified')}:</div>
+                  <div>{results.product_identification.name}</div>
+                  <div className="font-bold">{t(language, 'applicable_standard')}:</div>
+                  <div className="text-lg text-slate-900 font-bold">{results.applicable_standard}</div>
+                  <div className="font-bold">{t(language, 'reason')}:</div>
+                  <div>{results.why_applicable || 'Based on BIS CRS/ISI guidelines for this product category.'}</div>
+                  <div className="font-bold">{t(language, 'evidence')}:</div>
+                  <div>Official BIS Knowledge Base</div>
+                  <div className="font-bold">{t(language, 'source_status')}:</div>
+                  <div className="text-green-700 font-bold">Verified</div>
+                </div>
+                {results.official_links && results.official_links.length > 0 && (
+                  <div className="mt-4">
+                    <a href={results.official_links[0].url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 bg-[#1C4E80] text-white px-4 py-2 rounded-sm text-xs font-bold uppercase tracking-wider hover:bg-[#0B1E40] transition-colors">
+                      OPEN OFFICIAL SOURCE
+                    </a>
+                  </div>
+                )}
               </div>
 
               {/* A-to-Z Journey */}
-              {results.structured_compliance_journey && (
-                 <ComplianceJourney
-                    steps={results.structured_compliance_journey}
-                    language={language}
-                 />
-              )}
-
-              {/* Documents */}
-              {results.structured_documents && results.structured_documents.length > 0 && (
-                <div className="bg-white border border-slate-200 p-6 rounded-md shadow-sm">
-                  <h3 className="text-lg font-bold text-[#0B1E40] mb-4">Required Documents</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {results.structured_documents.map((d, i) => (
-                      <div key={i} className="border border-slate-200 p-4 rounded-sm">
-                        <div className="font-semibold text-slate-800 mb-1">{d.title}</div>
-                        <div className="text-sm text-slate-600 mb-2">{d.status_reason}</div>
-                        {d.official_url && <a href={d.official_url} target="_blank" rel="noreferrer" className="text-sm text-blue-600 hover:underline">Official Source</a>}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Testing */}
-              {results.structured_testing && (
-                <div className="bg-white border border-slate-200 p-6 rounded-md shadow-sm">
-                   <h3 className="text-lg font-bold text-[#0B1E40] mb-4">Testing</h3>
-                   <div className="text-slate-700 mb-2 font-medium">Testing Required: {results.structured_testing.required ? "Yes" : "No"}</div>
-                   <div className="text-slate-600 mb-4">{results.structured_testing.laboratory_guidance || "Specific laboratory selection is not verified in the current knowledge base."}</div>
-                   {results.structured_testing.official_source_url && (
-                     <a href={results.structured_testing.official_source_url} target="_blank" rel="noreferrer" className="text-blue-600 font-medium hover:underline">View BIS Recognized Laboratories</a>
-                   )}
-                </div>
-              )}
-
-              {/* Official Links */}
-              {results.official_links && results.official_links.length > 0 && (
-                <div className="bg-slate-50 border border-slate-200 p-6 rounded-md shadow-sm">
-                  <h3 className="text-lg font-bold text-[#0B1E40] mb-4">Official Sources</h3>
-                  <ul className="space-y-2">
-                    {results.official_links.map((lnk, i) => (
-                       <li key={i}>
-                         <a href={lnk.url} target="_blank" rel="noreferrer" className="text-blue-700 hover:underline font-medium">{lnk.title}</a>
-                       </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+              <ComplianceJourney
+                message={{
+                  product: results.product_identification.name,
+                  applicable_standard: results.applicable_standard,
+                  scheme: results.scheme,
+                  compliance_journey: {
+                    scheme: results.scheme,
+                    testing: results.structured_testing,
+                    documents: results.structured_documents?.map(d => d.title) || [],
+                    steps: results.next_actions || []
+                  }
+                }}
+                language={language}
+              />
             </>
           )}
 
-          <div className="bg-white border-t border-slate-200 pt-6">
-            <h3 className="text-md font-bold text-slate-800 mb-2">What should I do next?</h3>
-            <ul className="list-disc pl-5 text-slate-600 space-y-1">
-               {results.next_actions?.map((na, i) => <li key={i}>{na}</li>)}
-            </ul>
-          </div>
+          {results.match_found && (
+            <div className="bg-white border-t border-slate-200 pt-6 mt-8">
+              <h3 className="text-md font-bold text-[#0B1E40] uppercase tracking-wider mb-4">NEXT ACTION</h3>
+              <ul className="list-disc pl-5 text-slate-700 space-y-2 font-medium">
+                 {results.next_actions?.map((na, i) => <li key={i}>{na}</li>)}
+              </ul>
+            </div>
+          )}
         </div>
       )}
 

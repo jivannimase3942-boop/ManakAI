@@ -232,9 +232,9 @@ def hybrid_search(query: str, top_k: int = 3, norm_context: Dict[str, Any] = Non
         if std_num and len(std_num) > 3:
             import re
             base_match = re.search(r'is\s+\d+', std_num)
-            if base_match and base_match.group(0) in query_lower:
+            if base_match and re.search(r'\b' + re.escape(base_match.group(0)) + r'(?!\d)', query_lower):
                 is_exact_id = True
-            elif std_num in query_lower:
+            elif re.search(r'\b' + re.escape(std_num) + r'(?!\d)', query_lower):
                 is_exact_id = True
 
         kw_score = kw_map.get(rid, {}).get("_retrieval_score", 0)

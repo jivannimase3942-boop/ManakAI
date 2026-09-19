@@ -1394,7 +1394,7 @@
     "title": "Information Technology Equipment - Safety - General Requirements",
     "product_domain": "Laptops / Notebooks / Tablets",
     "service_category": "Compulsory Registration Scheme (CRS)",
-    "standard_number": "IS 13252 (Part 1):2010",
+    "standard_number": "IS 13252 Part 1:2010",
     "standard_title": "Information Technology Equipment - Safety - General Requirements",
     "topic": "Electronics / IT Goods",
     "summary": "Mandatory for all laptops, notebooks, and tablets manufactured, imported, or sold in India.",
@@ -1413,7 +1413,6 @@
       "Foreign manufacturers must appoint an Authorized Indian Representative (AIR)."
     ],
     "next_actions": [],
-    "documents": [],
     "keywords": [
       "laptop",
       "notebook",
@@ -1432,12 +1431,6 @@
     "last_verified": null,
     "revision": 1,
     "supersedes_id": null,
-    "testing": {
-      "available": true,
-      "details": [
-        "Product must be tested at a BIS-recognized laboratory."
-      ]
-    },
     "certification": {
       "available": true,
       "scheme": "Scheme-II (Self-Declaration of Conformity)",
@@ -1556,7 +1549,13 @@
     "status": "VERIFIED",
     "verified": true,
     "retrieved_at": "2026-09-13",
-    "verified_at": "2026-09-13"
+    "verified_at": "2026-09-13",
+    "testing": {
+      "available": true,
+      "details": [
+        "Product must be tested at a BIS-recognized laboratory."
+      ]
+    }
   },
   {
     "id": "kb-013",
@@ -2033,7 +2032,7 @@
     "title": "Welded Low Carbon Steel Cylinders for LPG",
     "product_domain": "LPG Cylinders",
     "service_category": "Product Certification (Scheme-I)",
-    "standard_number": "IS 3196 (Part 1):2013",
+    "standard_number": "IS 3196",
     "standard_title": "Welded Low Carbon Steel Cylinders Exceeding 5 Litre Water Capacity for Low Pressure Liquefiable Gases - Part 1: Cylinders for Liquefied Petroleum Gases (LPG)",
     "topic": "LPG Cylinders",
     "summary": "Mandatory for welded low carbon steel cylinders for LPG exceeding 5 litre water capacity.",
@@ -2174,7 +2173,7 @@
     },
     "mandatory_status": {
       "is_mandatory": true,
-      "scheme": "COMPULSORY",
+      "scheme": "Scheme-I",
       "qco_reference": "Welded Cylinders (Quality Control) Order"
     },
     "status": "VERIFIED",
@@ -2426,7 +2425,19 @@
       "affected_users": [],
       "recommended_actions": [],
       "evidence": []
-    }
+    },
+    "testing": {
+      "required": true,
+      "laboratory_type": "BIS-recognized laboratory",
+      "guidance": "BIS-recognized lab testing required prior to application."
+    },
+    "documents": [
+      "PAN",
+      "GST",
+      "Incorporation",
+      "Brand Auth",
+      "Test Report"
+    ]
   },
   {
     "id": "kb-020",
