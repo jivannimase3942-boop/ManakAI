@@ -6,5 +6,5 @@ router = APIRouter()
 
 @router.post("/api/assistant/query", response_model=ComplianceResponse)
 def assistant_query(req: ComplianceQueryRequest):
-    result = decision.generate_compliance_response(req.query, req.mode, req.language)
+    result = decision.generate_compliance_response(req.query, req.mode, req.language, req.history)
     return result

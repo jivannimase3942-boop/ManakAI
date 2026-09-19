@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Optional
+﻿from typing import Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field
 
@@ -9,16 +9,16 @@ from pydantic import BaseModel, Field
 
 class ChatMessageIn(BaseModel):
     role: str
-    content: str
+    content: str = Field(..., max_length=500, min_length=1)
 
 
 class ChatRequest(BaseModel):
-    message: str
+    message: str = Field(..., max_length=500, min_length=1)
     language: str = Field(
         default="en",
         description="en | hi | mr"
     )
-    history: Optional[List[ChatMessageIn]] = None
+    history: Optional[List[ChatMessageIn]] = Field(default=None, max_length=15)
 
 
 class SourceRef(BaseModel):
@@ -44,7 +44,7 @@ class ChatResponse(BaseModel):
 # ============================================================
 
 class StandardSearchRequest(BaseModel):
-    description: str
+    description: str = Field(..., max_length=500, min_length=1)
     language: str = Field(default="en")
 
 
@@ -81,9 +81,11 @@ class SourceListItem(BaseModel):
 # ============================================================
 
 class ComplianceQueryRequest(BaseModel):
-    query: str
+    query: str = Field(..., max_length=500, min_length=1)
     mode: str = Field(default="industry")
     language: str = Field(default="en")
+    history: Optional[List[ChatMessageIn]] = Field(default=None, max_length=15)
+
 
 class ComplianceResponse(BaseModel):
     match_found: bool = False
@@ -92,6 +94,8 @@ class ComplianceResponse(BaseModel):
     applicable_standard: str
     scheme: str
     why_applicable: str
+    answer: str = ""
+    why_this_answer: str = ""
     compliance_status: List[str] = Field(default_factory=list)
     requirements: List[str] = Field(default_factory=list)
     required_documents: List[str] = Field(default_factory=list)
@@ -103,3 +107,81 @@ class ComplianceResponse(BaseModel):
     confidence: str = "none"
     mode: str = "rule_engine"
     disclaimer: str
+
+    # Phase 2F: Structured Fields (Optional for backward compatibility)
+    structured_compliance_journey: Optional[List[Dict[str, Any]]] = None
+    structured_documents: Optional[List[Dict[str, Any]]] = None
+    structured_testing: Optional[Dict[str, Any]] = None
+    structured_fees: Optional[Dict[str, Any]] = None
+    regulatory_status: Optional[Dict[str, Any]] = None
+    official_links: Optional[List[Dict[str, Any]]] = None
+    structured_evidence: Optional[List[Dict[str, Any]]] = None
+
+
+class ComplianceImpactRequest(BaseModel):
+    standard: str = Field(..., max_length=100)
+    product: Optional[str] = Field(default=None, max_length=200)
+
+class ComplianceImpactResponse(BaseModel):
+    standard: str
+    product: str
+    change_status: str
+    summary: str
+    impact_areas: List[str] = Field(default_factory=list)
+    affected_users: List[str] = Field(default_factory=list)
+    recommended_actions: List[str] = Field(default_factory=list)
+    evidence: List[SourceRef] = Field(default_factory=list)
+    safe: bool = True
+
+from typing import Dict, Any, Optional, List
+from pydantic import BaseModel
+
+class ProductIdentification(BaseModel):
+    name: str
+    category: str
+    brand: str
+    model: str
+    manufacturer: str
+    confidence: float
+    evidence: List[str]
+    status: str
+
+class ProductAnalysisResponse(BaseModel):
+    success: bool
+    source_type: str
+    product_identification: ProductIdentification
+    attributes: Dict[str, Any]
+
+    # Nested fields from ComplianceResponse
+    match_found: bool = False
+    intent: str = ""
+    product: str = ""
+    applicable_standard: str = ""
+    scheme: str = ""
+    why_applicable: str = ""
+    answer: str = ""
+    why_this_answer: str = ""
+    compliance_status: List[str] = []
+    requirements: List[str] = []
+    required_documents: List[str] = []
+    testing: List[str] = []
+    certification_steps: List[str] = []
+    next_actions: List[str] = []
+    missing_information: List[str] = []
+    sources: List[Any] = []
+    confidence: str = "none"
+    mode: str = "rule_engine"
+    disclaimer: str = ""
+
+    # Structured Phase 2F fields
+    structured_compliance_journey: Optional[List[Dict[str, Any]]] = None
+    structured_documents: Optional[List[Dict[str, Any]]] = None
+    structured_testing: Optional[Dict[str, Any]] = None
+    structured_fees: Optional[Dict[str, Any]] = None
+    regulatory_status: Optional[Dict[str, Any]] = None
+    official_links: Optional[List[Dict[str, Any]]] = None
+    structured_evidence: Optional[List[Dict[str, Any]]] = None
+
+    # Specific attributes for partial/no match
+    multiple_candidates: Optional[List[Dict[str, Any]]] = None
+    error: Optional[str] = None

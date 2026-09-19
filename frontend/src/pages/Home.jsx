@@ -1,126 +1,294 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import ServiceCard from '../components/ServiceCard.jsx'
-import { t, EXAMPLE_QUESTIONS } from '../i18n.js'
-import { api } from '../api.js'
-
-const STEP_KEYS = ['step1', 'step2', 'step3', 'step4', 'step5', 'step6']
+import { t } from '../i18n.js'
+import VoiceAssistant from '../components/VoiceAssistant.jsx'
 
 export default function Home({ language }) {
   const navigate = useNavigate()
-  const [query, setQuery] = useState('')
-  const [services, setServices] = useState([])
+  const [search, setSearch] = useState('')
 
-  useEffect(() => {
-    api.services().then(setServices).catch(() => {})
-  }, [])
-
-  function goAsk(q) {
-    const val = q ?? query
-    if (!val.trim()) return
-    navigate('/assistant', { state: { prefill: val } })
+  const handleSearch = (e) => {
+    if (e) e.preventDefault()
+    if (search.trim()) {
+      navigate('/assistant', { state: { prefill: search } })
+    }
   }
 
+  const handleVoiceRecognized = (text) => {
+    setSearch(text);
+    navigate('/assistant', { state: { prefill: text } });
+  };
+
+  const officialSources = [
+    { name: "BIS Product Certification", url: "https://www.bis.gov.in/certification/product-certification-scheme/" },
+    { name: "BIS CRS Portal", url: "https://crsbis.in/BIS/products.do" },
+    { name: "BIS Hallmarking", url: "https://www.bis.gov.in/hallmarking/" },
+    { name: "BIS Consumer Corner", url: "https://www.bis.gov.in/consumer-corner/" }
+  ];
+
   return (
-    <div>
-      {/* Prototype banner */}
-      <div className="bg-navy-900 text-navy-50 text-xs sm:text-[13px] text-center px-4 py-2">
-        {t(language, 'prototype_banner')}
-      </div>
+    <div className="bg-[#fcfcfc] min-h-screen font-sans text-slate-800">
 
-      {/* Hero */}
-      <section className="bg-white border-b border-navy-100">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-14 text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-navy-50 border border-navy-100 text-navy-600 text-xs font-medium mb-6">
-            <span className="w-1.5 h-1.5 rounded-full bg-saffron-500" />
-            SIH 2026 · SIH26107
-          </div>
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-navy-900 tracking-tight leading-tight max-w-3xl mx-auto">
-            {t(language, 'hero_title')}
-          </h1>
-          <p className="mt-5 text-navy-600 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            {t(language, 'hero_sub')}
-          </p>
-
-          <div className="mt-9 max-w-2xl mx-auto">
-            <div className="flex flex-col sm:flex-row items-stretch gap-2 bg-white border border-navy-200 rounded-xl p-1.5 shadow-card focus-within:ring-2 focus-within:ring-navy-500">
+      {/* 1. HERO SECTION */}
+      <section className="bg-tech-pattern border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="max-w-3xl mx-auto text-center">
+            <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0B1E40] tracking-tight leading-tight mb-4">
+              {t(language, 'hero_title_new')}
+            </h1>
+            <p className="text-base text-slate-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+              {t(language, 'hero_sub_new')}
+            </p>
+            <form onSubmit={handleSearch} className="flex flex-col sm:flex-row gap-2 max-w-3xl mx-auto justify-center mb-4">
               <input
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && goAsk()}
-                placeholder={t(language, 'search_placeholder')}
-                className="flex-1 px-3.5 py-2.5 text-[15px] text-navy-900 placeholder-navy-400 focus:outline-none bg-transparent"
+                type="text"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder={t(language, 'search_placeholder_new')}
+                className="flex-1 min-w-0 border border-slate-300 rounded-sm px-4 py-3 text-[15px] text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1C4E80] focus:ring-1 focus:ring-[#1C4E80] h-[48px] shadow-sm"
               />
-              <button
-                onClick={() => goAsk()}
-                className="bg-navy-700 hover:bg-navy-800 text-white font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors whitespace-nowrap"
-              >
-                {t(language, 'hero_cta')}
-              </button>
-            </div>
-            <div className="mt-4 flex flex-wrap justify-center gap-2">
-              {EXAMPLE_QUESTIONS[language].slice(0, 3).map((q) => (
-                <button
-                  key={q}
-                  onClick={() => goAsk(q)}
-                  className="text-xs sm:text-[13px] bg-navy-50 hover:bg-navy-100 text-navy-700 rounded-full px-3.5 py-1.5 transition-colors"
-                >
-                  {q}
+              <div className="flex flex-col sm:flex-row gap-2 shrink-0 w-full sm:w-auto">
+                <VoiceAssistant
+                  language={language}
+                  onTextRecognized={handleVoiceRecognized}
+                  onTranscriptChange={setSearch}
+                  className="h-[48px] w-full sm:w-auto px-4 bg-slate-50 border border-slate-300 hover:bg-slate-100 rounded-sm text-[#1C4E80] font-medium flex items-center justify-center transition-colors shadow-sm"
+                />
+                <button type="submit" className="w-full sm:w-auto bg-[#0B1E40] hover:bg-[#152F5A] text-white font-semibold px-8 rounded-sm transition-colors h-[48px] shadow-sm">
+                  {t(language, 'lbl_search')}
                 </button>
-              ))}
-            </div>
-            <button
-              onClick={() => navigate('/finder')}
-              className="mt-5 text-sm font-medium text-navy-600 hover:text-navy-800 underline underline-offset-4"
-            >
-              {t(language, 'hero_cta_secondary')} →
-            </button>
+              </div>
+            </form>
           </div>
         </div>
       </section>
 
-      {/* Services */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="text-center max-w-xl mx-auto mb-10">
-          <h2 className="text-2xl sm:text-3xl font-bold text-navy-900">{t(language, 'services_heading')}</h2>
-          <p className="mt-2.5 text-navy-600 text-[15px]">{t(language, 'services_sub')}</p>
+      {/* 1.5. SCAN & UNDERSTAND PRODUCT (NEW PROMINENT CARD) */}
+      <section className="bg-slate-50 border-b border-slate-200 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white border-2 border-[#1C4E80] shadow-sm rounded-md p-8 sm:p-12 text-center max-w-4xl mx-auto flex flex-col items-center">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0B1E40] mb-4">
+              📷 Scan & Understand Product
+            </h2>
+            <p className="text-slate-600 text-[15px] max-w-xl mx-auto mb-8 font-medium">
+              Upload a product photo, use your camera, or upload a product document to instantly verify BIS compliance requirements and check standards.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto">
+              <button
+                onClick={() => navigate('/scan')}
+                className="bg-[#0B1E40] hover:bg-[#152F5A] text-white px-8 py-3 rounded-md font-bold shadow-sm transition-colors w-full sm:w-auto"
+              >
+                📷 Scan with Camera
+              </button>
+              <button
+                onClick={() => navigate('/scan')}
+                className="bg-white border-2 border-[#1C4E80] text-[#1C4E80] hover:bg-slate-50 px-8 py-3 rounded-md font-bold shadow-sm transition-colors w-full sm:w-auto"
+              >
+                📁 Upload Product
+              </button>
+            </div>
+            <p className="text-xs text-slate-500 mt-6 font-medium tracking-wide">
+              Supported: JPG • JPEG • PNG • WEBP • PDF
+            </p>
+          </div>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {services.map((s) => (
-            <ServiceCard
-              key={s.id}
-              name={s.name}
-              description={s.description}
-              icon={s.icon}
-              onClick={() => navigate('/services', { state: { focus: s.id } })}
-            />
+      </section>
+
+      {/* 2. VALUE STRIP */}
+      <section className="bg-slate-50 border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 divide-y md:divide-y-0 md:divide-x divide-slate-200">
+            <div className="px-4 py-2 text-center md:text-left">
+              <h3 className="text-[12px] font-bold text-[#1C4E80] uppercase tracking-wider mb-1">{t(language, 'val_standards')}</h3>
+              <p className="text-[13px] text-slate-600 font-medium">{t(language, 'val_standards_desc')}</p>
+            </div>
+            <div className="px-4 py-2 text-center md:text-left">
+              <h3 className="text-[12px] font-bold text-[#1C4E80] uppercase tracking-wider mb-1">{t(language, 'val_services')}</h3>
+              <p className="text-[13px] text-slate-600 font-medium">{t(language, 'val_services_desc')}</p>
+            </div>
+            <div className="px-4 py-2 text-center md:text-left">
+              <h3 className="text-[12px] font-bold text-[#E08A2C] uppercase tracking-wider mb-1">{t(language, 'val_evidence')}</h3>
+              <p className="text-[13px] text-slate-600 font-medium">{t(language, 'val_evidence_desc')}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 3. GUIDANCE GRID */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h2 className="text-[14px] font-bold text-[#0B1E40] mb-8 uppercase tracking-wider">{t(language, 'guidance_title')}</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            {
+              title: t(language, 'srv_card1_t'),
+              desc: t(language, 'srv_card1_d'),
+              route: '/finder'
+            },
+            {
+              title: t(language, 'srv_card2_t'),
+              desc: t(language, 'srv_card2_d'),
+              route: '/assistant', state: { prefill: 'I need BIS certification' }
+            },
+            {
+              title: t(language, 'srv_card3_t'),
+              desc: t(language, 'srv_card3_d'),
+              route: '/assistant', state: { prefill: 'I need testing guidance' }
+            },
+            {
+              title: t(language, 'srv_card4_t'),
+              desc: t(language, 'srv_card4_d'),
+              route: '/assistant', state: { prefill: 'Tell me about hallmarking of gold and silver' }
+            },
+            {
+              title: t(language, 'srv_card5_t'),
+              desc: t(language, 'srv_card5_d'),
+              route: '/consumer'
+            },
+            {
+              title: t(language, 'srv_card6_t'),
+              desc: t(language, 'srv_card6_d'),
+              route: '/industry'
+            }
+          ].map((item, idx) => (
+            <div
+              key={idx}
+              onClick={() => navigate(item.route, { state: item.state })}
+              className="bg-white border border-slate-200 rounded-sm p-5 hover:border-[#1C4E80] transition-colors cursor-pointer shadow-sm group"
+            >
+              <h3 className="text-[15px] font-bold text-[#0B1E40] mb-2 flex justify-between items-center">
+                {item.title}
+                <span className="text-slate-300 group-hover:text-[#1C4E80] transition-colors">→</span>
+              </h3>
+              <p className="text-[13px] text-slate-600 leading-relaxed">
+                {item.desc}
+              </p>
+            </div>
           ))}
         </div>
       </section>
 
-      {/* How it works */}
-      <section className="bg-navy-900 text-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="text-center max-w-xl mx-auto mb-12">
-            <h2 className="text-2xl sm:text-3xl font-bold">{t(language, 'how_heading')}</h2>
-            <p className="mt-2.5 text-navy-300 text-[15px]">{t(language, 'how_sub')}</p>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-6 gap-4">
-            {STEP_KEYS.map((key, i) => (
-              <div key={key} className="relative">
-                <div className="bg-navy-800/70 border border-navy-700 rounded-xl p-4 h-full">
-                  <span className="font-mono text-[11px] text-saffron-500 font-semibold">0{i + 1}</span>
-                  <h3 className="mt-2 font-semibold text-sm text-white leading-snug">{t(language, `${key}_t`)}</h3>
-                  <p className="mt-1.5 text-xs text-navy-300 leading-relaxed">{t(language, `${key}_d`)}</p>
-                </div>
-                {i < STEP_KEYS.length - 1 && (
-                  <div className="hidden lg:block absolute top-1/2 -right-2.5 -translate-y-1/2 text-navy-600 text-lg">›</div>
-                )}
+      {/* 4. CORE JOURNEY & 5. WHY MANAKAI */}
+      <section className="bg-white border-y border-slate-200 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+
+            {/* Core Journey */}
+            <div>
+              <h2 className="text-[14px] font-bold text-[#0B1E40] mb-8 uppercase tracking-wider">{t(language, 'journey_title_new')}</h2>
+              <div className="space-y-3 relative before:absolute before:inset-0 before:ml-[11px] before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-200 before:to-transparent">
+                {[
+                  { n: '01', l: t(language, 'journey_q') },
+                  { n: '02', l: t(language, 'journey_i') },
+                  { n: '03', l: t(language, 'journey_s') },
+                  { n: '04', l: t(language, 'journey_e') },
+                  { n: '05', l: t(language, 'journey_n') },
+                  { n: '06', l: t(language, 'journey_o') }
+                ].map((step, i) => (
+                  <div key={i} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div className="flex items-center justify-center w-6 h-6 rounded-full border border-slate-300 bg-white text-[10px] font-bold text-slate-500 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-sm">
+                      {step.n}
+                    </div>
+                    <div className="w-[calc(100%-2.5rem)] md:w-[calc(50%-1.5rem)] px-4 py-2 rounded-sm border border-slate-200 bg-slate-50 text-[13px] font-bold text-[#1C4E80] shadow-sm">
+                      {step.l}
+                    </div>
+                  </div>
+                ))}
               </div>
+              <p className="mt-8 text-[13px] text-slate-500 italic text-center md:text-left">
+                {t(language, 'journey_desc')}
+              </p>
+            </div>
+
+            {/* Why ManakAI */}
+            <div>
+              <h2 className="text-[14px] font-bold text-[#0B1E40] mb-8 uppercase tracking-wider">{t(language, 'why_title')}</h2>
+
+              <div className="mb-6">
+                <h3 className="text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-3">{t(language, 'why_trad_title')}</h3>
+                <div className="bg-slate-50 border border-slate-200 rounded-sm p-4 text-[13px] text-slate-600 font-medium">
+                  <div className="flex flex-col gap-2">
+                    <span className="opacity-70">→ {t(language, 'why_trad_1')}</span>
+                    <span className="opacity-70">→ {t(language, 'why_trad_2')}</span>
+                    <span className="opacity-70">→ {t(language, 'why_trad_3')}</span>
+                    <span className="opacity-70">→ {t(language, 'why_trad_4')}</span>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-[11px] font-bold text-[#E08A2C] uppercase tracking-wider mb-3">{t(language, 'why_man_title')}</h3>
+                <div className="bg-[#f8fcfd] border border-[#1C4E80]/20 rounded-sm p-4 text-[13px] text-[#0B1E40] font-bold shadow-sm">
+                  <div className="flex flex-col gap-3">
+                    <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#1C4E80]"></span>{t(language, 'why_man_1')}</span>
+                    <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#1C4E80]"></span>{t(language, 'why_man_2')}</span>
+                    <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#1C4E80]"></span>{t(language, 'why_man_3')}</span>
+                    <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#1C4E80]"></span>{t(language, 'why_man_4')}</span>
+                    <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#E08A2C]"></span>{t(language, 'why_man_5')}</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 6. EVIDENCE / TRUST */}
+      <section className="bg-slate-900 text-slate-300 py-16 border-b border-slate-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-[14px] font-bold text-slate-100 mb-10 uppercase tracking-wider text-center">{t(language, 'ev_title')}</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <div>
+              <div className="w-10 h-10 rounded-sm bg-slate-800 border border-slate-700 flex items-center justify-center mb-4 mx-auto md:mx-0">
+                <span className="text-cyan-400 font-bold">✓</span>
+              </div>
+              <h3 className="text-[13px] font-bold text-slate-100 uppercase tracking-wider mb-2">{t(language, 'ev_1_t')}</h3>
+              <p className="text-[13px] leading-relaxed">{t(language, 'ev_1_d')}</p>
+            </div>
+            <div>
+              <div className="w-10 h-10 rounded-sm bg-slate-800 border border-slate-700 flex items-center justify-center mb-4 mx-auto md:mx-0">
+                <span className="text-amber-400 font-bold">!</span>
+              </div>
+              <h3 className="text-[13px] font-bold text-slate-100 uppercase tracking-wider mb-2">{t(language, 'ev_2_t')}</h3>
+              <p className="text-[13px] leading-relaxed">{t(language, 'ev_2_d')}</p>
+            </div>
+            <div>
+              <div className="w-10 h-10 rounded-sm bg-slate-800 border border-slate-700 flex items-center justify-center mb-4 mx-auto md:mx-0">
+                <span className="text-emerald-400 font-bold">→</span>
+              </div>
+              <h3 className="text-[13px] font-bold text-slate-100 uppercase tracking-wider mb-2">{t(language, 'ev_3_t')}</h3>
+              <p className="text-[13px] leading-relaxed">{t(language, 'ev_3_d')}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 7. OFFICIAL SOURCES */}
+      <section className="bg-slate-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-[14px] font-bold text-[#0B1E40] mb-8 uppercase tracking-wider text-center">{t(language, 'os_title')}</h2>
+          <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+            {officialSources.map((src, idx) => (
+              <a
+                key={idx}
+                href={src.url}
+                target="_blank"
+                rel="noreferrer"
+                className="bg-white border border-slate-200 rounded-sm px-6 py-4 hover:border-[#1C4E80] transition-colors shadow-sm flex items-center gap-4 group"
+              >
+                <div className="flex-col">
+                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">{t(language, 'os_bis')} {t(language, 'os_official')}</span>
+                  <span className="text-[14px] font-bold text-[#0B1E40]">{src.name}</span>
+                </div>
+                <span className="text-[11px] font-bold text-[#1C4E80] opacity-0 group-hover:opacity-100 transition-opacity ml-2">
+                  {t(language, 'os_open')}
+                </span>
+              </a>
             ))}
           </div>
         </div>
       </section>
+
     </div>
   )
 }
