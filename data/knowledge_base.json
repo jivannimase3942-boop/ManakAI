@@ -2347,7 +2347,7 @@
       "qco_reference": "MeitY CRS Scheme"
     },
     "source_name": "BIS Compulsory Registration Scheme (CRS) Products List",
-    "source_url": "https://crsbis.in/BIS/products.do",
+    "source_url": "https://www.crsbis.in/BIS/products.do",
     "source_title": "BIS Compulsory Registration Scheme",
     "retrieved_at": "2026-09-13T12:00:00Z",
     "verified_at": "2026-09-13T12:00:00Z",
@@ -2429,15 +2429,55 @@
     "testing": {
       "required": true,
       "laboratory_type": "BIS-recognized laboratory",
-      "guidance": "BIS-recognized lab testing required prior to application."
+      "guidance": "Generate the CRS Test Request and proceed with product testing through a BIS-recognized laboratory.",
+      "source_name": "Official BIS LIMS directory for BIS-recognized laboratories",
+      "source_url": "https://lims.bis.gov.in/home/labs/"
     },
     "documents": [
-      "PAN",
-      "GST",
-      "Incorporation",
-      "Brand Auth",
-      "Test Report"
-    ]
+      {
+        "title": "PAN",
+        "purpose": "Permanent Account Number for entity identification.",
+        "source_name": "Income Tax Department",
+        "source_url": "https://www.incometax.gov.in/iec/foportal/"
+      },
+      {
+        "title": "GST",
+        "purpose": "Goods and Services Tax registration.",
+        "source_name": "GST Portal",
+        "source_url": "https://reg.gst.gov.in/registration/"
+      },
+      {
+        "title": "Incorporation",
+        "purpose": "Certificate of Incorporation for the company.",
+        "source_name": "Ministry of Corporate Affairs",
+        "source_url": "https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation/spice.html"
+      },
+      {
+        "title": "Brand Authorization",
+        "purpose": "Authorization document from the brand owner/manufacturer.",
+        "source_name": "No single government portal - obtain from brand owner/manufacturer"
+      },
+      {
+        "title": "Test Report",
+        "purpose": "Test report from the relevant BIS-recognized laboratory.",
+        "source_name": "BIS-recognized laboratory"
+      }
+    ],
+    "compliance_journey": {
+      "scheme": "Compulsory Registration Scheme (CRS)",
+      "scheme_source_name": "BIS CRS Portal",
+      "scheme_source_url": "https://www.crsbis.in/",
+      "steps": [
+        "Check product applicability",
+        "Generate Test Request",
+        "Select BIS-recognized laboratory",
+        "Submit product/sample for testing",
+        "Obtain and verify test report",
+        "Apply using the verified test report",
+        "Submit required documents"
+      ],
+      "next_action": "Generate the CRS Test Request and proceed with product testing through a BIS-recognized laboratory."
+    }
   },
   {
     "id": "kb-020",

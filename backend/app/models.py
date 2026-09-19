@@ -1,4 +1,4 @@
-﻿from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field
 
@@ -109,7 +109,7 @@ class ComplianceResponse(BaseModel):
     disclaimer: str
 
     # Phase 2F: Structured Fields (Optional for backward compatibility)
-    structured_compliance_journey: Optional[List[Dict[str, Any]]] = None
+    structured_compliance_journey: Optional[Dict[str, Any]] = None
     structured_documents: Optional[List[Dict[str, Any]]] = None
     structured_testing: Optional[Dict[str, Any]] = None
     structured_fees: Optional[Dict[str, Any]] = None
