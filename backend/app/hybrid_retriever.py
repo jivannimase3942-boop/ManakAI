@@ -74,9 +74,15 @@ def _check_product_compatibility(query: str, record: Dict[str, Any], sem_score: 
         record_text += " " + " ".join(l_data.get("aliases", [])).lower()
 
     # Lexical overlap
-    for word in product_words:
-        if word in record_text:
-            return True
+    matched_words = [word for word in product_words if word in record_text]
+    
+    if matched_words:
+        # Require sufficient product identity/context before mapping a generic "steel" query to rebar standard
+        if record.get("id") == "kb-015" and "steel" in matched_words:
+            rebar_context = {"rebar", "rebars", "tmt", "bar", "bars", "wire", "wires", "reinforcement", "deformed", "sariya", "सरिया", "सळई"}
+            if not any(w in query.lower() for w in rebar_context):
+                return False
+        return True
 
     # Semantic Override: If no lexical overlap, but semantic score is strong (>= 0.68)
     # This acts as a language-independent entity compatibility fallback.
@@ -172,9 +178,15 @@ def _check_entity_compatibility(extracted_entity_en: str, is_generic: bool, reco
 
     # Also split into words and check if any significant word matches
     words = [w for w in re.findall(r"[a-z0-9]+", extracted_entity_en) if len(w) > 2]
-    for word in words:
-        if word in record_text:
-            return True
+    matched_words = [w for w in words if w in record_text]
+    
+    if matched_words:
+        # Require sufficient product identity/context before mapping a generic "steel" query to rebar standard
+        if record.get("id") == "kb-015" and "steel" in matched_words:
+            rebar_context = {"rebar", "rebars", "tmt", "bar", "bars", "wire", "wires", "reinforcement", "deformed", "sariya", "सरिया", "सळई"}
+            if not any(w in extracted_entity_en for w in rebar_context):
+                return False
+        return True
 
     return False
 

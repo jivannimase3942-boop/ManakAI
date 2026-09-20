@@ -63,36 +63,7 @@ export default function Home({ language }) {
         </div>
       </section>
 
-      {/* 1.5. SCAN & UNDERSTAND PRODUCT (NEW PROMINENT CARD) */}
-      <section className="bg-slate-50 border-b border-slate-200 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white border-2 border-[#1C4E80] shadow-sm rounded-md p-8 sm:p-12 text-center max-w-4xl mx-auto flex flex-col items-center">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0B1E40] mb-4">
-              📷 Scan & Understand Product
-            </h2>
-            <p className="text-slate-600 text-[15px] max-w-xl mx-auto mb-8 font-medium">
-              Upload a product photo, use your camera, or upload a product document to instantly verify BIS compliance requirements and check standards.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto">
-              <button
-                onClick={() => navigate('/scan')}
-                className="bg-[#0B1E40] hover:bg-[#152F5A] text-white px-8 py-3 rounded-md font-bold shadow-sm transition-colors w-full sm:w-auto"
-              >
-                📷 Scan with Camera
-              </button>
-              <button
-                onClick={() => navigate('/scan')}
-                className="bg-white border-2 border-[#1C4E80] text-[#1C4E80] hover:bg-slate-50 px-8 py-3 rounded-md font-bold shadow-sm transition-colors w-full sm:w-auto"
-              >
-                📁 Upload Product
-              </button>
-            </div>
-            <p className="text-xs text-slate-500 mt-6 font-medium tracking-wide">
-              Supported: JPG • JPEG • PNG • WEBP • PDF
-            </p>
-          </div>
-        </div>
-      </section>
+
 
       {/* 2. VALUE STRIP */}
       <section className="bg-slate-50 border-b border-slate-200">
