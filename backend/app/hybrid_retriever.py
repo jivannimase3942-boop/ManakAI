@@ -147,7 +147,7 @@ def _check_intent_compatibility(query_intent: str, record: Dict[str, Any]) -> bo
 def _is_explicitly_generic_service_record(record: Dict[str, Any]) -> bool:
     """Returns True if the record is an explicitly generic service/information record (no specific IS number)."""
     std_num = record.get("standard_number", "")
-    return not std_num.startswith("IS ")
+    return not (std_num.startswith("IS ") or std_num.startswith("IS/"))
 
 def _check_entity_compatibility(extracted_entity_en: str, is_generic: bool, record: Dict[str, Any]) -> bool:
     """

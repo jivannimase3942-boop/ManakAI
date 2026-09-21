@@ -235,9 +235,19 @@ def generate_compliance_response(query: str, mode: str = "industry", language: s
 
     reqs = i18n_record.get("requirements", record.get("requirements", []))
     docs = i18n_record.get("required_documents", record.get("required_documents", []))
+    if not docs:
+        raw_docs = record.get("documents", [])
+        if raw_docs and isinstance(raw_docs, list):
+            docs = raw_docs
+            
     testing = i18n_record.get("testing", record.get("testing", {}))
     testing_available = testing.get("available", record.get("testing", {}).get("available", False))
+    if not testing_available and testing.get("required") is True:
+        testing_available = True
+        
     test_details = testing.get("details", record.get("testing", {}).get("details", []))
+    if not test_details and testing.get("guidance"):
+        test_details = [testing.get("guidance")]
 
     cert = i18n_record.get("certification", record.get("certification", {}))
     cert_available = cert.get("available", record.get("certification", {}).get("available", False))

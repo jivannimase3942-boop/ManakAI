@@ -2328,7 +2328,7 @@
     "id": "kb-019",
     "title": "Mobile / Smartphones",
     "product_name": "Mobile Phones",
-    "standard_number": "IS 13252 (Part 1):2010",
+    "standard_number": "IS/IEC 62368-1:2023 / IS 13252 (Part 1):2010",
     "aliases": [
       "mobile phone",
       "smartphone",
@@ -2353,8 +2353,8 @@
     "verified_at": "2026-09-13T12:00:00Z",
     "i18n": {
       "en": {
-        "summary": "Mandatory for all Mobile Phones / Smartphones under the CRS scheme. Product scope strictly covers Mobile Phones.",
-        "guidance": "Mobile phones must be registered under the BIS Compulsory Registration Scheme (CRS) following IS 13252 (Part 1):2010 before they can be sold or imported in India.",
+        "summary": "Mandatory for all Mobile Phones / Smartphones under the CRS scheme. Migration from IS 13252 (Part 1):2010 to IS/IEC 62368-1:2023 is currently in effect.",
+        "guidance": "Mobile phones must be registered under the BIS Compulsory Registration Scheme (CRS). Note: BIS has notified a migration from IS 13252 (Part 1):2010 to IS/IEC 62368-1:2023. Check official sources for current deadlines.",
         "title": "Mobile / Smartphones",
         "aliases": [
           "mobile phone",
@@ -2400,8 +2400,8 @@
       }
     },
     "topic": "Mobile Phones",
-    "summary": "Mandatory for all Mobile Phones / Smartphones under the CRS scheme. Product scope strictly covers Mobile Phones.",
-    "guidance": "Mobile phones must be registered under the BIS Compulsory Registration Scheme (CRS) following IS 13252 (Part 1):2010 before they can be sold or imported in India.",
+    "summary": "Mandatory for all Mobile Phones / Smartphones under the CRS scheme. Migration from IS 13252 (Part 1):2010 to IS/IEC 62368-1:2023 is currently in effect.",
+    "guidance": "Mobile phones must be registered under the BIS Compulsory Registration Scheme (CRS). Note: BIS has notified a migration from IS 13252 (Part 1):2010 to IS/IEC 62368-1:2023. Check official sources for current deadlines.",
     "certification": {
       "available": true,
       "scheme": "Compulsory Registration Scheme (CRS)",
@@ -2437,8 +2437,8 @@
       {
         "title": "PAN",
         "purpose": "Permanent Account Number for entity identification.",
-        "source_name": "Income Tax Department",
-        "source_url": "https://www.incometax.gov.in/iec/foportal/"
+        "source_name": "Authorized PAN Service (Protean/NSDL)",
+        "source_url": "https://www.onlineservices.nsdl.com/"
       },
       {
         "title": "GST",
@@ -2483,7 +2483,7 @@
     "id": "kb-020",
     "title": "Power Banks",
     "product_name": "Power Banks",
-    "standard_number": "IS 13252 (Part 1):2010",
+    "standard_number": "IS/IEC 62368-1:2023 / IS 13252 (Part 1):2010",
     "aliases": [
       "power bank",
       "portable power bank",
