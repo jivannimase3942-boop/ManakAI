@@ -1,0 +1,25 @@
+graph TD
+    A[Unstructured Query] --> B{LLM Normalization}
+    B -->|Success| C[Structured Entities & Normalized Query]
+    B -->|Failure / Quota / Error| D[Native Query Fallback]
+
+    C --> E[Candidate Retrieval Phase]
+    D --> E
+
+    E --> F{Candidate State Check}
+    F -->|PENDING / REJECTED| G[Discard Candidate]
+    F -->|VERIFIED| H[Candidate Gating & Scoring]
+
+    H --> I{Safety Threshold Check}
+    I -->|Score < 0.72 or Vague Domain| J[NO VERIFIED MATCH]
+    I -->|Score >= 0.72 + Specific| K[Positive Identification]
+
+    K --> L[Extract Official Evidence & Sources]
+    J --> M[Fallback UI with Official Referrals]
+
+    L --> N[Safe Compliance Response UI]
+
+    style J fill:#fca5a5,stroke:#b91c1c
+    style M fill:#fca5a5,stroke:#b91c1c
+    style K fill:#86efac,stroke:#15803d
+    style N fill:#86efac,stroke:#15803d

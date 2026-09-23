@@ -1,0 +1,15 @@
+graph TD
+    A[User Query] --> B{Intent Detection}
+    B -->|Requires Normalization| C[LLM Normalization Layer]
+    B -->|Standard| D[Deterministic Keyword Retrieval]
+    C -->|Normalized Query| D
+    C -->|Normalized Query| E[Semantic Embedding Retrieval]
+    D --> F[Candidate Gating]
+    E --> F
+    F --> G[Hybrid Ranking]
+    G --> H{Safety / Confidence Gate}
+    H -->|Passes Threshold & Logic| I[Decision Engine]
+    H -->|Fails Threshold / Domain| J[NO VERIFIED MATCH]
+    I --> K[Evidence-backed Compliance Response]
+    J --> K
+    K --> L[Frontend Decision UI]

@@ -98,3 +98,19 @@ dump_views.ps1
 extract.ps1
 extract2.ps1
 opencode.json
+
+# Debug-only test artifacts
+backend/tests/test_debug_*.py
+
+
+backend/*trace*.json
+backend/*trace*.txt
+
+
+# Generated evaluation / diagnostic artifacts
+backend/dump.json
+backend/evaluation_summary.txt
+backend/failed_list.txt
+backend/kb_extract.json
+backend/marathi_test.json
+yolov8n-cls.pt
