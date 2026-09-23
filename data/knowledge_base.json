@@ -1,10 +1,10 @@
 [
   {
     "id": "kb-001",
-    "title": "Packaged Drinking Water",
-    "standard_number": "IS 14543",
+    "title": "Packaged Drinking Water Other than Packaged Natural Mineral Water",
+    "standard_number": "IS 14543:2024",
     "topic": "Food & Beverage / Packaged Water",
-    "summary": "IS 14543 covers the specification for packaged (other than mineral) drinking water, including requirements for physical, chemical and microbiological quality, and packaging. Products sold under this category are commonly required to hold BIS certification (ISI mark) before sale in India.",
+    "summary": "IS 14543:2024 covers the specification for packaged (other than mineral) drinking water, including requirements for physical, chemical and microbiological quality, and packaging.",
     "applicability": "Applies to packaged drinking water (other than natural mineral water) intended for human consumption.",
     "requirements": [
       "Physical quality parameters",
@@ -20,7 +20,7 @@
     },
     "certification": {
       "available": true,
-      "scheme": "BIS Product Certification / ISI Mark",
+      "scheme": "BIS Product Certification / ISI Mark (Voluntary Certification)",
       "steps": [
         "Submit application to BIS.",
         "Undergo sample testing at BIS-recognised lab or in-house lab.",
@@ -35,11 +35,118 @@
       "Complete applicable testing.",
       "Follow the applicable BIS certification process."
     ],
-    "guidance": "Manufacturers of packaged drinking water are generally required to obtain a BIS product certification licence and get their product tested at a BIS-recognised laboratory before using the ISI mark. Exact testing parameters and licensing steps should be confirmed with BIS directly.",
-    "keywords": ["packaged drinking water", "drinking water", "mineral water", "bottled water", "water bottle", "is 14543"],
-    "source_name": "BIS (Bureau of Indian Standards) — publicly listed standard",
-    "source_url": "https://www.bis.gov.in",
-    "verified": true
+    "guidance": "The current official BIS Standards Portal indicates this as Voluntary Certification. Manufacturers of packaged drinking water may obtain a BIS product certification licence to use the ISI mark.",
+    "keywords": [
+      "packaged drinking water",
+      "drinking water",
+      "mineral water",
+      "bottled water",
+      "water bottle",
+      "is 14543"
+    ],
+    "source_name": "BIS Standards Portal",
+    "source_url": "https://www.bis.gov.in/standards/",
+    "verified": true,
+    "i18n": {
+      "en": {
+        "title": "Packaged Drinking Water Other than Packaged Natural Mineral Water",
+        "summary": "IS 14543:2024 covers the specification for packaged (other than mineral) drinking water, including requirements for physical, chemical and microbiological quality, and packaging.",
+        "guidance": "The current official BIS Standards Portal indicates this as Voluntary Certification. Manufacturers of packaged drinking water may obtain a BIS product certification licence to use the ISI mark.",
+        "keywords": [
+          "packaged drinking water",
+          "drinking water",
+          "mineral water",
+          "bottled water",
+          "water bottle",
+          "is 14543",
+          "is 14543:2024",
+          "voluntary certification"
+        ],
+        "aliases": []
+      },
+      "hi": {
+        "title": "\u092a\u0948\u0915\u0947\u091c\u094d\u0921 \u0921\u094d\u0930\u093f\u0902\u0915\u093f\u0902\u0917 \u0935\u0949\u091f\u0930 (\u092c\u094b\u0924\u0932\u092c\u0902\u0926 \u092a\u093e\u0928\u0940) - IS 14543:2024",
+        "summary": "IS 14543:2024 \u092a\u0948\u0915\u0947\u091c\u094d\u0921 (\u092e\u093f\u0928\u0930\u0932 \u0915\u0947 \u0905\u0932\u093e\u0935\u093e) \u092a\u0947\u092f\u091c\u0932 \u0915\u0947 \u0932\u093f\u090f \u092e\u093e\u0928\u0915 \u0939\u0948\u0964 \u0907\u0938\u092e\u0947\u0902 \u092d\u094c\u0924\u093f\u0915, \u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u0914\u0930 \u0938\u0942\u0915\u094d\u0937\u094d\u092e\u091c\u0940\u0935\u0935\u093f\u091c\u094d\u091e\u093e\u0928\u0940 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u0936\u093e\u092e\u093f\u0932 \u0939\u0948\u0964",
+        "guidance": "\u0935\u0930\u094d\u0924\u092e\u093e\u0928 \u0906\u0927\u093f\u0915\u093e\u0930\u093f\u0915 BIS \u092e\u093e\u0928\u0915 \u092a\u094b\u0930\u094d\u091f\u0932 \u0907\u0938\u0947 \u0938\u094d\u0935\u0948\u091a\u094d\u091b\u093f\u0915 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 (Voluntary Certification) \u0915\u0947 \u0930\u0942\u092a \u092e\u0947\u0902 \u0907\u0902\u0917\u093f\u0924 \u0915\u0930\u0924\u093e \u0939\u0948\u0964 \u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e ISI \u092e\u093e\u0930\u094d\u0915 \u0915\u093e \u0909\u092a\u092f\u094b\u0917 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f BIS \u0909\u0924\u094d\u092a\u093e\u0926 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964",
+        "keywords": [
+          "\u092a\u0948\u0915\u0947\u091c\u094d\u0921 \u0921\u094d\u0930\u093f\u0902\u0915\u093f\u0902\u0917 \u0935\u0949\u091f\u0930",
+          "\u092a\u0940\u0928\u0947 \u0915\u093e \u092a\u093e\u0928\u0940",
+          "\u092c\u094b\u0924\u0932 \u092c\u0902\u0926 \u092a\u093e\u0928\u0940",
+          "\u092a\u093e\u0928\u0940 \u0915\u0940 \u092c\u094b\u0924\u0932",
+          "IS 14543"
+        ],
+        "aliases": [
+          "\u092a\u093e\u0928\u0940",
+          "\u092a\u093e\u0928\u0940 \u0915\u0940 \u092c\u094b\u0924\u0932"
+        ],
+        "requirements": [
+          "\u092d\u094c\u0924\u093f\u0915 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u092a\u0948\u0930\u093e\u092e\u0940\u091f\u0930",
+          "\u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u092a\u0948\u0930\u093e\u092e\u0940\u091f\u0930",
+          "\u0938\u0942\u0915\u094d\u0937\u094d\u092e\u091c\u0940\u0935\u0935\u093f\u091c\u094d\u091e\u093e\u0928\u0940 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u092a\u0948\u0930\u093e\u092e\u0940\u091f\u0930",
+          "\u092a\u0948\u0915\u0947\u091c\u093f\u0902\u0917 \u0914\u0930 \u0932\u0947\u092c\u0932\u093f\u0902\u0917 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u090f\u0901"
+        ],
+        "testing": {
+          "details": [
+            "\u0909\u0924\u094d\u092a\u093e\u0926 \u0915\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923 BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092e\u0947\u0902 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "BIS \u0909\u0924\u094d\u092a\u093e\u0926 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 / ISI \u092e\u093e\u0930\u094d\u0915 (\u0938\u094d\u0935\u0948\u091a\u094d\u091b\u093f\u0915 \u092a\u094d\u0930\u092e\u093e\u0923\u0928)",
+          "steps": [
+            "BIS \u0915\u094b \u0906\u0935\u0947\u0926\u0928 \u091c\u092e\u093e \u0915\u0930\u0947\u0902\u0964",
+            "BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092f\u093e \u0907\u0928-\u0939\u093e\u0909\u0938 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092e\u0947\u0902 \u0928\u092e\u0942\u0928\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0938\u0947 \u0917\u0941\u091c\u0930\u0947\u0902\u0964",
+            "\u092b\u0948\u0915\u094d\u091f\u0930\u0940 \u0928\u093f\u0930\u0940\u0915\u094d\u0937\u0923 \u092a\u093e\u0938 \u0915\u0930\u0947\u0902\u0964",
+            "\u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0947\u0902\u0964"
+          ]
+        },
+        "industry_actions": []
+      },
+      "mr": {
+        "title": "\u092a\u0945\u0915\u0947\u091c\u094d\u0921 \u092a\u093f\u0923\u094d\u092f\u093e\u091a\u0947 \u092a\u093e\u0923\u0940 (\u0928\u093f\u0938\u0930\u094d\u0917\u0926\u0924\u094d\u0924 \u0916\u0928\u093f\u091c \u092a\u093e\u0923\u094d\u092f\u093e\u0935\u094d\u092f\u0924\u093f\u0930\u093f\u0915\u094d\u0924)",
+        "summary": "IS 14543:2024 \u092a\u0945\u0915\u0947\u091c\u094d\u0921 (\u0916\u0928\u093f\u091c \u092a\u093e\u0923\u094d\u092f\u093e\u0935\u094d\u092f\u0924\u093f\u0930\u093f\u0915\u094d\u0924) \u092a\u093f\u0923\u094d\u092f\u093e\u091a\u094d\u092f\u093e \u092a\u093e\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u092e\u093e\u0928\u0915 \u0906\u0939\u0947. \u092f\u093e\u0924 \u092d\u094c\u0924\u093f\u0915, \u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u0906\u0923\u093f \u0938\u0942\u0915\u094d\u0937\u094d\u092e\u091c\u0940\u0935\u0936\u093e\u0938\u094d\u0924\u094d\u0930\u0940\u092f \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u0947\u091a\u093e \u0938\u092e\u093e\u0935\u0947\u0936 \u0906\u0939\u0947.",
+        "guidance": "\u0938\u0927\u094d\u092f\u093e\u091a\u0947 \u0905\u0927\u093f\u0915\u0943\u0924 BIS \u092e\u093e\u0928\u0915\u0947 \u092a\u094b\u0930\u094d\u091f\u0932 \u0939\u0947 \u0910\u091a\u094d\u091b\u093f\u0915 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 (Voluntary Certification) \u0905\u0938\u0932\u094d\u092f\u093e\u091a\u0947 \u0926\u0930\u094d\u0936\u0935\u0924\u0947. \u0909\u0924\u094d\u092a\u093e\u0926\u0915 ISI \u092e\u093e\u0930\u094d\u0915 \u0935\u093e\u092a\u0930\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 BIS \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u092a\u0930\u0935\u093e\u0928\u093e \u092e\u093f\u0933\u0935\u0942 \u0936\u0915\u0924\u093e\u0924.",
+        "keywords": [
+          "\u092a\u0945\u0915\u0947\u091c\u094d\u0921 \u092a\u093f\u0923\u094d\u092f\u093e\u091a\u0947 \u092a\u093e\u0923\u0940",
+          "\u092a\u093f\u0923\u094d\u092f\u093e\u091a\u0947 \u092a\u093e\u0923\u0940",
+          "IS 14543:2024",
+          "\u0910\u091a\u094d\u091b\u093f\u0915 \u092a\u094d\u0930\u092e\u093e\u0923\u0928"
+        ],
+        "aliases": [
+          "\u092a\u093e\u0923\u094d\u092f\u093e\u091a\u0940 \u092c\u093e\u091f\u0932\u0940",
+          "\u092a\u093e\u0923\u0940"
+        ],
+        "requirements": [
+          "\u092d\u094c\u0924\u093f\u0915 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u092a\u0948\u0930\u093e\u092e\u0940\u091f\u0930",
+          "\u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u092a\u0948\u0930\u093e\u092e\u0940\u091f\u0930",
+          "\u0938\u0942\u0915\u094d\u0937\u094d\u092e\u091c\u0940\u0935\u0935\u093f\u091c\u094d\u091e\u093e\u0928\u0940 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u092a\u0948\u0930\u093e\u092e\u0940\u091f\u0930",
+          "\u092a\u0948\u0915\u0947\u091c\u093f\u0902\u0917 \u0914\u0930 \u0932\u0947\u092c\u0932\u093f\u0902\u0917 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u090f\u0901"
+        ],
+        "testing": {
+          "details": [
+            "\u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u091a\u0940 \u091a\u093e\u091a\u0923\u0940 BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u0915\u0947\u0932\u0940 \u091c\u093e\u0935\u0940."
+          ]
+        },
+        "certification": {
+          "scheme": "BIS \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 / ISI \u092e\u093e\u0930\u094d\u0915 (\u0910\u091a\u094d\u091b\u093f\u0915 \u092a\u094d\u0930\u092e\u093e\u0923\u0928)",
+          "steps": [
+            "BIS \u0915\u0921\u0947 \u0905\u0930\u094d\u091c \u0938\u093e\u0926\u0930 \u0915\u0930\u093e.",
+            "BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u0915\u093f\u0902\u0935\u093e \u0907\u0928-\u0939\u093e\u090a\u0938 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u0928\u092e\u0941\u0928\u093e \u091a\u093e\u091a\u0923\u0940 \u0915\u0930\u093e.",
+            "\u092b\u0945\u0915\u094d\u091f\u0930\u0940 \u0924\u092a\u093e\u0938\u0923\u0940 \u0909\u0924\u094d\u0924\u0940\u0930\u094d\u0923 \u0915\u0930\u093e.",
+            "\u092a\u0930\u0935\u093e\u0928\u093e \u092e\u093f\u0933\u0935\u093e."
+          ]
+        },
+        "industry_actions": []
+      }
+    },
+    "mandatory_status": {
+      "is_mandatory": false,
+      "scheme": "VOLUNTARY",
+      "qco_reference": "Mandatory status applies under FSSAI, but standard alone is voluntary"
+    },
+    "status": "VERIFIED",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13"
   },
   {
     "id": "kb-002",
@@ -76,10 +183,122 @@
       "Apply through the official BIS CMS/e-BIS portal."
     ],
     "guidance": "The typical process involves: applying to BIS, sample testing at a BIS-recognised or in-house lab, factory inspection, and grant of licence. Certain product categories fall under mandatory certification (e.g. via Quality Control Orders) while others are voluntary. Applicants should verify current requirements on the official BIS portal (CMS/e-BIS).",
-    "keywords": ["certification", "isi mark", "bis certification", "product certification", "how to apply", "license", "licence", "apply for bis certification"],
+    "keywords": [
+      "certification",
+      "isi mark",
+      "bis certification",
+      "product certification",
+      "how to apply",
+      "license",
+      "licence",
+      "apply for bis certification"
+    ],
     "source_name": "BIS official documentation",
     "source_url": "https://www.bis.gov.in/certification/product-certification-scheme/",
-    "verified": true
+    "verified": true,
+    "i18n": {
+      "en": {
+        "title": "Product Certification Scheme (ISI Mark)",
+        "summary": "The BIS Product Certification Scheme allows manufacturers to obtain a licence to use the Standard Mark (ISI mark) on products that conform to the relevant Indian Standard. It is a third-party guarantee of quality, safety and reliability for consumers.",
+        "guidance": "The typical process involves: applying to BIS, sample testing at a BIS-recognised or in-house lab, factory inspection, and grant of licence. Certain product categories fall under mandatory certification (e.g. via Quality Control Orders) while others are voluntary. Applicants should verify current requirements on the official BIS portal (CMS/e-BIS).",
+        "keywords": [
+          "certification",
+          "isi mark",
+          "bis certification",
+          "product certification",
+          "how to apply",
+          "license",
+          "licence",
+          "apply for bis certification"
+        ],
+        "aliases": [
+          "certification",
+          "license",
+          "licence"
+        ]
+      },
+      "hi": {
+        "title": "\u0909\u0924\u094d\u092a\u093e\u0926 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u092f\u094b\u091c\u0928\u093e (ISI \u092e\u093e\u0930\u094d\u0915)",
+        "summary": "BIS \u0909\u0924\u094d\u092a\u093e\u0926 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u092f\u094b\u091c\u0928\u093e \u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e\u0913\u0902 \u0915\u094b \u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915 \u0915\u0947 \u0905\u0928\u0941\u0930\u0942\u092a \u0909\u0924\u094d\u092a\u093e\u0926\u094b\u0902 \u092a\u0930 ISI \u092e\u093e\u0930\u094d\u0915 \u0915\u093e \u0909\u092a\u092f\u094b\u0917 \u0915\u0930\u0928\u0947 \u0915\u093e \u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u0947 \u0915\u0940 \u0905\u0928\u0941\u092e\u0924\u093f \u0926\u0947\u0924\u0940 \u0939\u0948\u0964",
+        "guidance": "\u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e\u0913\u0902 \u0915\u094b BIS \u092e\u0947\u0902 \u0906\u0935\u0947\u0926\u0928 \u0915\u0930\u0928\u093e \u0939\u094b\u0917\u093e, \u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092e\u0947\u0902 \u0928\u092e\u0942\u0928\u0947 \u0915\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0915\u0930\u093e\u0928\u093e \u0939\u094b\u0917\u093e \u0914\u0930 \u0915\u093e\u0930\u0916\u093e\u0928\u0947 \u0915\u093e \u0928\u093f\u0930\u0940\u0915\u094d\u0937\u0923 \u092a\u093e\u0938 \u0915\u0930\u0928\u093e \u0939\u094b\u0917\u093e\u0964",
+        "keywords": [
+          "\u092a\u094d\u0930\u092e\u093e\u0923\u0928",
+          "\u0906\u0908\u090f\u0938\u0906\u0908 \u092e\u093e\u0930\u094d\u0915",
+          "\u0932\u093e\u0907\u0938\u0947\u0902\u0938",
+          "\u0906\u0935\u0947\u0926\u0928 \u0915\u0948\u0938\u0947 \u0915\u0930\u0947\u0902"
+        ],
+        "aliases": [
+          "\u0906\u0908\u090f\u0938\u0906\u0908",
+          "\u092e\u093e\u0930\u094d\u0915",
+          "\u092a\u094d\u0930\u092e\u093e\u0923\u0928"
+        ],
+        "requirements": [
+          "\u0938\u0902\u092c\u0902\u0927\u093f\u0924 IS \u0915\u0947 \u092a\u094d\u0930\u0924\u093f \u0909\u0924\u094d\u092a\u093e\u0926 \u0915\u0940 \u0905\u0928\u0941\u0930\u0942\u092a\u0924\u093e",
+          "\u0907\u0928-\u0939\u093e\u0909\u0938 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0938\u0941\u0935\u093f\u0927\u093e \u0915\u0940 \u0938\u094d\u0925\u093e\u092a\u0928\u093e (\u091c\u094d\u092f\u093e\u0926\u093e\u0924\u0930 \u092e\u093e\u092e\u0932\u094b\u0902 \u092e\u0947\u0902)",
+          "\u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0914\u0930 \u0928\u093f\u0930\u0940\u0915\u094d\u0937\u0923 \u092f\u094b\u091c\u0928\u093e (STI) \u0915\u0940 \u0938\u094d\u0935\u0940\u0915\u0943\u0924\u093f"
+        ],
+        "testing": {
+          "details": [
+            "\u0935\u093f\u0936\u093f\u0937\u094d\u091f \u092e\u093e\u0928\u0915 \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930 BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092f\u093e \u0907\u0928-\u0939\u093e\u0909\u0938 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092e\u0947\u0902 \u0928\u092e\u0942\u0928\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0906\u0935\u0936\u094d\u092f\u0915 \u0939\u0948\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "BIS \u0909\u0924\u094d\u092a\u093e\u0926 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 / ISI \u092e\u093e\u0930\u094d\u0915",
+          "steps": [
+            "CMS/e-BIS \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0906\u0935\u0947\u0926\u0928 \u091c\u092e\u093e \u0915\u0930\u0947\u0902\u0964",
+            "BIS \u0926\u094d\u0935\u093e\u0930\u093e \u092b\u0948\u0915\u094d\u091f\u0930\u0940 \u0928\u093f\u0930\u0940\u0915\u094d\u0937\u0923\u0964",
+            "\u0928\u092e\u0942\u0928\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923\u0964",
+            "\u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0928\u093e\u0964"
+          ]
+        },
+        "industry_actions": []
+      },
+      "mr": {
+        "title": "\u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u092f\u094b\u091c\u0928\u093e (ISI \u092e\u093e\u0930\u094d\u0915)",
+        "summary": "BIS \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u092f\u094b\u091c\u0928\u093e \u0909\u0924\u094d\u092a\u093e\u0926\u0915\u093e\u0902\u0928\u093e \u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915\u093e\u0928\u0941\u0938\u093e\u0930 \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u0902\u0935\u0930 ISI \u092e\u093e\u0930\u094d\u0915 \u0935\u093e\u092a\u0930\u0923\u094d\u092f\u093e\u091a\u093e \u092a\u0930\u0935\u093e\u0928\u093e \u092e\u093f\u0933\u0935\u093f\u0923\u094d\u092f\u093e\u091a\u0940 \u092a\u0930\u0935\u093e\u0928\u0917\u0940 \u0926\u0947\u0924\u0947.",
+        "guidance": "\u092a\u0930\u0935\u093e\u0928\u093e \u092e\u093f\u0933\u0935\u093f\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0909\u0924\u094d\u092a\u093e\u0926\u0915\u093e\u0902\u0928\u0940 BIS \u0915\u0921\u0947 \u0905\u0930\u094d\u091c \u0915\u0930\u0923\u0947, \u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u0928\u092e\u0941\u0928\u094d\u092f\u093e\u091a\u0940 \u091a\u093e\u091a\u0923\u0940 \u0915\u0930\u0923\u0947 \u0906\u0923\u093f \u0915\u093e\u0930\u0916\u093e\u0928\u094d\u092f\u093e\u091a\u0940 \u0924\u092a\u093e\u0938\u0923\u0940 \u092a\u093e\u0938 \u0915\u0930\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947.",
+        "keywords": [
+          "\u092a\u094d\u0930\u092e\u093e\u0923\u0928",
+          "\u0906\u092f\u090f\u0938\u0906\u092f \u092e\u093e\u0930\u094d\u0915",
+          "\u092a\u0930\u0935\u093e\u0928\u093e",
+          "\u0905\u0930\u094d\u091c \u0915\u0938\u093e \u0915\u0930\u093e\u0935\u093e"
+        ],
+        "aliases": [
+          "\u0906\u092f\u090f\u0938\u0906\u092f",
+          "\u092e\u093e\u0930\u094d\u0915",
+          "\u092a\u094d\u0930\u092e\u093e\u0923\u0928"
+        ],
+        "requirements": [
+          "\u0938\u0902\u092c\u0902\u0927\u093f\u0924 IS \u0928\u0941\u0938\u093e\u0930 \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u091a\u0940 \u0905\u0928\u0941\u0930\u0942\u092a\u0924\u093e",
+          "\u0907\u0928-\u0939\u093e\u090a\u0938 \u091a\u093e\u091a\u0923\u0940 \u0938\u0941\u0935\u093f\u0927\u093e \u0938\u094d\u0925\u093e\u092a\u0928 \u0915\u0930\u0923\u0947 (\u092c\u0939\u0941\u0924\u0947\u0915 \u092a\u094d\u0930\u0915\u0930\u0923\u093e\u0902\u092e\u0927\u094d\u092f\u0947)",
+          "\u091a\u093e\u091a\u0923\u0940 \u0906\u0923\u093f \u0924\u092a\u093e\u0938\u0923\u0940 \u092f\u094b\u091c\u0928\u0947\u091a\u0940 (STI) \u0938\u094d\u0935\u0940\u0915\u0943\u0924\u0940"
+        ],
+        "testing": {
+          "details": [
+            "\u0935\u093f\u0936\u093f\u0937\u094d\u091f \u092e\u093e\u0928\u0915\u093e\u0928\u0941\u0938\u093e\u0930 BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u0915\u093f\u0902\u0935\u093e \u0907\u0928-\u0939\u093e\u090a\u0938 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u0928\u092e\u0941\u0928\u093e \u091a\u093e\u091a\u0923\u0940 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947."
+          ]
+        },
+        "certification": {
+          "scheme": "BIS \u0909\u0924\u094d\u092a\u093e\u0926 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 / ISI \u092e\u093e\u0930\u094d\u0915",
+          "steps": [
+            "CMS/e-BIS \u0926\u094d\u0935\u093e\u0930\u0947 \u0905\u0930\u094d\u091c \u0938\u093e\u0926\u0930 \u0915\u0930\u093e.",
+            "BIS \u0926\u094d\u0935\u093e\u0930\u0947 \u092b\u0945\u0915\u094d\u091f\u0930\u0940 \u0924\u092a\u093e\u0938\u0923\u0940.",
+            "\u0928\u092e\u0941\u0928\u093e \u091a\u093e\u091a\u0923\u0940.",
+            "\u092a\u0930\u0935\u093e\u0928\u093e \u0926\u0947\u0923\u0947."
+          ]
+        },
+        "industry_actions": []
+      }
+    },
+    "status": "VERIFIED",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13",
+    "mandatory_status": {
+      "is_mandatory": false,
+      "scheme": "SERVICE_GUIDANCE",
+      "qco_reference": null
+    }
   },
   {
     "id": "kb-003",
@@ -115,10 +334,129 @@
       "Verify HUID via BIS Care app (for consumers)."
     ],
     "guidance": "Jewellers need BIS registration to sell hallmarked jewellery, and articles are assayed at a BIS-recognised Assaying & Hallmarking Centre. Hallmark Unique Identification (HUID) is used for traceability. Exact caratage rules and applicability should be verified on the BIS Hallmarking portal.",
-    "keywords": ["hallmark", "hallmarking", "gold", "silver", "jewellery", "jewelry", "huid", "purity", "what is hallmarking"],
+    "keywords": [
+      "hallmark",
+      "hallmarking",
+      "gold",
+      "silver",
+      "jewellery",
+      "jewelry",
+      "huid",
+      "purity",
+      "what is hallmarking"
+    ],
     "source_name": "BIS Hallmarking",
     "source_url": "https://www.bis.gov.in/hallmarking/",
-    "verified": true
+    "verified": true,
+    "i18n": {
+      "en": {
+        "title": "Hallmarking of Gold & Silver Jewellery",
+        "summary": "Hallmarking is the official assaying and marking system for gold and silver jewellery/articles in India, administered by BIS. It certifies the purity/fineness of precious metal articles through Assaying and Hallmarking Centres (AHCs).",
+        "guidance": "Jewellers need BIS registration to sell hallmarked jewellery, and articles are assayed at a BIS-recognised Assaying & Hallmarking Centre. Hallmark Unique Identification (HUID) is used for traceability. Exact caratage rules and applicability should be verified on the BIS Hallmarking portal.",
+        "keywords": [
+          "hallmark",
+          "hallmarking",
+          "gold",
+          "silver",
+          "jewellery",
+          "jewelry",
+          "huid",
+          "purity",
+          "what is hallmarking"
+        ],
+        "aliases": [
+          "hallmark",
+          "hallmarking",
+          "gold",
+          "silver",
+          "jewellery",
+          "jewelry",
+          "huid",
+          "purity"
+        ]
+      },
+      "hi": {
+        "title": "\u0938\u094b\u0928\u0947 \u0914\u0930 \u091a\u093e\u0902\u0926\u0940 \u0915\u0947 \u0906\u092d\u0942\u0937\u0923\u094b\u0902 \u0915\u0940 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917",
+        "summary": "\u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 \u0938\u094b\u0928\u0947 \u0914\u0930 \u091a\u093e\u0902\u0926\u0940 \u0915\u0947 \u0906\u092d\u0942\u0937\u0923\u094b\u0902 \u092e\u0947\u0902 \u0915\u0940\u092e\u0924\u0940 \u0927\u093e\u0924\u0941 \u0915\u0940 \u0906\u0928\u0941\u092a\u093e\u0924\u093f\u0915 \u0938\u093e\u092e\u0917\u094d\u0930\u0940 \u0915\u093e \u0938\u091f\u0940\u0915 \u0928\u093f\u0930\u094d\u0927\u093e\u0930\u0923 \u0914\u0930 \u0906\u0927\u093f\u0915\u093e\u0930\u093f\u0915 \u0930\u093f\u0915\u0949\u0930\u094d\u0921\u093f\u0902\u0917 \u0939\u0948\u0964",
+        "guidance": "\u091c\u094d\u0935\u0947\u0932\u0930\u094d\u0938 \u0915\u094b BIS \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u093e \u0939\u094b\u0917\u093e \u0914\u0930 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 \u0915\u0947\u0902\u0926\u094d\u0930\u094b\u0902 \u0938\u0947 \u0906\u092d\u0942\u0937\u0923\u094b\u0902 \u092a\u0930 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915 (HUID \u0938\u0939\u093f\u0924) \u0932\u0917\u0935\u093e\u0928\u093e \u0939\u094b\u0917\u093e\u0964",
+        "keywords": [
+          "\u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917",
+          "\u0938\u094b\u0928\u093e",
+          "\u091a\u093e\u0902\u0926\u0940",
+          "\u0906\u092d\u0942\u0937\u0923",
+          "HUID"
+        ],
+        "aliases": [
+          "\u0938\u094b\u0928\u093e",
+          "\u091a\u093e\u0902\u0926\u0940",
+          "\u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917"
+        ],
+        "requirements": [
+          "\u091c\u094c\u0939\u0930\u093f\u092f\u094b\u0902 \u0915\u094b BIS \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u093e \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0939\u0948\u0964",
+          "\u0932\u0947\u0916\u094b\u0902 (Articles) \u0915\u093e \u092e\u0942\u0932\u094d\u092f\u093e\u0902\u0915\u0928 \u0914\u0930 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 AHC \u092e\u0947\u0902 \u0939\u094b\u0928\u0940 \u091a\u093e\u0939\u093f\u090f\u0964",
+          "\u0932\u0947\u0916 \u092a\u0930 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915 \u0935\u093f\u0936\u093f\u0937\u094d\u091f \u092a\u0939\u091a\u093e\u0928 (HUID) \u092e\u094c\u091c\u0942\u0926 \u0939\u094b\u0928\u0940 \u091a\u093e\u0939\u093f\u090f\u0964"
+        ],
+        "testing": {
+          "details": [
+            "\u092e\u0942\u0932\u094d\u092f\u093e\u0902\u0915\u0928 (Assaying) BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u090f\u0938\u0947\u0907\u0902\u0917 \u0914\u0930 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 \u0938\u0947\u0902\u091f\u0930 (AHC) \u092e\u0947\u0902 \u0906\u092f\u094b\u091c\u093f\u0924 \u0915\u093f\u092f\u093e \u091c\u093e\u0924\u093e \u0939\u0948\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "BIS \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 \u092f\u094b\u091c\u0928\u093e",
+          "steps": [
+            "\u091c\u094c\u0939\u0930\u0940 \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u0915\u0947 \u0932\u093f\u090f \u0906\u0935\u0947\u0926\u0928 \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
+            "\u091c\u094c\u0939\u0930\u0940 AHC \u0915\u094b \u0932\u0947\u0916 (articles) \u092a\u094d\u0930\u0938\u094d\u0924\u0941\u0924 \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
+            "AHC \u092e\u0942\u0932\u094d\u092f\u093e\u0902\u0915\u0928 \u0915\u0930\u0924\u093e \u0939\u0948 \u0914\u0930 HUID \u0915\u0947 \u0938\u093e\u0925 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915 \u0932\u0917\u093e\u0924\u093e \u0939\u0948\u0964"
+          ]
+        },
+        "industry_actions": []
+      },
+      "mr": {
+        "title": "\u0938\u094b\u0928\u0947 \u0906\u0923\u093f \u091a\u093e\u0902\u0926\u0940\u091a\u094d\u092f\u093e \u0926\u093e\u0917\u093f\u0928\u094d\u092f\u093e\u0902\u091a\u0947 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917",
+        "summary": "\u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 \u092e\u094d\u0939\u0923\u091c\u0947 \u0938\u094b\u0928\u0947 \u0906\u0923\u093f \u091a\u093e\u0902\u0926\u0940\u091a\u094d\u092f\u093e \u0926\u093e\u0917\u093f\u0928\u094d\u092f\u093e\u0902\u092e\u0927\u0940\u0932 \u092e\u094c\u0932\u094d\u092f\u0935\u093e\u0928 \u0927\u093e\u0924\u0942\u091a\u094d\u092f\u093e \u092a\u094d\u0930\u092e\u093e\u0923\u093e\u0924 \u0938\u093e\u092e\u0917\u094d\u0930\u0940\u091a\u0947 \u0905\u091a\u0942\u0915 \u0928\u093f\u0930\u094d\u0927\u093e\u0930\u0923 \u0906\u0923\u093f \u0905\u0927\u093f\u0915\u0943\u0924 \u0930\u0947\u0915\u0949\u0930\u094d\u0921\u093f\u0902\u0917.",
+        "guidance": "\u091c\u094d\u0935\u0947\u0932\u0930\u094d\u0938\u0928\u093e BIS \u0928\u094b\u0902\u0926\u0923\u0940 \u092e\u093f\u0933\u0935\u0923\u0947 \u0906\u0923\u093f \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 \u0915\u0947\u0902\u0926\u094d\u0930\u093e\u0902\u0915\u0921\u0942\u0928 \u0926\u093e\u0917\u093f\u0928\u094d\u092f\u093e\u0902\u0935\u0930 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915 (HUID \u0938\u0939) \u0932\u093e\u0935\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947.",
+        "keywords": [
+          "\u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917",
+          "\u0938\u094b\u0928\u0947",
+          "\u091a\u093e\u0902\u0926\u0940",
+          "\u0926\u093e\u0917\u093f\u0928\u0947",
+          "HUID"
+        ],
+        "aliases": [
+          "\u0938\u094b\u0928\u0947",
+          "\u091a\u093e\u0902\u0926\u0940",
+          "\u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917"
+        ],
+        "requirements": [
+          "\u091c\u094d\u0935\u0947\u0932\u0930\u094d\u0938\u0928\u093e BIS \u0928\u094b\u0902\u0926\u0923\u0940 \u092e\u093f\u0933\u0935\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947.",
+          "\u0935\u0938\u094d\u0924\u0942\u0902\u091a\u0947 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0906\u0923\u093f \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 AHC \u092e\u0927\u094d\u092f\u0947 \u0915\u0930\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947.",
+          "\u0935\u0938\u094d\u0924\u0942\u0935\u0930 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915 \u092f\u0941\u0928\u093f\u0915 \u0906\u092f\u0921\u0947\u0902\u091f\u093f\u092b\u093f\u0915\u0947\u0936\u0928 (HUID) \u0905\u0938\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947."
+        ],
+        "testing": {
+          "details": [
+            "\u092e\u0942\u0932\u094d\u092f\u093e\u0902\u0915\u0928 (Assaying) BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0905\u0938\u0947\u0907\u0902\u0917 \u0906\u0923\u093f \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 \u0938\u0947\u0902\u091f\u0930\u094d\u0938\u092e\u0927\u094d\u092f\u0947 (AHCs) \u0915\u0947\u0932\u0947 \u091c\u093e\u0924\u0947."
+          ]
+        },
+        "certification": {
+          "scheme": "BIS \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 \u092f\u094b\u091c\u0928\u093e",
+          "steps": [
+            "\u091c\u094d\u0935\u0947\u0932\u0930 \u0928\u094b\u0902\u0926\u0923\u0940\u0938\u093e\u0920\u0940 \u0905\u0930\u094d\u091c \u0915\u0930\u0924\u094b.",
+            "\u091c\u094d\u0935\u0947\u0932\u0930 AHC \u0915\u0921\u0947 \u0935\u0938\u094d\u0924\u0942 \u0938\u093e\u0926\u0930 \u0915\u0930\u0924\u094b.",
+            "AHC \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0915\u0930\u0942\u0928 HUID \u0938\u0939 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915 \u0932\u093e\u0935\u0924\u094b."
+          ]
+        },
+        "industry_actions": []
+      }
+    },
+    "status": "VERIFIED",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13",
+    "mandatory_status": {
+      "is_mandatory": false,
+      "scheme": "SERVICE_GUIDANCE",
+      "qco_reference": null
+    }
   },
   {
     "id": "kb-004",
@@ -147,11 +485,109 @@
       "Check the BIS Care app or BIS portal for the current list of recognised labs by product and region.",
       "Send samples to the appropriate lab as directed by the scheme."
     ],
-    "guidance": "The applicable laboratory depends on the product category and scheme. The official BIS website and BIS Care app list recognised labs by product and region — always confirm the current, region-specific list from BIS rather than relying on a fixed list, as recognitions can change.",
-    "keywords": ["testing laboratory", "lab", "test", "testing", "where to test", "recognised laboratory", "where can i test my product"],
+    "guidance": "The applicable laboratory depends on the product category and scheme. The official BIS website and BIS Care app list recognised labs by product and region \u2014 always confirm the current, region-specific list from BIS rather than relying on a fixed list, as recognitions can change.",
+    "keywords": [
+      "testing laboratory",
+      "lab",
+      "test",
+      "testing",
+      "where to test",
+      "recognised laboratory",
+      "where can i test my product"
+    ],
     "source_name": "BIS official documentation",
     "source_url": "https://www.bis.gov.in",
-    "verified": true
+    "verified": true,
+    "i18n": {
+      "en": {
+        "title": "BIS-Recognised Testing Laboratories",
+        "summary": "BIS maintains a network of its own regional/branch laboratories and recognises select private/third-party laboratories for product testing under various certification schemes. Testing verifies whether a product sample conforms to the relevant Indian Standard.",
+        "guidance": "The applicable laboratory depends on the product category and scheme. The official BIS website and BIS Care app list recognised labs by product and region \u2014 always confirm the current, region-specific list from BIS rather than relying on a fixed list, as recognitions can change.",
+        "keywords": [
+          "testing laboratory",
+          "lab",
+          "test",
+          "testing",
+          "where to test",
+          "recognised laboratory",
+          "where can i test my product"
+        ],
+        "aliases": [
+          "lab",
+          "test",
+          "testing"
+        ]
+      },
+      "hi": {
+        "title": "BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e\u090f\u0902",
+        "summary": "BIS \u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0909\u0924\u094d\u092a\u093e\u0926 \u0915\u0947 \u0928\u092e\u0942\u0928\u094b\u0902 \u0915\u0947 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0939\u0947\u0924\u0941 \u092c\u093e\u0939\u0930\u0940 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e\u0913\u0902 \u0915\u094b \u092e\u093e\u0928\u094d\u092f\u0924\u093e \u0926\u0947\u0924\u093e \u0939\u0948\u0964",
+        "guidance": "\u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e\u090f\u0902 LIMS \u092a\u094b\u0930\u094d\u091f\u0932 \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 BIS \u092e\u093e\u0928\u094d\u092f\u0924\u093e \u0915\u0947 \u0932\u093f\u090f \u0906\u0935\u0947\u0926\u0928 \u0915\u0930 \u0938\u0915\u0924\u0940 \u0939\u0948\u0902\u0964",
+        "keywords": [
+          "\u092a\u0930\u0940\u0915\u094d\u0937\u0923",
+          "\u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e",
+          "\u091f\u0947\u0938\u094d\u091f\u093f\u0902\u0917",
+          "\u0932\u0948\u092c"
+        ],
+        "aliases": [
+          "\u0932\u0948\u092c",
+          "\u091f\u0947\u0938\u094d\u091f\u093f\u0902\u0917",
+          "\u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e"
+        ],
+        "requirements": [
+          "\u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0906\u0927\u093f\u0915\u093e\u0930\u093f\u0915 \u0930\u0942\u092a \u0938\u0947 \u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 BIS \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092f\u093e \u0936\u093e\u0916\u093e \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092e\u0947\u0902 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964",
+          "\u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0930\u093f\u092a\u094b\u0930\u094d\u091f \u0938\u0902\u092c\u0902\u0927\u093f\u0924 IS \u092e\u093e\u0928\u0915 \u0915\u0947 \u0905\u0928\u0941\u0930\u0942\u092a \u0939\u094b\u0928\u0940 \u091a\u093e\u0939\u093f\u090f\u0964"
+        ],
+        "testing": {
+          "details": [
+            "\u0905\u0927\u093f\u0915\u0943\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f \u0906\u0927\u093f\u0915\u093e\u0930\u093f\u0915 BIS \u0932\u0948\u092c \u0930\u093f\u0915\u0949\u0917\u094d\u0928\u093f\u0936\u0928 \u092f\u094b\u091c\u0928\u093e \u0938\u0942\u091a\u0940 \u0926\u0947\u0916\u0947\u0902\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "",
+          "steps": []
+        },
+        "industry_actions": []
+      },
+      "mr": {
+        "title": "BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u091a\u093e\u091a\u0923\u0940 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u093e",
+        "summary": "BIS \u092a\u0930\u0935\u093e\u0928\u0947 \u0926\u0947\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u0902\u091a\u094d\u092f\u093e \u0928\u092e\u0941\u0928\u094d\u092f\u093e\u0902\u091a\u094d\u092f\u093e \u091a\u093e\u091a\u0923\u0940\u0938\u093e\u0920\u0940 \u092c\u093e\u0939\u094d\u092f \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u093e\u0902\u0928\u093e \u092e\u093e\u0928\u094d\u092f\u0924\u093e \u0926\u0947\u0924\u0947.",
+        "guidance": "\u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u093e LIMS \u092a\u094b\u0930\u094d\u091f\u0932\u0926\u094d\u0935\u093e\u0930\u0947 BIS \u092e\u093e\u0928\u094d\u092f\u0924\u0947\u0938\u093e\u0920\u0940 \u0905\u0930\u094d\u091c \u0915\u0930\u0942 \u0936\u0915\u0924\u093e\u0924.",
+        "keywords": [
+          "\u091a\u093e\u091a\u0923\u0940",
+          "\u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u093e",
+          "\u091f\u0947\u0938\u094d\u091f\u093f\u0902\u0917",
+          "\u0932\u0945\u092c"
+        ],
+        "aliases": [
+          "\u0932\u0945\u092c",
+          "\u091f\u0947\u0938\u094d\u091f\u093f\u0902\u0917",
+          "\u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u093e"
+        ],
+        "requirements": [
+          "\u091a\u093e\u091a\u0923\u0940 \u0905\u0927\u093f\u0915\u0943\u0924\u092a\u0923\u0947 \u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 BIS \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u0915\u093f\u0902\u0935\u093e \u0936\u093e\u0916\u093e \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u0915\u0947\u0932\u0940 \u091c\u093e\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947.",
+          "\u091a\u093e\u091a\u0923\u0940 \u0905\u0939\u0935\u093e\u0932 \u0938\u0902\u092c\u0902\u0927\u093f\u0924 IS \u092e\u093e\u0928\u0915\u093e\u0928\u0941\u0938\u093e\u0930 \u0905\u0938\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947."
+        ],
+        "testing": {
+          "details": [
+            "\u0905\u0927\u093f\u0915\u0943\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u093e\u0902\u0938\u093e\u0920\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 BIS \u0932\u0945\u092c \u0930\u093f\u0915\u0917\u094d\u0928\u093f\u0936\u0928 \u092f\u094b\u091c\u0928\u0947\u091a\u0940 \u092f\u093e\u0926\u0940 \u092a\u0939\u093e."
+          ]
+        },
+        "certification": {
+          "scheme": "",
+          "steps": []
+        },
+        "industry_actions": []
+      }
+    },
+    "status": "VERIFIED",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13",
+    "mandatory_status": {
+      "is_mandatory": false,
+      "scheme": "SERVICE_GUIDANCE",
+      "qco_reference": null
+    }
   },
   {
     "id": "kb-005",
@@ -189,10 +625,121 @@
       "Prepare for factory audit and sample testing."
     ],
     "guidance": "Applications are generally submitted online via the BIS portal, followed by document scrutiny, sample testing, and factory audit. Licence validity, renewal and surveillance (periodic) inspections follow BIS rules. Fee structure and timelines should be checked on the official portal as they may change.",
-    "keywords": ["license", "licence", "licensing", "manufacturing licence", "apply for licence", "bis license", "how do i get bis licence"],
+    "keywords": [
+      "license",
+      "licence",
+      "licensing",
+      "manufacturing licence",
+      "apply for licence",
+      "bis license",
+      "how do i get bis licence"
+    ],
     "source_name": "BIS official documentation",
     "source_url": "https://www.bis.gov.in/certification/",
-    "verified": true
+    "verified": true,
+    "i18n": {
+      "en": {
+        "title": "BIS Licensing for Manufacturers",
+        "summary": "A BIS licence permits a manufacturer to apply the Standard Mark on a specific product manufactured at a specific location, after their product and process are found to conform to the applicable Indian Standard.",
+        "guidance": "Applications are generally submitted online via the BIS portal, followed by document scrutiny, sample testing, and factory audit. Licence validity, renewal and surveillance (periodic) inspections follow BIS rules. Fee structure and timelines should be checked on the official portal as they may change.",
+        "keywords": [
+          "license",
+          "licence",
+          "licensing",
+          "manufacturing licence",
+          "apply for licence",
+          "bis license",
+          "how do i get bis licence"
+        ],
+        "aliases": [
+          "license",
+          "licence",
+          "licensing"
+        ]
+      },
+      "hi": {
+        "title": "\u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f BIS \u0932\u093e\u0907\u0938\u0947\u0902\u0938\u093f\u0902\u0917",
+        "summary": "BIS \u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e\u0913\u0902 \u0915\u094b \u0909\u0928 \u0909\u0924\u094d\u092a\u093e\u0926\u094b\u0902 \u0915\u093e \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u0915\u0930\u0928\u0947 \u0915\u0940 \u0905\u0928\u0941\u092e\u0924\u093f \u0926\u0947\u0924\u093e \u0939\u0948 \u091c\u094b \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915\u094b\u0902 \u0915\u0947 \u0905\u0928\u0941\u0930\u0942\u092a \u0939\u0948\u0902\u0964",
+        "guidance": "\u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e e-BIS \u092a\u094b\u0930\u094d\u091f\u0932 \u092a\u0930 \u091c\u093e \u0938\u0915\u0924\u0947 \u0939\u0948\u0902, \u0905\u092a\u0928\u093e \u092e\u093e\u0928\u0915 \u0916\u094b\u091c \u0938\u0915\u0924\u0947 \u0939\u0948\u0902 \u0914\u0930 \u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u0915\u0947 \u0932\u093f\u090f \u0906\u0935\u0947\u0926\u0928 \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964",
+        "keywords": [
+          "\u0932\u093e\u0907\u0938\u0947\u0902\u0938\u093f\u0902\u0917",
+          "\u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e",
+          "\u092b\u0948\u0915\u094d\u091f\u094d\u0930\u0940",
+          "\u0932\u093e\u0907\u0938\u0947\u0902\u0938"
+        ],
+        "aliases": [
+          "\u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e",
+          "\u0932\u093e\u0907\u0938\u0947\u0902\u0938"
+        ],
+        "requirements": [
+          "\u0905\u0928\u0941\u0930\u0942\u092a \u0909\u0924\u094d\u092a\u093e\u0926\u094b\u0902 \u0915\u0947 \u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u092e\u0947\u0902 \u0938\u0915\u094d\u0937\u092e \u092c\u0941\u0928\u093f\u092f\u093e\u0926\u0940 \u0922\u093e\u0902\u091a\u093e\u0964",
+          "\u092e\u093e\u0928\u0915 \u0915\u0947 \u0905\u0928\u0941\u0938\u093e\u0930 \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0909\u092a\u0915\u0930\u0923\u0964",
+          "\u0938\u0915\u094d\u0937\u092e \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0923 \u0915\u0930\u094d\u092e\u091a\u093e\u0930\u0940\u0964"
+        ],
+        "testing": {
+          "details": [
+            "\u0907\u0928-\u0939\u093e\u0909\u0938 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0914\u0930 \u0925\u0930\u094d\u0921-\u092a\u093e\u0930\u094d\u091f\u0940 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0926\u094b\u0928\u094b\u0902 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0939\u094b \u0938\u0915\u0924\u0940 \u0939\u0948\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "\u0935\u093f\u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u0932\u093e\u0907\u0938\u0947\u0902\u0938 (Manufacturing Licence)",
+          "steps": [
+            "\u0911\u0928\u0932\u093e\u0907\u0928 \u0906\u0935\u0947\u0926\u0928 \u091c\u092e\u093e \u0915\u0930\u0947\u0902\u0964",
+            "\u0926\u0938\u094d\u0924\u093e\u0935\u0947\u091c\u093c \u0915\u0940 \u091c\u093e\u0901\u091a\u0964",
+            "\u0928\u092e\u0942\u0928\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923\u0964",
+            "\u092b\u0948\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f\u0964",
+            "\u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0928\u093e \u0914\u0930 \u0906\u0935\u0927\u093f\u0915 \u0928\u093f\u0917\u0930\u093e\u0928\u0940\u0964"
+          ]
+        },
+        "industry_actions": []
+      },
+      "mr": {
+        "title": "\u0909\u0924\u094d\u092a\u093e\u0926\u0915\u093e\u0902\u0938\u093e\u0920\u0940 BIS \u092a\u0930\u0935\u093e\u0928\u093e",
+        "summary": "BIS \u092a\u0930\u0935\u093e\u0928\u093e \u0909\u0924\u094d\u092a\u093e\u0926\u0915\u093e\u0902\u0928\u093e \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915\u093e\u0902\u0928\u0941\u0938\u093e\u0930 \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u0947 \u0924\u092f\u093e\u0930 \u0915\u0930\u0923\u094d\u092f\u093e\u091a\u0940 \u092a\u0930\u0935\u093e\u0928\u0917\u0940 \u0926\u0947\u0924\u094b.",
+        "guidance": "\u0909\u0924\u094d\u092a\u093e\u0926\u0915 e-BIS \u092a\u094b\u0930\u094d\u091f\u0932\u0935\u0930 \u091c\u093e\u090a \u0936\u0915\u0924\u093e\u0924, \u0924\u094d\u092f\u093e\u0902\u091a\u0947 \u092e\u093e\u0928\u0915 \u0936\u094b\u0927\u0942 \u0936\u0915\u0924\u093e\u0924 \u0906\u0923\u093f \u092a\u0930\u0935\u093e\u0928\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0905\u0930\u094d\u091c \u0915\u0930\u0942 \u0936\u0915\u0924\u093e\u0924.",
+        "keywords": [
+          "\u092a\u0930\u0935\u093e\u0928\u093e",
+          "\u0909\u0924\u094d\u092a\u093e\u0926\u0915",
+          "\u092b\u0945\u0915\u094d\u091f\u0930\u0940",
+          "\u0932\u093e\u092f\u0938\u0928\u094d\u0938"
+        ],
+        "aliases": [
+          "\u0909\u0924\u094d\u092a\u093e\u0926\u0915",
+          "\u0932\u093e\u092f\u0938\u0928\u094d\u0938",
+          "\u092a\u0930\u0935\u093e\u0928\u093e"
+        ],
+        "requirements": [
+          "\u0905\u0928\u0941\u0930\u0942\u092a \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u0902\u091a\u0947 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u0915\u0930\u0923\u094d\u092f\u093e\u0938 \u0938\u0915\u094d\u0937\u092e \u092a\u093e\u092f\u093e\u092d\u0942\u0924 \u0938\u0941\u0935\u093f\u0927\u093e.",
+          "\u092e\u093e\u0928\u0915\u093e\u0928\u0941\u0938\u093e\u0930 \u092a\u0941\u0930\u0947\u0936\u0940 \u091a\u093e\u091a\u0923\u0940 \u0909\u092a\u0915\u0930\u0923\u0947.",
+          "\u0938\u0915\u094d\u0937\u092e \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0923 \u0915\u0930\u094d\u092e\u091a\u093e\u0930\u0940."
+        ],
+        "testing": {
+          "details": [
+            "\u0907\u0928-\u0939\u093e\u090a\u0938 \u091a\u093e\u091a\u0923\u0940 \u0906\u0923\u093f \u0925\u0930\u094d\u0921-\u092a\u093e\u0930\u094d\u091f\u0940 \u091a\u093e\u091a\u0923\u0940 \u0926\u094b\u0928\u094d\u0939\u0940 \u0906\u0935\u0936\u094d\u092f\u0915 \u0905\u0938\u0942 \u0936\u0915\u0924\u093e\u0924."
+          ]
+        },
+        "certification": {
+          "scheme": "\u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092a\u0930\u0935\u093e\u0928\u093e (Manufacturing Licence)",
+          "steps": [
+            "\u0911\u0928\u0932\u093e\u0907\u0928 \u0905\u0930\u094d\u091c \u0938\u093e\u0926\u0930 \u0915\u0930\u093e.",
+            "\u0926\u0938\u094d\u0924\u0910\u0935\u091c\u093e\u0902\u091a\u0940 \u091b\u093e\u0928\u0928\u0940.",
+            "\u0928\u092e\u0941\u0928\u093e \u091a\u093e\u091a\u0923\u0940.",
+            "\u092b\u0945\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f.",
+            "\u092a\u0930\u0935\u093e\u0928\u093e \u0926\u0947\u0923\u0947 \u0906\u0923\u093f \u0928\u093f\u092f\u0924\u0915\u093e\u0932\u093f\u0915 \u092a\u093e\u0933\u0924 \u0920\u0947\u0935\u0923\u0947."
+          ]
+        },
+        "industry_actions": []
+      }
+    },
+    "status": "VERIFIED",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13",
+    "mandatory_status": {
+      "is_mandatory": false,
+      "scheme": "SERVICE_GUIDANCE",
+      "qco_reference": null
+    }
   },
   {
     "id": "kb-006",
@@ -220,14 +767,108 @@
       "Lodge a complaint if the product appears substandard or counterfeit."
     ],
     "guidance": "Consumers can verify a licence/HUID and lodge a complaint through the BIS Care app or the BIS website's grievance section. This prototype does not connect to the live BIS Care system.",
-    "keywords": ["consumer complaint", "grievance", "bis care", "verify license", "verify huid", "complaint", "how can a consumer verify a huid", "consumer"],
+    "keywords": [
+      "consumer complaint",
+      "grievance",
+      "bis care",
+      "verify license",
+      "verify huid",
+      "complaint",
+      "how can a consumer verify a huid",
+      "consumer"
+    ],
     "source_name": "BIS Consumer Services",
     "source_url": "https://www.bis.gov.in/consumer-corner/",
-    "verified": true
+    "verified": true,
+    "i18n": {
+      "en": {
+        "title": "Consumer Complaints & Grievance Redressal",
+        "summary": "BIS provides consumer-facing services including complaint registration for ISI-marked or hallmarked products that appear substandard, and general consumer awareness on Indian Standards through the BIS Care mobile app and portal.",
+        "guidance": "Consumers can verify a licence/HUID and lodge a complaint through the BIS Care app or the BIS website's grievance section. This prototype does not connect to the live BIS Care system.",
+        "keywords": [
+          "consumer complaint",
+          "grievance",
+          "bis care",
+          "verify license",
+          "verify huid",
+          "complaint",
+          "how can a consumer verify a huid",
+          "consumer"
+        ],
+        "aliases": [
+          "grievance",
+          "complaint",
+          "consumer"
+        ]
+      },
+      "hi": {
+        "title": "\u0909\u092a\u092d\u094b\u0915\u094d\u0924\u093e \u0936\u093f\u0915\u093e\u092f\u0924\u0947\u0902",
+        "summary": "BIS \u0909\u092a\u092d\u094b\u0915\u094d\u0924\u093e\u0913\u0902 \u0915\u094b ISI \u092e\u093e\u0930\u094d\u0915 \u0935\u093e\u0932\u0947 \u0909\u0924\u094d\u092a\u093e\u0926\u094b\u0902 \u0915\u0940 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u092f\u093e BIS \u0915\u0947\u092f\u0930 \u0910\u092a \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u092d\u094d\u0930\u093e\u092e\u0915 \u0926\u093e\u0935\u094b\u0902 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0936\u093f\u0915\u093e\u092f\u0924 \u0926\u0930\u094d\u091c \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 \u092e\u0902\u091a \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
+        "guidance": "\u0909\u092a\u092d\u094b\u0915\u094d\u0924\u093e ISI \u092e\u093e\u0930\u094d\u0915/HUID \u0915\u094b \u0938\u0924\u094d\u092f\u093e\u092a\u093f\u0924 \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902 \u0914\u0930 BIS \u0915\u0947\u092f\u0930 \u0910\u092a \u092f\u093e \u092a\u094b\u0930\u094d\u091f\u0932 \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0936\u093f\u0915\u093e\u092f\u0924 \u0926\u0930\u094d\u091c \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964",
+        "keywords": [
+          "\u0936\u093f\u0915\u093e\u092f\u0924",
+          "\u0909\u092a\u092d\u094b\u0915\u094d\u0924\u093e",
+          "BIS \u0915\u0947\u092f\u0930",
+          "\u092b\u0930\u094d\u091c\u0940",
+          "\u0928\u0915\u0932\u0940"
+        ],
+        "aliases": [
+          "\u0936\u093f\u0915\u093e\u092f\u0924",
+          "\u0909\u092a\u092d\u094b\u0915\u094d\u0924\u093e"
+        ],
+        "requirements": [
+          "\u0909\u0924\u094d\u092a\u093e\u0926 \u092a\u0930 BIS \u0938\u0924\u094d\u092f\u093e\u092a\u0928 \u0915\u0947 \u0932\u093f\u090f ISI \u092e\u093e\u0930\u094d\u0915 \u092f\u093e HUID \u0939\u094b\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964"
+        ],
+        "testing": {
+          "details": []
+        },
+        "certification": {
+          "scheme": "",
+          "steps": []
+        },
+        "industry_actions": []
+      },
+      "mr": {
+        "title": "\u0917\u094d\u0930\u093e\u0939\u0915 \u0924\u0915\u094d\u0930\u093e\u0930\u0940",
+        "summary": "BIS \u0917\u094d\u0930\u093e\u0939\u0915\u093e\u0902\u0928\u093e ISI \u092e\u093e\u0930\u094d\u0915 \u0905\u0938\u0932\u0947\u0932\u094d\u092f\u093e \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u0902\u091a\u094d\u092f\u093e \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u0947\u092c\u0926\u094d\u0926\u0932 \u0915\u093f\u0902\u0935\u093e BIS \u0915\u0947\u0905\u0930 \u0905\u0945\u092a\u0926\u094d\u0935\u093e\u0930\u0947 \u0926\u093f\u0936\u093e\u092d\u0942\u0932 \u0915\u0930\u0923\u093e\u0931\u094d\u092f\u093e \u0926\u093e\u0935\u094d\u092f\u093e\u0902\u092c\u0926\u094d\u0926\u0932 \u0924\u0915\u094d\u0930\u093e\u0930 \u0928\u094b\u0902\u0926\u0935\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u090f\u0915 \u0935\u094d\u092f\u093e\u0938\u092a\u0940\u0920 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0924\u0947.",
+        "guidance": "\u0917\u094d\u0930\u093e\u0939\u0915 ISI \u092e\u093e\u0930\u094d\u0915/HUID \u0938\u0924\u094d\u092f\u093e\u092a\u093f\u0924 \u0915\u0930\u0942 \u0936\u0915\u0924\u093e\u0924 \u0906\u0923\u093f BIS \u0915\u0947\u0905\u0930 \u0905\u0945\u092a \u0915\u093f\u0902\u0935\u093e \u092a\u094b\u0930\u094d\u091f\u0932\u0926\u094d\u0935\u093e\u0930\u0947 \u0924\u0915\u094d\u0930\u093e\u0930 \u0928\u094b\u0902\u0926\u0935\u0942 \u0936\u0915\u0924\u093e\u0924.",
+        "keywords": [
+          "\u0924\u0915\u094d\u0930\u093e\u0930",
+          "\u0917\u094d\u0930\u093e\u0939\u0915",
+          "BIS \u0915\u0947\u0905\u0930",
+          "\u092c\u0928\u093e\u0935\u091f",
+          "\u0916\u094b\u091f\u0947"
+        ],
+        "aliases": [
+          "\u0924\u0915\u094d\u0930\u093e\u0930",
+          "\u0917\u094d\u0930\u093e\u0939\u0915"
+        ],
+        "requirements": [
+          "\u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u0935\u0930 BIS \u092a\u0921\u0924\u093e\u0933\u0923\u0940\u0938\u093e\u0920\u0940 ISI \u092e\u093e\u0930\u094d\u0915 \u0915\u093f\u0902\u0935\u093e HUID \u0905\u0938\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947."
+        ],
+        "testing": {
+          "details": []
+        },
+        "certification": {
+          "scheme": "",
+          "steps": []
+        },
+        "industry_actions": []
+      }
+    },
+    "status": "VERIFIED",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13",
+    "mandatory_status": {
+      "is_mandatory": false,
+      "scheme": "SERVICE_GUIDANCE",
+      "qco_reference": null
+    }
   },
   {
     "id": "kb-007",
-    "title": "Indian Standards — What They Are",
+    "title": "Indian Standards \u2014 What They Are",
     "standard_number": "General",
     "topic": "Indian Standards",
     "summary": "An Indian Standard is a document, established by consensus and approved by BIS, that provides rules, guidelines or characteristics for products, processes or services to ensure quality, safety and interoperability.",
@@ -248,10 +889,84 @@
       "Purchase or access the full text of the standard."
     ],
     "guidance": "Standards are identified by an IS number (e.g. IS 14543) and are developed by Technical Committees of BIS with stakeholder participation. The full text of standards is typically available for purchase/access via the official BIS Standards portal.",
-    "keywords": ["what is an indian standard", "indian standard", "is number", "standard meaning"],
+    "keywords": [
+      "what is an indian standard",
+      "indian standard",
+      "is number",
+      "standard meaning"
+    ],
     "source_name": "BIS official documentation",
     "source_url": "https://www.bis.gov.in",
-    "verified": true
+    "verified": true,
+    "i18n": {
+      "en": {
+        "title": "Indian Standards \u2014 What They Are",
+        "summary": "An Indian Standard is a document, established by consensus and approved by BIS, that provides rules, guidelines or characteristics for products, processes or services to ensure quality, safety and interoperability.",
+        "guidance": "Standards are identified by an IS number (e.g. IS 14543) and are developed by Technical Committees of BIS with stakeholder participation. The full text of standards is typically available for purchase/access via the official BIS Standards portal.",
+        "keywords": [
+          "what is an indian standard",
+          "indian standard",
+          "is number",
+          "standard meaning"
+        ],
+        "aliases": []
+      },
+      "hi": {
+        "title": "\u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915 (IS)",
+        "summary": "\u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915 \u0926\u0938\u094d\u0924\u093e\u0935\u0947\u091c\u093c \u0939\u0948\u0902 \u091c\u094b \u0909\u0924\u094d\u092a\u093e\u0926\u094b\u0902 \u092f\u093e \u0938\u0947\u0935\u093e\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e, \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0914\u0930 \u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928 \u092e\u093e\u0928\u0926\u0902\u0921 \u0928\u093f\u0930\u094d\u0926\u093f\u0937\u094d\u091f \u0915\u0930\u0924\u0947 \u0939\u0948\u0902\u0964",
+        "guidance": "\u0906\u092a BIS \u092e\u093e\u0928\u0915 \u092a\u094b\u0930\u094d\u091f\u0932 \u092a\u0930 \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915\u094b\u0902 \u0915\u094b \u0916\u094b\u091c \u0914\u0930 \u0921\u093e\u0909\u0928\u0932\u094b\u0921 \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964",
+        "keywords": [
+          "\u092e\u093e\u0928\u0915",
+          "IS",
+          "\u0928\u093f\u092f\u092e",
+          "\u0926\u093f\u0936\u093e\u0928\u093f\u0930\u094d\u0926\u0947\u0936"
+        ],
+        "aliases": [
+          "\u092e\u093e\u0928\u0915"
+        ],
+        "requirements": [],
+        "testing": {
+          "details": []
+        },
+        "certification": {
+          "scheme": "",
+          "steps": []
+        },
+        "industry_actions": []
+      },
+      "mr": {
+        "title": "\u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915\u0947 (IS)",
+        "summary": "\u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915\u0947 \u0939\u0940 \u0905\u0936\u0940 \u0915\u093e\u0917\u0926\u092a\u0924\u094d\u0930\u0947 \u0906\u0939\u0947\u0924 \u091c\u0940 \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u0947 \u0915\u093f\u0902\u0935\u093e \u0938\u0947\u0935\u093e\u0902\u0938\u093e\u0920\u0940 \u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e, \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924\u0924\u093e \u0906\u0923\u093f \u0915\u093e\u0930\u094d\u092f\u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928 \u0928\u093f\u0915\u0937 \u0928\u093f\u0930\u094d\u0926\u093f\u0937\u094d\u091f \u0915\u0930\u0924\u093e\u0924.",
+        "guidance": "\u0924\u0941\u092e\u094d\u0939\u0940 BIS \u092e\u093e\u0928\u0915 \u092a\u094b\u0930\u094d\u091f\u0932\u0935\u0930 \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915\u0947 \u0936\u094b\u0927\u0942 \u0906\u0923\u093f \u0921\u093e\u0909\u0928\u0932\u094b\u0921 \u0915\u0930\u0942 \u0936\u0915\u0924\u093e.",
+        "keywords": [
+          "\u092e\u093e\u0928\u0915\u0947",
+          "IS",
+          "\u0928\u093f\u092f\u092e",
+          "\u092e\u093e\u0930\u094d\u0917\u0926\u0930\u094d\u0936\u0915 \u0924\u0924\u094d\u0924\u094d\u0935\u0947"
+        ],
+        "aliases": [
+          "\u092e\u093e\u0928\u0915\u0947"
+        ],
+        "requirements": [],
+        "testing": {
+          "details": []
+        },
+        "certification": {
+          "scheme": "",
+          "steps": []
+        },
+        "industry_actions": []
+      }
+    },
+    "status": "VERIFIED",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13",
+    "mandatory_status": {
+      "is_mandatory": false,
+      "scheme": "SERVICE_GUIDANCE",
+      "qco_reference": null
+    }
   },
   {
     "id": "kb-008",
@@ -280,10 +995,1832 @@
       "Determine which scheme (e.g. CRS, ISI, Hallmarking) covers the product.",
       "Follow the specific scheme's guidelines."
     ],
-    "guidance": "The applicable scheme depends on the product category — e.g. electronics typically fall under CRS, food/general products under Product Certification. Sample/demo mapping only — always confirm the correct scheme for a specific product with BIS.",
-    "keywords": ["scheme", "which scheme", "crs", "compulsory registration", "management system certification", "electronics"],
+    "guidance": "The applicable scheme depends on the product category \u2014 e.g. electronics typically fall under CRS, food/general products under Product Certification. Sample/demo mapping only \u2014 always confirm the correct scheme for a specific product with BIS.",
+    "keywords": [
+      "scheme",
+      "which scheme",
+      "crs",
+      "compulsory registration",
+      "management system certification",
+      "electronics"
+    ],
     "source_name": "BIS official documentation",
     "source_url": "https://www.bis.gov.in",
-    "verified": true
+    "verified": true,
+    "i18n": {
+      "en": {
+        "title": "BIS Schemes Overview",
+        "summary": "BIS operates multiple schemes depending on product/sector: Product Certification (ISI Mark), Compulsory Registration Scheme (CRS) for electronics/IT goods, Hallmarking for precious metals, and Management System Certification (ISO-type schemes).",
+        "guidance": "The applicable scheme depends on the product category \u2014 e.g. electronics typically fall under CRS, food/general products under Product Certification. Sample/demo mapping only \u2014 always confirm the correct scheme for a specific product with BIS.",
+        "keywords": [
+          "scheme",
+          "which scheme",
+          "crs",
+          "compulsory registration",
+          "management system certification",
+          "electronics"
+        ],
+        "aliases": [
+          "scheme",
+          "crs",
+          "electronics"
+        ]
+      },
+      "hi": {
+        "title": "BIS \u092f\u094b\u091c\u0928\u093e\u090f\u0902",
+        "summary": "BIS \u0935\u093f\u092d\u093f\u0928\u094d\u0928 \u092f\u094b\u091c\u0928\u093e\u090f\u0902 \u0938\u0902\u091a\u093e\u0932\u093f\u0924 \u0915\u0930\u0924\u093e \u0939\u0948 \u091c\u0948\u0938\u0947 ISI \u092e\u093e\u0930\u094d\u0915, CRS (\u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928\u093f\u0915\u094d\u0938 \u0915\u0947 \u0932\u093f\u090f), \u0914\u0930 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917\u0964",
+        "guidance": "\u0905\u092a\u0928\u0947 \u0909\u0924\u094d\u092a\u093e\u0926 \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930, \u0906\u092a\u0915\u094b \u092f\u0939 \u091c\u093e\u0902\u091a\u0928\u093e \u0939\u094b\u0917\u093e \u0915\u093f \u0915\u093f\u0938 BIS \u092f\u094b\u091c\u0928\u093e (\u091c\u0948\u0938\u0947 ISI \u092f\u093e CRS) \u0915\u0947 \u0924\u0939\u0924 \u0906\u0935\u0947\u0926\u0928 \u0915\u0930\u0928\u093e \u0939\u0948\u0964",
+        "keywords": [
+          "\u092f\u094b\u091c\u0928\u093e",
+          "\u0938\u094d\u0915\u0940\u092e",
+          "ISI",
+          "CRS",
+          "\u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917"
+        ],
+        "aliases": [
+          "\u092f\u094b\u091c\u0928\u093e",
+          "\u0938\u094d\u0915\u0940\u092e"
+        ],
+        "requirements": [
+          "\u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928\u093f\u0915\u094d\u0938 \u0906\u092e\u0924\u094c\u0930 \u092a\u0930 CRS \u0915\u0947 \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0906\u0924\u0947 \u0939\u0948\u0902\u0964",
+          "\u092d\u094b\u091c\u0928 \u0914\u0930 \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0909\u0924\u094d\u092a\u093e\u0926 \u0906\u092e\u0924\u094c\u0930 \u092a\u0930 \u0909\u0924\u094d\u092a\u093e\u0926 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 (ISI \u092e\u093e\u0930\u094d\u0915) \u0915\u0947 \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0906\u0924\u0947 \u0939\u0948\u0902\u0964",
+          "\u0915\u0940\u092e\u0924\u0940 \u0927\u093e\u0924\u0941\u090f\u0902 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 \u0915\u0947 \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0906\u0924\u0940 \u0939\u0948\u0902\u0964"
+        ],
+        "testing": {
+          "details": []
+        },
+        "certification": {
+          "scheme": "",
+          "steps": []
+        },
+        "industry_actions": []
+      },
+      "mr": {
+        "title": "BIS \u092f\u094b\u091c\u0928\u093e",
+        "summary": "BIS \u0935\u093f\u0935\u093f\u0927 \u092f\u094b\u091c\u0928\u093e \u091a\u093e\u0932\u0935\u0924\u0947 \u091c\u0938\u0947 ISI \u092e\u093e\u0930\u094d\u0915, CRS (\u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928\u093f\u0915\u094d\u0938\u0938\u093e\u0920\u0940) \u0906\u0923\u093f \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917.",
+        "guidance": "\u0924\u0941\u092e\u091a\u094d\u092f\u093e \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u0935\u0930 \u0906\u0927\u093e\u0930\u093f\u0924, \u0924\u0941\u092e\u094d\u0939\u093e\u0932\u093e \u0915\u094b\u0923\u0924\u094d\u092f\u093e BIS \u092f\u094b\u091c\u0928\u0947\u0905\u0902\u0924\u0930\u094d\u0917\u0924 (\u0909\u0926\u093e. ISI \u0915\u093f\u0902\u0935\u093e CRS) \u0905\u0930\u094d\u091c \u0915\u0930\u093e\u092f\u091a\u093e \u0906\u0939\u0947 \u0924\u0947 \u0924\u092a\u093e\u0938\u0923\u094d\u092f\u093e\u091a\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0906\u0939\u0947.",
+        "keywords": [
+          "\u092f\u094b\u091c\u0928\u093e",
+          "\u0938\u094d\u0915\u0940\u092e",
+          "ISI",
+          "CRS",
+          "\u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917"
+        ],
+        "aliases": [
+          "\u092f\u094b\u091c\u0928\u093e",
+          "\u0938\u094d\u0915\u0940\u092e"
+        ],
+        "requirements": [
+          "\u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928\u093f\u0915\u094d\u0938 \u0938\u093e\u0927\u093e\u0930\u0923\u092a\u0923\u0947 CRS \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u092f\u0947\u0924\u093e\u0924.",
+          "\u0905\u0928\u094d\u0928 \u0906\u0923\u093f \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u0947 \u0938\u093e\u0927\u093e\u0930\u0923\u092a\u0923\u0947 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 (ISI \u092e\u093e\u0930\u094d\u0915) \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u092f\u0947\u0924\u093e\u0924.",
+          "\u092e\u094c\u0932\u094d\u092f\u0935\u093e\u0928 \u0927\u093e\u0924\u0942 \u0939\u0949\u0932\u092e\u093e\u0930\u094d\u0915\u093f\u0902\u0917 \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u092f\u0947\u0924\u093e\u0924."
+        ],
+        "testing": {
+          "details": []
+        },
+        "certification": {
+          "scheme": "",
+          "steps": []
+        },
+        "industry_actions": []
+      }
+    },
+    "status": "VERIFIED",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13",
+    "mandatory_status": {
+      "is_mandatory": false,
+      "scheme": "SERVICE_GUIDANCE",
+      "qco_reference": null
+    }
+  },
+  {
+    "id": "kb-010",
+    "title": "Safety of Toys: Part 1 Safety Aspects Related to Mechanical and Physical Properties",
+    "product_domain": "Toys (Non-Electric)",
+    "service_category": "Product Certification (Scheme-I)",
+    "standard_number": "IS 9873 Part 1:2019",
+    "standard_title": "Safety of Toys: Part 1 Safety Aspects Related to Mechanical and Physical Properties",
+    "topic": "Toys",
+    "summary": "Mandatory for all non-electric toys intended for use in play by children under 14 years.",
+    "applicability": "Mandatory for all non-electric toys intended for use in play by children under 14 years.",
+    "requirements": [
+      "Mechanical and physical safety properties as per the standard."
+    ],
+    "required_documents": [],
+    "consumer_actions": [
+      "Check for the ISI Mark on the toy packaging.",
+      "Ensure the toy is age-appropriate."
+    ],
+    "industry_actions": [
+      "Download the official Product Manual for IS 9873.",
+      "Ensure samples are tested at an empanelled lab.",
+      "Apply for a licence via Manakonline (for domestic manufacturers)."
+    ],
+    "next_actions": [],
+    "documents": [],
+    "keywords": [
+      "toys",
+      "toy",
+      "play"
+    ],
+    "source_name": "BIS Official QCO Portal - Toys",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "official",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "source_checked_date": "2026-09-08",
+    "notes_evidence": "Governed by DPIIT QCO 2020. Safe and verified.",
+    "collected_at": "2026-09-08T18:04:54.355036",
+    "last_verified": null,
+    "revision": 1,
+    "supersedes_id": null,
+    "testing": {
+      "available": true,
+      "details": [
+        "Testing must be conducted at a BIS-empanelled NABL-accredited laboratory."
+      ]
+    },
+    "certification": {
+      "available": true,
+      "scheme": "Scheme-I (ISI Mark) - Toys (Quality Control) Order, 2020",
+      "steps": [
+        "Domestic manufacturers apply via Manakonline",
+        "Foreign manufacturers apply via FMCD",
+        "Follow 10 steps to BIS Licence for Toys"
+      ]
+    },
+    "i18n": {
+      "en": {
+        "title": "Safety of Toys: Part 1 Safety Aspects Related to Mechanical and Physical Properties",
+        "summary": "Mandatory for all non-electric toys intended for use in play by children under 14 years.",
+        "guidance": "",
+        "keywords": [
+          "toys",
+          "toy",
+          "play"
+        ],
+        "aliases": [
+          "toys",
+          "toy",
+          "play"
+        ]
+      },
+      "hi": {
+        "title": "\u0916\u093f\u0932\u094c\u0928\u094b\u0902 \u0915\u0940 \u0938\u0941\u0930\u0915\u094d\u0937\u093e",
+        "summary": "IS 9873 \u092c\u091a\u094d\u091a\u094b\u0902 \u0915\u0947 \u0916\u093f\u0932\u094c\u0928\u094b\u0902 \u0915\u0947 \u092f\u093e\u0902\u0924\u094d\u0930\u093f\u0915 \u0914\u0930 \u092d\u094c\u0924\u093f\u0915 \u0917\u0941\u0923\u094b\u0902 \u0938\u0947 \u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u092a\u0939\u0932\u0941\u0913\u0902 \u0915\u094b \u0915\u0935\u0930 \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
+        "guidance": "\u092d\u093e\u0930\u0924 \u092e\u0947\u0902 \u092c\u0947\u091a\u0947 \u091c\u093e\u0928\u0947 \u0935\u093e\u0932\u0947 \u0938\u092d\u0940 \u0916\u093f\u0932\u094c\u0928\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f BIS \u092a\u094d\u0930\u092e\u093e\u0923\u0928 (ISI \u092e\u093e\u0930\u094d\u0915) \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0939\u0948\u0964",
+        "keywords": [
+          "\u0916\u093f\u0932\u094c\u0928\u0947",
+          "\u092c\u091a\u094d\u091a\u094b\u0902 \u0915\u0947 \u0916\u093f\u0932\u094c\u0928\u0947",
+          "IS 9873"
+        ],
+        "aliases": [
+          "\u0916\u093f\u0932\u094c\u0928\u093e"
+        ],
+        "requirements": [
+          "\u092e\u093e\u0928\u0915 \u0915\u0947 \u0905\u0928\u0941\u0938\u093e\u0930 \u092f\u093e\u0902\u0924\u094d\u0930\u093f\u0915 \u0914\u0930 \u092d\u094c\u0924\u093f\u0915 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0917\u0941\u0923\u0964"
+        ],
+        "testing": {
+          "details": [
+            "\u092a\u0930\u0940\u0915\u094d\u0937\u0923 BIS-\u0938\u0942\u091a\u0940\u092c\u0926\u094d\u0927 NABL-\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092e\u0947\u0902 \u0906\u092f\u094b\u091c\u093f\u0924 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915) - \u0916\u093f\u0932\u094c\u0928\u0947 (\u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0923) \u0906\u0926\u0947\u0936, 2020",
+          "steps": [
+            "\u0918\u0930\u0947\u0932\u0942 \u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e Manakonline \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0906\u0935\u0947\u0926\u0928 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902",
+            "\u0935\u093f\u0926\u0947\u0936\u0940 \u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e FMCD \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0906\u0935\u0947\u0926\u0928 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902",
+            "\u0916\u093f\u0932\u094c\u0928\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f BIS \u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f 10 \u091a\u0930\u0923\u094b\u0902 \u0915\u093e \u092a\u093e\u0932\u0928 \u0915\u0930\u0947\u0902"
+          ]
+        },
+        "industry_actions": [
+          "IS 9873 \u0915\u0947 \u0932\u093f\u090f \u0906\u0927\u093f\u0915\u093e\u0930\u093f\u0915 \u0909\u0924\u094d\u092a\u093e\u0926 \u092e\u0948\u0928\u0941\u0905\u0932 \u0921\u093e\u0909\u0928\u0932\u094b\u0921 \u0915\u0930\u0947\u0902\u0964",
+          "\u0938\u0941\u0928\u093f\u0936\u094d\u091a\u093f\u0924 \u0915\u0930\u0947\u0902 \u0915\u093f \u0928\u092e\u0942\u0928\u094b\u0902 \u0915\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0938\u0942\u091a\u0940\u092c\u0926\u094d\u0927 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092e\u0947\u0902 \u0915\u093f\u092f\u093e \u0917\u092f\u093e \u0939\u0948\u0964",
+          "Manakonline \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u0915\u0947 \u0932\u093f\u090f \u0906\u0935\u0947\u0926\u0928 \u0915\u0930\u0947\u0902 (\u0918\u0930\u0947\u0932\u0942 \u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f)\u0964"
+        ]
+      },
+      "mr": {
+        "title": "\u0916\u0947\u0933\u0923\u094d\u092f\u093e\u0902\u091a\u0940 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924\u0924\u093e",
+        "summary": "IS 9873 \u092e\u0941\u0932\u093e\u0902\u091a\u094d\u092f\u093e \u0916\u0947\u0933\u0923\u094d\u092f\u093e\u0902\u091a\u094d\u092f\u093e \u092f\u093e\u0902\u0924\u094d\u0930\u093f\u0915 \u0906\u0923\u093f \u092d\u094c\u0924\u093f\u0915 \u0917\u0941\u0923\u0927\u0930\u094d\u092e\u093e\u0902\u0936\u0940 \u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924\u0924\u093e \u092a\u0948\u0932\u0942 \u0915\u0935\u094d\u0939\u0930 \u0915\u0930\u0924\u0947.",
+        "guidance": "\u092d\u093e\u0930\u0924\u093e\u0924 \u0935\u093f\u0915\u0932\u094d\u092f\u093e \u091c\u093e\u0923\u093e\u0930\u094d\u200d\u092f\u093e \u0938\u0930\u094d\u0935 \u0916\u0947\u0933\u0923\u094d\u092f\u093e\u0902\u0938\u093e\u0920\u0940 BIS \u092a\u094d\u0930\u092e\u093e\u0923\u0928 (ISI \u092e\u093e\u0930\u094d\u0915) \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0906\u0939\u0947.",
+        "keywords": [
+          "\u0916\u0947\u0933\u0923\u0940",
+          "\u092e\u0941\u0932\u093e\u0902\u091a\u0940 \u0916\u0947\u0933\u0923\u0940",
+          "IS 9873"
+        ],
+        "aliases": [
+          "\u0916\u0947\u0933\u0923\u0947"
+        ],
+        "requirements": [
+          "\u092e\u093e\u0928\u0915\u093e\u0928\u0941\u0938\u093e\u0930 \u092f\u093e\u0902\u0924\u094d\u0930\u093f\u0915 \u0906\u0923\u093f \u092d\u094c\u0924\u093f\u0915 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0917\u0941\u0923\u0927\u0930\u094d\u092e."
+        ],
+        "testing": {
+          "details": [
+            "\u091a\u093e\u091a\u0923\u0940 BIS-\u0938\u0942\u091a\u0940\u092c\u0926\u094d\u0927 NABL-\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u0906\u092f\u094b\u091c\u093f\u0924 \u0915\u0947\u0932\u0940 \u091c\u093e\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947."
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915) - \u0916\u0947\u0933\u0923\u0940 (\u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0923) \u0906\u0926\u0947\u0936, 2020",
+          "steps": [
+            "\u0926\u0947\u0936\u093e\u0902\u0924\u0930\u094d\u0917\u0924 \u0909\u0924\u094d\u092a\u093e\u0926\u0915 Manakonline \u0926\u094d\u0935\u093e\u0930\u0947 \u0905\u0930\u094d\u091c \u0915\u0930\u0924\u093e\u0924",
+            "\u092a\u0930\u0926\u0947\u0936\u0940 \u0909\u0924\u094d\u092a\u093e\u0926\u0915 FMCD \u0926\u094d\u0935\u093e\u0930\u0947 \u0905\u0930\u094d\u091c \u0915\u0930\u0924\u093e\u0924",
+            "\u0916\u0947\u0933\u0923\u094d\u092f\u093e\u0902\u091a\u094d\u092f\u093e BIS \u092a\u0930\u0935\u093e\u0928\u094d\u092f\u093e\u0938\u093e\u0920\u0940 10 \u091f\u092a\u094d\u092a\u094d\u092f\u093e\u0902\u091a\u0947 \u0905\u0928\u0941\u0938\u0930\u0923 \u0915\u0930\u093e"
+          ]
+        },
+        "industry_actions": [
+          "IS 9873 \u0938\u093e\u0920\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092e\u0945\u0928\u094d\u092f\u0941\u0905\u0932 \u0921\u093e\u0909\u0928\u0932\u094b\u0921 \u0915\u0930\u093e.",
+          "\u0928\u092e\u0941\u0928\u094d\u092f\u093e\u0902\u091a\u0940 \u091a\u093e\u091a\u0923\u0940 \u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u091d\u093e\u0932\u094d\u092f\u093e\u091a\u0940 \u0916\u093e\u0924\u094d\u0930\u0940 \u0915\u0930\u093e.",
+          "Manakonline \u0926\u094d\u0935\u093e\u0930\u0947 \u092a\u0930\u0935\u093e\u0928\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0905\u0930\u094d\u091c \u0915\u0930\u093e (\u0926\u0947\u0936\u093e\u0902\u0924\u0930\u094d\u0917\u0924 \u0909\u0924\u094d\u092a\u093e\u0926\u0915\u093e\u0902\u0938\u093e\u0920\u0940)."
+        ]
+      }
+    },
+    "mandatory_status": {
+      "is_mandatory": true,
+      "scheme": "COMPULSORY",
+      "qco_reference": "Toys (Quality Control) Order, 2020"
+    },
+    "status": "VERIFIED",
+    "verified": true,
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13"
+  },
+  {
+    "id": "kb-011",
+    "title": "Ordinary Portland Cement - Specification",
+    "product_domain": "Ordinary Portland Cement (OPC)",
+    "service_category": "Product Certification (Scheme-I)",
+    "standard_number": "IS 269:2015",
+    "standard_title": "Ordinary Portland Cement - Specification",
+    "topic": "Cement",
+    "summary": "Mandatory for OPC manufactured or sold in India.",
+    "applicability": "Mandatory for OPC manufactured or sold in India.",
+    "requirements": [
+      "Chemical and physical requirements (compressive strength, setting time)."
+    ],
+    "required_documents": [],
+    "consumer_actions": [
+      "Verify the ISI mark on the cement bag.",
+      "Check the manufacturing date."
+    ],
+    "industry_actions": [
+      "Ensure manufacturing process meets IS 269.",
+      "Establish required in-house testing equipment as per PM/IS 269."
+    ],
+    "next_actions": [],
+    "documents": [],
+    "keywords": [
+      "cement",
+      "opc"
+    ],
+    "source_name": "BIS Official QCO Portal - Cement",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "official",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "source_checked_date": "2026-09-08",
+    "notes_evidence": "Cement QCO 2003 is strictly enforced.",
+    "collected_at": "2026-09-08T18:04:54.355036",
+    "last_verified": null,
+    "revision": 1,
+    "supersedes_id": null,
+    "testing": {
+      "available": true,
+      "details": [
+        "Refer to Product Manual PM/IS 269 for sampling and testing guidelines."
+      ]
+    },
+    "certification": {
+      "available": true,
+      "scheme": "Scheme-I (ISI Mark) - Cement (Quality Control) Order, 2003",
+      "steps": [
+        "Apply via BIS portal",
+        "factory audit",
+        "grant of licence"
+      ]
+    },
+    "i18n": {
+      "en": {
+        "title": "Ordinary Portland Cement - Specification",
+        "summary": "Mandatory for OPC manufactured or sold in India.",
+        "guidance": "",
+        "keywords": [
+          "cement",
+          "opc"
+        ],
+        "aliases": [
+          "cement",
+          "opc"
+        ]
+      },
+      "hi": {
+        "title": "\u092a\u094b\u0930\u094d\u091f\u0932\u0948\u0902\u0921 \u0938\u0940\u092e\u0947\u0902\u091f",
+        "summary": "IS 269 \u0938\u093e\u0927\u093e\u0930\u0923 \u092a\u094b\u0930\u094d\u091f\u0932\u0948\u0902\u0921 \u0938\u0940\u092e\u0947\u0902\u091f \u0915\u0947 \u0932\u093f\u090f \u0935\u093f\u0928\u093f\u0930\u094d\u0926\u0947\u0936 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
+        "guidance": "\u0938\u0940\u092e\u0947\u0902\u091f \u0915\u093e \u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u0914\u0930 \u092c\u093f\u0915\u094d\u0930\u0940 BIS \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u0915\u0947 \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0906\u0924\u0940 \u0939\u0948\u0964",
+        "keywords": [
+          "\u0938\u0940\u092e\u0947\u0902\u091f",
+          "\u092a\u094b\u0930\u094d\u091f\u0932\u0948\u0902\u0921 \u0938\u0940\u092e\u0947\u0902\u091f",
+          "IS 269"
+        ],
+        "aliases": [
+          "\u0938\u0940\u092e\u0947\u0902\u091f"
+        ],
+        "requirements": [
+          "\u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u0914\u0930 \u092d\u094c\u0924\u093f\u0915 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u090f\u0901 (\u0926\u092c\u093e\u0935 \u0938\u0939\u0928 \u0915\u0930\u0928\u0947 \u0915\u0940 \u0915\u094d\u0937\u092e\u0924\u093e (compressive strength), \u0938\u0947\u091f \u0939\u094b\u0928\u0947 \u0915\u093e \u0938\u092e\u092f)\u0964"
+        ],
+        "testing": {
+          "details": [
+            "\u0928\u092e\u0942\u0928\u093e\u0915\u0930\u0923 \u0914\u0930 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0926\u093f\u0936\u093e\u0928\u093f\u0930\u094d\u0926\u0947\u0936\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0909\u0924\u094d\u092a\u093e\u0926 \u092e\u0948\u0928\u0941\u0905\u0932 PM/IS 269 \u0926\u0947\u0916\u0947\u0902\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915) - \u0938\u0940\u092e\u0947\u0902\u091f (\u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0923) \u0906\u0926\u0947\u0936, 2003",
+          "steps": [
+            "BIS \u092a\u094b\u0930\u094d\u091f\u0932 \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0906\u0935\u0947\u0926\u0928 \u0915\u0930\u0947\u0902",
+            "\u092b\u0948\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f",
+            "\u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0928\u093e"
+          ]
+        },
+        "industry_actions": [
+          "\u0938\u0941\u0928\u093f\u0936\u094d\u091a\u093f\u0924 \u0915\u0930\u0947\u0902 \u0915\u093f \u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u092a\u094d\u0930\u0915\u094d\u0930\u093f\u092f\u093e IS 269 \u0915\u0947 \u0905\u0928\u0941\u0930\u0942\u092a \u0939\u0948\u0964",
+          "PM/IS 269 \u0915\u0947 \u0905\u0928\u0941\u0938\u093e\u0930 \u0906\u0935\u0936\u094d\u092f\u0915 \u0907\u0928-\u0939\u093e\u0909\u0938 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0909\u092a\u0915\u0930\u0923 \u0938\u094d\u0925\u093e\u092a\u093f\u0924 \u0915\u0930\u0947\u0902\u0964"
+        ]
+      },
+      "mr": {
+        "title": "\u092a\u094b\u0930\u094d\u091f\u0932\u0901\u0921 \u0938\u093f\u092e\u0947\u0902\u091f",
+        "summary": "IS 269 \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u092a\u094b\u0930\u094d\u091f\u0932\u0901\u0921 \u0938\u093f\u092e\u0947\u0902\u091f\u0938\u093e\u0920\u0940 \u0924\u092a\u0936\u0940\u0932 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0924\u0947.",
+        "guidance": "\u0938\u093f\u092e\u0947\u0902\u091f\u091a\u0947 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u0906\u0923\u093f \u0935\u093f\u0915\u094d\u0930\u0940 BIS \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u094d\u0930\u092e\u093e\u0923\u0940\u0915\u0930\u0923\u093e\u0902\u0924\u0930\u094d\u0917\u0924 \u092f\u0947\u0924\u0947.",
+        "keywords": [
+          "\u0938\u093f\u092e\u0947\u0902\u091f",
+          "\u092a\u094b\u0930\u094d\u091f\u0932\u0901\u0921 \u0938\u093f\u092e\u0947\u0902\u091f",
+          "IS 269"
+        ],
+        "aliases": [
+          "\u0938\u093f\u092e\u0947\u0902\u091f"
+        ],
+        "requirements": [
+          "\u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u0906\u0923\u093f \u092d\u094c\u0924\u093f\u0915 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e (\u0915\u0949\u092e\u094d\u092a\u094d\u0930\u0947\u0938\u093f\u0935\u094d\u0939 \u0938\u094d\u091f\u094d\u0930\u0947\u0902\u0925, \u0938\u0947\u091f \u0939\u094b\u0923\u094d\u092f\u093e\u091a\u093e \u0935\u0947\u0933)."
+        ],
+        "testing": {
+          "details": [
+            "\u0938\u0945\u092e\u094d\u092a\u0932\u093f\u0902\u0917 \u0906\u0923\u093f \u091a\u093e\u091a\u0923\u0940 \u092e\u093e\u0930\u094d\u0917\u0926\u0930\u094d\u0936\u0915 \u0924\u0924\u094d\u0924\u094d\u0935\u093e\u0902\u0938\u093e\u0920\u0940 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092e\u0945\u0928\u094d\u092f\u0941\u0905\u0932 PM/IS 269 \u092a\u0939\u093e."
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915) - \u0938\u093f\u092e\u0947\u0902\u091f (\u0917\u0941\u0923\u0935\u0924\u094d\u0924\u093e \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0923) \u0906\u0926\u0947\u0936, 2003",
+          "steps": [
+            "BIS \u092a\u094b\u0930\u094d\u091f\u0932\u0926\u094d\u0935\u093e\u0930\u0947 \u0905\u0930\u094d\u091c \u0915\u0930\u093e",
+            "\u092b\u0945\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f",
+            "\u092a\u0930\u0935\u093e\u0928\u093e \u0926\u0947\u0923\u0947"
+          ]
+        },
+        "industry_actions": [
+          "\u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092a\u094d\u0930\u0915\u094d\u0930\u093f\u092f\u093e IS 269 \u0928\u0941\u0938\u093e\u0930 \u0905\u0938\u0932\u094d\u092f\u093e\u091a\u0940 \u0916\u093e\u0924\u094d\u0930\u0940 \u0915\u0930\u093e.",
+          "PM/IS 269 \u0928\u0941\u0938\u093e\u0930 \u0906\u0935\u0936\u094d\u092f\u0915 \u0907\u0928-\u0939\u093e\u090a\u0938 \u091a\u093e\u091a\u0923\u0940 \u0909\u092a\u0915\u0930\u0923\u0947 \u0938\u094d\u0925\u093e\u092a\u093f\u0924 \u0915\u0930\u093e."
+        ]
+      }
+    },
+    "mandatory_status": {
+      "is_mandatory": true,
+      "scheme": "COMPULSORY",
+      "qco_reference": "Cement (Quality Control) Order"
+    },
+    "status": "VERIFIED",
+    "verified": true,
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13"
+  },
+  {
+    "id": "kb-012",
+    "title": "Information Technology Equipment - Safety - General Requirements",
+    "product_domain": "Laptops / Notebooks / Tablets",
+    "service_category": "Compulsory Registration Scheme (CRS)",
+    "standard_number": "IS 13252 Part 1:2010",
+    "standard_title": "Information Technology Equipment - Safety - General Requirements",
+    "topic": "Electronics / IT Goods",
+    "summary": "Mandatory for all laptops, notebooks, and tablets manufactured, imported, or sold in India.",
+    "applicability": "Mandatory for all laptops, notebooks, and tablets manufactured, imported, or sold in India.",
+    "requirements": [
+      "Safety requirements for IT equipment."
+    ],
+    "required_documents": [],
+    "consumer_actions": [
+      "Check for the BIS Standard Mark and Registration Number (R-XXXXXXXX) on the device or packaging.",
+      "Verify the registration via the BIS Care App."
+    ],
+    "industry_actions": [
+      "Get the product tested at a BIS-recognized lab.",
+      "Register under the CRS scheme online.",
+      "Foreign manufacturers must appoint an Authorized Indian Representative (AIR)."
+    ],
+    "next_actions": [],
+    "keywords": [
+      "laptop",
+      "notebook",
+      "tablet",
+      "it goods",
+      "laptops",
+      "notebooks"
+    ],
+    "source_name": "BIS CRS Scheme Portal",
+    "source_url": "https://www.bis.gov.in/registration-scheme/",
+    "source_type": "official",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "source_checked_date": "2026-09-08",
+    "notes_evidence": "MeitY notified product under CRS.",
+    "collected_at": "2026-09-08T18:04:54.355036",
+    "last_verified": null,
+    "revision": 1,
+    "supersedes_id": null,
+    "certification": {
+      "available": true,
+      "scheme": "Scheme-II (Self-Declaration of Conformity)",
+      "steps": [
+        "Test product at recognized lab",
+        "register online on CRS portal",
+        "generate registration number",
+        "apply Standard Mark"
+      ]
+    },
+    "i18n": {
+      "en": {
+        "title": "Information Technology Equipment - Safety - General Requirements",
+        "summary": "Mandatory for all laptops, notebooks, and tablets manufactured, imported, or sold in India.",
+        "guidance": "",
+        "keywords": [
+          "laptop",
+          "notebook",
+          "tablet",
+          "it goods",
+          "laptops",
+          "notebooks"
+        ],
+        "aliases": [
+          "laptop",
+          "notebook",
+          "tablet",
+          "laptops",
+          "notebooks"
+        ]
+      },
+      "hi": {
+        "title": "\u0906\u0908\u091f\u0940 \u0909\u092a\u0915\u0930\u0923 (\u0932\u0948\u092a\u091f\u0949\u092a, \u091f\u0948\u092c\u0932\u0947\u091f)",
+        "summary": "IS 13252 \u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u094c\u0926\u094d\u092f\u094b\u0917\u093f\u0915\u0940 \u0909\u092a\u0915\u0930\u0923\u094b\u0902 (\u091c\u0948\u0938\u0947 \u0932\u0948\u092a\u091f\u0949\u092a, \u091f\u0948\u092c\u0932\u0947\u091f) \u0915\u0947 \u0932\u093f\u090f \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u090f\u0902 \u0928\u093f\u0930\u094d\u0926\u093f\u0937\u094d\u091f \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
+        "guidance": "\u0932\u0948\u092a\u091f\u0949\u092a \u0914\u0930 \u091f\u0948\u092c\u0932\u0947\u091f BIS \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092f\u094b\u091c\u0928\u093e (CRS) \u0915\u0947 \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0906\u0924\u0947 \u0939\u0948\u0902\u0964",
+        "keywords": [
+          "\u0932\u0948\u092a\u091f\u0949\u092a",
+          "\u091f\u0948\u092c\u0932\u0947\u091f",
+          "\u0906\u0908\u091f\u0940 \u0909\u092a\u0915\u0930\u0923",
+          "\u0915\u0902\u092a\u094d\u092f\u0942\u091f\u0930",
+          "IS 13252"
+        ],
+        "aliases": [
+          "\u0932\u0948\u092a\u091f\u0949\u092a",
+          "\u091f\u0948\u092c\u0932\u0947\u091f",
+          "\u0915\u0902\u092a\u094d\u092f\u0942\u091f\u0930"
+        ],
+        "requirements": [
+          "\u0906\u0908\u091f\u0940 (IT) \u0909\u092a\u0915\u0930\u0923\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u090f\u0901\u0964"
+        ],
+        "testing": {
+          "details": [
+            "\u0909\u0924\u094d\u092a\u093e\u0926 \u0915\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923 BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092e\u0947\u0902 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-II (\u0905\u0928\u0941\u0930\u0942\u092a\u0924\u093e \u0915\u0940 \u0938\u094d\u0935-\u0918\u094b\u0937\u0923\u093e / Self-Declaration of Conformity)",
+          "steps": [
+            "\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0932\u0948\u092c \u092e\u0947\u0902 \u0909\u0924\u094d\u092a\u093e\u0926 \u0915\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0915\u0930\u0947\u0902",
+            "CRS \u092a\u094b\u0930\u094d\u091f\u0932 \u092a\u0930 \u0911\u0928\u0932\u093e\u0907\u0928 \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u0915\u0930\u0947\u0902",
+            "\u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u0938\u0902\u0916\u094d\u092f\u093e \u0909\u0924\u094d\u092a\u0928\u094d\u0928 \u0915\u0930\u0947\u0902",
+            "\u092e\u093e\u0928\u0915 \u091a\u093f\u0939\u094d\u0928 (Standard Mark) \u0932\u093e\u0917\u0942 \u0915\u0930\u0947\u0902"
+          ]
+        },
+        "industry_actions": [
+          "BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0932\u0948\u092c \u092e\u0947\u0902 \u0909\u0924\u094d\u092a\u093e\u0926 \u0915\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0915\u0930\u0935\u093e\u090f\u0902\u0964",
+          "CRS \u092f\u094b\u091c\u0928\u093e \u0915\u0947 \u0924\u0939\u0924 \u0911\u0928\u0932\u093e\u0907\u0928 \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u0915\u0930\u0947\u0902\u0964",
+          "\u0935\u093f\u0926\u0947\u0936\u0940 \u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e\u0913\u0902 \u0915\u094b \u090f\u0915 \u0905\u0927\u093f\u0915\u0943\u0924 \u092d\u093e\u0930\u0924\u0940\u092f \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u0927\u093f (AIR) \u0928\u093f\u092f\u0941\u0915\u094d\u0924 \u0915\u0930\u0928\u093e \u0939\u094b\u0917\u093e\u0964"
+        ]
+      },
+      "mr": {
+        "title": "\u0906\u092f\u091f\u0940 \u0909\u092a\u0915\u0930\u0923\u0947 (\u0932\u0945\u092a\u091f\u0949\u092a, \u091f\u0945\u092c\u0932\u0947\u091f)",
+        "summary": "IS 13252 \u092e\u093e\u0939\u093f\u0924\u0940 \u0924\u0902\u0924\u094d\u0930\u091c\u094d\u091e\u093e\u0928 \u0909\u092a\u0915\u0930\u0923\u093e\u0902\u0938\u093e\u0920\u0940 (\u091c\u0938\u0947 \u0932\u0945\u092a\u091f\u0949\u092a, \u091f\u0945\u092c\u0932\u0947\u091f) \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924\u0924\u093e \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u093f\u0930\u094d\u0926\u093f\u0937\u094d\u091f \u0915\u0930\u0924\u0947.",
+        "guidance": "\u0932\u0945\u092a\u091f\u0949\u092a \u0906\u0923\u093f \u091f\u0945\u092c\u0932\u0947\u091f BIS \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0928\u094b\u0902\u0926\u0923\u0940 \u092f\u094b\u091c\u0928\u093e (CRS) \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u092f\u0947\u0924\u093e\u0924.",
+        "keywords": [
+          "\u0932\u0945\u092a\u091f\u0949\u092a",
+          "\u091f\u0945\u092c\u0932\u0947\u091f",
+          "\u0906\u092f\u091f\u0940 \u0909\u092a\u0915\u0930\u0923\u0947",
+          "\u0938\u0902\u0917\u0923\u0915",
+          "IS 13252"
+        ],
+        "aliases": [
+          "\u0932\u0945\u092a\u091f\u0949\u092a",
+          "\u091f\u0945\u092c\u0932\u0947\u091f",
+          "\u0938\u0902\u0917\u0923\u0915"
+        ],
+        "requirements": [
+          "\u0906\u092f\u091f\u0940 (IT) \u0909\u092a\u0915\u0930\u0923\u093e\u0902\u0938\u093e\u0920\u0940 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e."
+        ],
+        "testing": {
+          "details": [
+            "\u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u091a\u0940 \u091a\u093e\u091a\u0923\u0940 BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u0915\u0947\u0932\u0940 \u091c\u093e\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947."
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-II (\u0905\u0928\u0941\u0930\u0942\u092a\u0924\u0947\u091a\u0940 \u0938\u094d\u0935-\u0918\u094b\u0937\u0923\u093e / Self-Declaration of Conformity)",
+          "steps": [
+            "\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0932\u0945\u092c\u092e\u0927\u094d\u092f\u0947 \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u091a\u0940 \u091a\u093e\u091a\u0923\u0940 \u0915\u0930\u093e",
+            "CRS \u092a\u094b\u0930\u094d\u091f\u0932\u0935\u0930 \u0911\u0928\u0932\u093e\u0907\u0928 \u0928\u094b\u0902\u0926\u0923\u0940 \u0915\u0930\u093e",
+            "\u0928\u094b\u0902\u0926\u0923\u0940 \u0915\u094d\u0930\u092e\u093e\u0902\u0915 \u0935\u094d\u092f\u0941\u0924\u094d\u092a\u0928\u094d\u0928 \u0915\u0930\u093e",
+            "\u092e\u093e\u0928\u0915 \u091a\u093f\u0928\u094d\u0939 (Standard Mark) \u0932\u093e\u0917\u0942 \u0915\u0930\u093e"
+          ]
+        },
+        "industry_actions": [
+          "BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0932\u0945\u092c\u092e\u0927\u094d\u092f\u0947 \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u091a\u0940 \u091a\u093e\u091a\u0923\u0940 \u0915\u0930\u0942\u0928 \u0918\u094d\u092f\u093e.",
+          "CRS \u092f\u094b\u091c\u0928\u0947\u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0911\u0928\u0932\u093e\u0907\u0928 \u0928\u094b\u0902\u0926\u0923\u0940 \u0915\u0930\u093e.",
+          "\u092a\u0930\u0926\u0947\u0936\u0940 \u0909\u0924\u094d\u092a\u093e\u0926\u0915\u093e\u0902\u0928\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 \u092d\u093e\u0930\u0924\u0940\u092f \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u0927\u0940 (AIR) \u0928\u093f\u092f\u0941\u0915\u094d\u0924 \u0915\u0930\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947."
+        ]
+      }
+    },
+    "mandatory_status": {
+      "is_mandatory": true,
+      "scheme": "CRS",
+      "qco_reference": "Electronics and IT Goods (Requirement for Compulsory Registration) Order"
+    },
+    "status": "VERIFIED",
+    "verified": true,
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13",
+    "testing": {
+      "available": true,
+      "details": [
+        "Product must be tested at a BIS-recognized laboratory."
+      ]
+    }
+  },
+  {
+    "id": "kb-013",
+    "title": "Protective Helmets for Two Wheeler Riders - Specification",
+    "product_domain": "Protective Helmets for Two-Wheeler Riders",
+    "service_category": "Product Certification (Scheme-I)",
+    "standard_number": "IS 4151:2015",
+    "standard_title": "Protective Helmets for Two Wheeler Riders - Specification",
+    "topic": "Safety Equipment",
+    "summary": "Mandatory for all protective helmets for two-wheeler riders.",
+    "applicability": "Mandatory for all protective helmets for two-wheeler riders.",
+    "requirements": [
+      "Impact absorption, penetration resistance, rigidity, and retention system testing."
+    ],
+    "required_documents": [],
+    "consumer_actions": [
+      "Always buy a helmet with a genuine ISI mark.",
+      "Verify the manufacturer's licence number via the BIS Care App."
+    ],
+    "industry_actions": [
+      "Ensure the helmet conforms to IS 4151 safety specifications.",
+      "Apply for a BIS licence to manufacture or sell."
+    ],
+    "next_actions": [],
+    "documents": [],
+    "keywords": [
+      "helmet",
+      "helmets",
+      "two wheeler"
+    ],
+    "source_name": "BIS Official QCO Portal - Helmets",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "official",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "source_checked_date": "2026-09-08",
+    "notes_evidence": "Subject to strict QCOs. Sale of non-ISI helmets is illegal.",
+    "collected_at": "2026-09-08T18:04:54.355036",
+    "last_verified": null,
+    "revision": 1,
+    "supersedes_id": null,
+    "testing": {
+      "available": true,
+      "details": [
+        "Refer to Product Manual for IS 4151."
+      ]
+    },
+    "certification": {
+      "available": true,
+      "scheme": "Scheme-I (ISI Mark)",
+      "steps": [
+        "Application",
+        "factory audit",
+        "testing",
+        "grant of licence"
+      ]
+    },
+    "i18n": {
+      "en": {
+        "title": "Protective Helmets for Two Wheeler Riders - Specification",
+        "summary": "Mandatory for all protective helmets for two-wheeler riders.",
+        "guidance": "",
+        "keywords": [
+          "helmet",
+          "helmets",
+          "two wheeler"
+        ],
+        "aliases": [
+          "helmet",
+          "helmets"
+        ]
+      },
+      "hi": {
+        "title": "\u0926\u094b\u092a\u0939\u093f\u092f\u093e \u0935\u093e\u0939\u0928 \u091a\u093e\u0932\u0915\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0939\u0947\u0932\u092e\u0947\u091f",
+        "summary": "IS 4151 \u0926\u094b\u092a\u0939\u093f\u092f\u093e \u0935\u093e\u0939\u0928 \u091a\u093e\u0932\u0915\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0939\u0947\u0932\u092e\u0947\u091f \u0915\u0947 \u0935\u093f\u0928\u093f\u0930\u094d\u0926\u0947\u0936\u094b\u0902 \u0915\u094b \u0915\u0935\u0930 \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
+        "guidance": "\u092d\u093e\u0930\u0924 \u092e\u0947\u0902 \u0926\u094b\u092a\u0939\u093f\u092f\u093e \u0939\u0947\u0932\u092e\u0947\u091f \u0915\u0947 \u0932\u093f\u090f BIS \u092a\u094d\u0930\u092e\u093e\u0923\u0928 (ISI \u092e\u093e\u0930\u094d\u0915) \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0939\u0948\u0964",
+        "keywords": [
+          "\u0939\u0947\u0932\u092e\u0947\u091f",
+          "\u0926\u094b\u092a\u0939\u093f\u092f\u093e \u0939\u0947\u0932\u092e\u0947\u091f",
+          "IS 4151"
+        ],
+        "aliases": [
+          "\u0939\u0947\u0932\u092e\u0947\u091f"
+        ],
+        "requirements": [
+          "\u092a\u094d\u0930\u092d\u093e\u0935 \u0905\u0935\u0936\u094b\u0937\u0923 (Impact absorption), \u092a\u094d\u0930\u0935\u0947\u0936 \u092a\u094d\u0930\u0924\u093f\u0930\u094b\u0927 (penetration resistance), \u0915\u0920\u094b\u0930\u0924\u093e, \u0914\u0930 \u092a\u094d\u0930\u0924\u093f\u0927\u093e\u0930\u0923 \u092a\u094d\u0930\u0923\u093e\u0932\u0940 (retention system) \u092a\u0930\u0940\u0915\u094d\u0937\u0923\u0964"
+        ],
+        "testing": {
+          "details": [
+            "IS 4151 \u0915\u0947 \u0932\u093f\u090f \u0909\u0924\u094d\u092a\u093e\u0926 \u092e\u0948\u0928\u0941\u0905\u0932 \u0926\u0947\u0916\u0947\u0902\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915)",
+          "steps": [
+            "\u0906\u0935\u0947\u0926\u0928",
+            "\u092b\u0948\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f",
+            "\u092a\u0930\u0940\u0915\u094d\u0937\u0923",
+            "\u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0928\u093e"
+          ]
+        },
+        "industry_actions": [
+          "\u0938\u0941\u0928\u093f\u0936\u094d\u091a\u093f\u0924 \u0915\u0930\u0947\u0902 \u0915\u093f \u0939\u0947\u0932\u092e\u0947\u091f IS 4151 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0935\u093f\u0928\u093f\u0930\u094d\u0926\u0947\u0936\u094b\u0902 \u0915\u0947 \u0905\u0928\u0941\u0930\u0942\u092a \u0939\u0948\u0964",
+          "\u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u092f\u093e \u092c\u093f\u0915\u094d\u0930\u0940 \u0915\u0947 \u0932\u093f\u090f BIS \u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u0939\u0947\u0924\u0941 \u0906\u0935\u0947\u0926\u0928 \u0915\u0930\u0947\u0902\u0964"
+        ]
+      },
+      "mr": {
+        "title": "\u0926\u0941\u091a\u093e\u0915\u0940 \u091a\u093e\u0932\u0915\u093e\u0902\u0938\u093e\u0920\u0940 \u0939\u0947\u0932\u094d\u092e\u0947\u091f",
+        "summary": "IS 4151 \u0926\u0941\u091a\u093e\u0915\u0940 \u091a\u093e\u0932\u0915\u093e\u0902\u0938\u093e\u0920\u0940 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0939\u0947\u0932\u094d\u092e\u0947\u091f\u091a\u0947 \u0924\u092a\u0936\u0940\u0932 \u0915\u0935\u094d\u0939\u0930 \u0915\u0930\u0924\u0947.",
+        "guidance": "\u092d\u093e\u0930\u0924\u093e\u0924 \u0926\u0941\u091a\u093e\u0915\u0940 \u0939\u0947\u0932\u094d\u092e\u0947\u091f\u0938\u093e\u0920\u0940 BIS \u092a\u094d\u0930\u092e\u093e\u0923\u0928 (ISI \u092e\u093e\u0930\u094d\u0915) \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0906\u0939\u0947.",
+        "keywords": [
+          "\u0939\u0947\u0932\u094d\u092e\u0947\u091f",
+          "\u0926\u0941\u091a\u093e\u0915\u0940 \u0939\u0947\u0932\u094d\u092e\u0947\u091f",
+          "IS 4151"
+        ],
+        "aliases": [
+          "\u0939\u0947\u0932\u094d\u092e\u0947\u091f"
+        ],
+        "requirements": [
+          "\u0907\u092e\u094d\u092a\u0945\u0915\u094d\u091f \u0972\u092c\u0938\u0949\u0930\u094d\u092a\u094d\u0936\u0928, \u092a\u0947\u0928\u093f\u091f\u094d\u0930\u0947\u0936\u0928 \u0930\u0947\u091d\u093f\u0938\u094d\u091f\u0928\u094d\u0938, \u0915\u0921\u0915\u092a\u0923\u093e \u0906\u0923\u093f \u0930\u093f\u091f\u0947\u0928\u094d\u0936\u0928 \u0938\u093f\u0938\u094d\u091f\u0940\u092e \u091a\u093e\u091a\u0923\u0940."
+        ],
+        "testing": {
+          "details": [
+            "IS 4151 \u0938\u093e\u0920\u0940 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092e\u0945\u0928\u094d\u092f\u0941\u0905\u0932 \u092a\u0939\u093e."
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915)",
+          "steps": [
+            "\u0905\u0930\u094d\u091c",
+            "\u092b\u0945\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f",
+            "\u091a\u093e\u091a\u0923\u0940",
+            "\u092a\u0930\u0935\u093e\u0928\u093e \u0926\u0947\u0923\u0947"
+          ]
+        },
+        "industry_actions": [
+          "\u0939\u0947\u0932\u094d\u092e\u0947\u091f IS 4151 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0924\u092a\u0936\u0940\u0932\u093e\u0902\u0928\u0941\u0938\u093e\u0930 \u0905\u0938\u0932\u094d\u092f\u093e\u091a\u0940 \u0916\u093e\u0924\u094d\u0930\u0940 \u0915\u0930\u093e.",
+          "\u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u0915\u093f\u0902\u0935\u093e \u0935\u093f\u0915\u094d\u0930\u0940\u0938\u093e\u0920\u0940 BIS \u092a\u0930\u0935\u093e\u0928\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0905\u0930\u094d\u091c \u0915\u0930\u093e."
+        ]
+      }
+    },
+    "mandatory_status": {
+      "is_mandatory": true,
+      "scheme": "COMPULSORY",
+      "qco_reference": "Two Wheeler Helmets (Quality Control) Order"
+    },
+    "status": "VERIFIED",
+    "verified": true,
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13"
+  },
+  {
+    "id": "kb-014",
+    "title": "Domestic Pressure Cookers - Specification",
+    "product_domain": "Domestic Pressure Cookers",
+    "service_category": "Product Certification (Scheme-I)",
+    "standard_number": "IS 2347:2017",
+    "standard_title": "Domestic Pressure Cookers - Specification",
+    "topic": "Household Appliances",
+    "summary": "Mandatory for all domestic pressure cookers manufactured or sold in India.",
+    "applicability": "Mandatory for all domestic pressure cookers manufactured or sold in India.",
+    "requirements": [
+      "Safety and performance specifications (operating pressure, bursting pressure, material requirements)."
+    ],
+    "required_documents": [],
+    "consumer_actions": [
+      "Verify the ISI mark on the pressure cooker before purchase.",
+      "Ensure the safety valve is intact."
+    ],
+    "industry_actions": [
+      "Comply with IS 2347 specifications.",
+      "Ensure rubber gaskets used also comply with IS 7466."
+    ],
+    "next_actions": [],
+    "documents": [],
+    "keywords": [
+      "cooker",
+      "pressure cooker"
+    ],
+    "source_name": "BIS Official QCO Portal - Pressure Cookers",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "official",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "source_checked_date": "2026-09-08",
+    "notes_evidence": "Frequent CCPA enforcement against non-compliant cookers on e-commerce.",
+    "collected_at": "2026-09-08T18:04:54.355036",
+    "last_verified": null,
+    "revision": 1,
+    "supersedes_id": null,
+    "testing": {
+      "available": true,
+      "details": [
+        "For information on BIS-recognized laboratories and laboratory search, refer to the official BIS LIMS portal. The current ManakAI knowledge base does not independently verify a specific laboratory for IS 2347."
+      ]
+    },
+    "certification": {
+      "available": true,
+      "scheme": "Scheme-I (ISI Mark)",
+      "steps": [
+        "Application",
+        "factory audit",
+        "testing",
+        "grant of licence"
+      ]
+    },
+    "i18n": {
+      "en": {
+        "title": "Domestic Pressure Cookers - Specification",
+        "summary": "Mandatory for all domestic pressure cookers manufactured or sold in India.",
+        "guidance": "",
+        "keywords": [
+          "cooker",
+          "pressure cooker"
+        ],
+        "aliases": [
+          "cooker"
+        ]
+      },
+      "hi": {
+        "title": "\u092a\u094d\u0930\u0947\u0936\u0930 \u0915\u0941\u0915\u0930",
+        "summary": "IS 2347 \u0918\u0930\u0947\u0932\u0942 \u092a\u094d\u0930\u0947\u0936\u0930 \u0915\u0941\u0915\u0930 (\u0915\u091a\u094d\u091a\u093e \u090f\u0932\u094d\u092f\u0942\u092e\u0940\u0928\u093f\u092f\u092e, \u090f\u0932\u094d\u092f\u0942\u092e\u0940\u0928\u093f\u092f\u092e \u092e\u093f\u0936\u094d\u0930 \u0927\u093e\u0924\u0941, \u0938\u094d\u091f\u0947\u0928\u0932\u0947\u0938 \u0938\u094d\u091f\u0940\u0932) \u0915\u0947 \u0932\u093f\u090f \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u0913\u0902 \u0915\u094b \u0928\u093f\u0930\u094d\u0926\u093f\u0937\u094d\u091f \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
+        "guidance": "\u092a\u094d\u0930\u0947\u0936\u0930 \u0915\u0941\u0915\u0930 \u0915\u0947 \u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e\u0913\u0902 \u0915\u094b BIS \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u093e \u0914\u0930 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u092e\u093e\u0928\u0915\u094b\u0902 \u0915\u093e \u092a\u093e\u0932\u0928 \u0915\u0930\u0928\u093e \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0939\u0948\u0964",
+        "keywords": [
+          "\u092a\u094d\u0930\u0947\u0936\u0930 \u0915\u0941\u0915\u0930",
+          "\u0915\u0941\u0915\u0930",
+          "IS 2347"
+        ],
+        "aliases": [
+          "\u0915\u0941\u0915\u0930"
+        ],
+        "requirements": [
+          "\u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0914\u0930 \u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928 \u0935\u093f\u0928\u093f\u0930\u094d\u0926\u0947\u0936 (\u0911\u092a\u0930\u0947\u091f\u093f\u0902\u0917 \u0926\u092c\u093e\u0935, \u092b\u091f\u0928\u0947 \u0915\u093e \u0926\u092c\u093e\u0935, \u0938\u093e\u092e\u0917\u094d\u0930\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u090f\u0901)\u0964"
+        ],
+        "testing": {
+          "details": [
+            "BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e\u0913\u0902 \u0914\u0930 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u0916\u094b\u091c \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u091c\u093e\u0928\u0915\u093e\u0930\u0940 \u0915\u0947 \u0932\u093f\u090f, \u0906\u0927\u093f\u0915\u093e\u0930\u093f\u0915 BIS LIMS \u092a\u094b\u0930\u094d\u091f\u0932 \u0926\u0947\u0916\u0947\u0902\u0964 \u0935\u0930\u094d\u0924\u092e\u093e\u0928 ManakAI \u091c\u094d\u091e\u093e\u0928\u0915\u094b\u0937 IS 2347 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0938\u0940 \u0935\u093f\u0936\u093f\u0937\u094d\u091f \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u0915\u094b \u0938\u094d\u0935\u0924\u0902\u0924\u094d\u0930 \u0930\u0942\u092a \u0938\u0947 \u0938\u0924\u094d\u092f\u093e\u092a\u093f\u0924 \u0928\u0939\u0940\u0902 \u0915\u0930\u0924\u093e \u0939\u0948\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915)",
+          "steps": [
+            "\u0906\u0935\u0947\u0926\u0928",
+            "\u092b\u0948\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f",
+            "\u092a\u0930\u0940\u0915\u094d\u0937\u0923",
+            "\u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0928\u093e"
+          ]
+        },
+        "industry_actions": [
+          "IS 2347 \u0935\u093f\u0928\u093f\u0930\u094d\u0926\u0947\u0936\u094b\u0902 \u0915\u093e \u0905\u0928\u0941\u092a\u093e\u0932\u0928 \u0915\u0930\u0947\u0902\u0964",
+          "\u0938\u0941\u0928\u093f\u0936\u094d\u091a\u093f\u0924 \u0915\u0930\u0947\u0902 \u0915\u093f \u092a\u094d\u0930\u092f\u0941\u0915\u094d\u0924 \u0930\u092c\u0930 \u0917\u093e\u0938\u094d\u0915\u0947\u091f \u092d\u0940 IS 7466 \u0915\u093e \u0905\u0928\u0941\u092a\u093e\u0932\u0928 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902\u0964"
+        ]
+      },
+      "mr": {
+        "title": "\u092a\u094d\u0930\u0947\u0936\u0930 \u0915\u0941\u0915\u0930",
+        "summary": "IS 2347 \u0918\u0930\u0917\u0941\u0924\u0940 \u092a\u094d\u0930\u0947\u0936\u0930 \u0915\u0941\u0915\u0930 (\u0915\u091a\u094d\u091a\u0947 \u0905\u0945\u0932\u094d\u092f\u0941\u092e\u093f\u0928\u093f\u092f\u092e, \u0905\u0945\u0932\u094d\u092f\u0941\u092e\u093f\u0928\u093f\u092f\u092e \u092e\u093f\u0936\u094d\u0930 \u0927\u093e\u0924\u0941, \u0938\u094d\u091f\u0947\u0928\u0932\u0947\u0938 \u0938\u094d\u091f\u0940\u0932) \u0938\u093e\u0920\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u093f\u0930\u094d\u0926\u093f\u0937\u094d\u091f \u0915\u0930\u0924\u0947.",
+        "guidance": "\u092a\u094d\u0930\u0947\u0936\u0930 \u0915\u0941\u0915\u0930\u091a\u094d\u092f\u093e \u0909\u0924\u094d\u092a\u093e\u0926\u0915\u093e\u0902\u0928\u093e BIS \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u092e\u093f\u0933\u0935\u0923\u0947 \u0906\u0923\u093f \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924\u0924\u093e \u092e\u093e\u0928\u0915\u093e\u0902\u091a\u0947 \u092a\u093e\u0932\u0928 \u0915\u0930\u0923\u0947 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0906\u0939\u0947.",
+        "keywords": [
+          "\u092a\u094d\u0930\u0947\u0936\u0930 \u0915\u0941\u0915\u0930",
+          "\u0915\u0941\u0915\u0930",
+          "IS 2347"
+        ],
+        "aliases": [
+          "\u0915\u0941\u0915\u0930"
+        ],
+        "requirements": [
+          "\u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0906\u0923\u093f \u0915\u093e\u0930\u094d\u092f\u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928 \u0924\u092a\u0936\u0940\u0932 (\u0911\u092a\u0930\u0947\u091f\u093f\u0902\u0917 \u0926\u093e\u092c, \u092b\u0941\u091f\u0923\u094d\u092f\u093e\u091a\u093e \u0926\u093e\u092c, \u0938\u093e\u092e\u0917\u094d\u0930\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e)."
+        ],
+        "testing": {
+          "details": [
+            "BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u093e \u0906\u0923\u093f \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u093e \u0936\u094b\u0927\u093e\u091a\u094d\u092f\u093e \u092e\u093e\u0939\u093f\u0924\u0940\u0938\u093e\u0920\u0940, \u0905\u0927\u093f\u0915\u0943\u0924 BIS LIMS \u092a\u094b\u0930\u094d\u091f\u0932 \u092a\u0939\u093e. \u0938\u0927\u094d\u092f\u093e\u091a\u093e ManakAI \u091c\u094d\u091e\u093e\u0928\u0915\u094b\u0937 IS 2347 \u0938\u093e\u0920\u0940 \u0915\u094b\u0923\u0924\u094d\u092f\u093e\u0939\u0940 \u0935\u093f\u0936\u093f\u0937\u094d\u091f \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u091a\u0940 \u0938\u094d\u0935\u0924\u0902\u0924\u094d\u0930\u092a\u0923\u0947 \u092a\u0921\u0924\u093e\u0933\u0923\u0940 \u0915\u0930\u0924 \u0928\u093e\u0939\u0940."
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915)",
+          "steps": [
+            "\u0905\u0930\u094d\u091c",
+            "\u092b\u0945\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f",
+            "\u091a\u093e\u091a\u0923\u0940",
+            "\u092a\u0930\u0935\u093e\u0928\u093e \u0926\u0947\u0923\u0947"
+          ]
+        },
+        "industry_actions": [
+          "IS 2347 \u0924\u092a\u0936\u0940\u0932\u093e\u0902\u091a\u0947 \u092a\u093e\u0932\u0928 \u0915\u0930\u093e.",
+          "\u0935\u093e\u092a\u0930\u0932\u0947\u0932\u0947 \u0930\u092c\u0930 \u0917\u093e\u0938\u094d\u0915\u0947\u091f \u0926\u0947\u0916\u0940\u0932 IS 7466 \u091a\u0947 \u092a\u093e\u0932\u0928 \u0915\u0930\u0924 \u0905\u0938\u0932\u094d\u092f\u093e\u091a\u0940 \u0916\u093e\u0924\u094d\u0930\u0940 \u0915\u0930\u093e."
+        ]
+      }
+    },
+    "mandatory_status": {
+      "is_mandatory": true,
+      "scheme": "COMPULSORY",
+      "qco_reference": "Domestic Pressure Cooker (Quality Control) Order, 2020"
+    },
+    "status": "VERIFIED",
+    "verified": true,
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13",
+    "evidence_metadata": [
+      {
+        "source_url": "https://lims.bis.gov.in/",
+        "source_title": "BIS Laboratory Information Management System",
+        "source_type": "Official BIS Portal",
+        "verification_status": "OFFICIAL_EVIDENCE",
+        "evidence_description": "Establishes LIMS as the official general search portal, but does not explicitly verify a specific laboratory for IS 2347."
+      }
+    ],
+    "change_information": {
+      "status": "UNAVAILABLE",
+      "summary": "",
+      "impact_areas": [],
+      "affected_users": [],
+      "recommended_actions": [],
+      "evidence": []
+    }
+  },
+  {
+    "id": "kb-015",
+    "title": "High strength deformed steel bars and wires for concrete reinforcement",
+    "product_domain": "Steel and Rebars",
+    "service_category": "Product Certification (Scheme-I)",
+    "standard_number": "IS 1786:2008",
+    "standard_title": "High strength deformed steel bars and wires for concrete reinforcement",
+    "topic": "Steel / Construction",
+    "summary": "Mandatory for high strength deformed steel bars and wires used for concrete reinforcement.",
+    "applicability": "Mandatory for high strength deformed steel bars and wires used for concrete reinforcement manufactured or sold in India.",
+    "requirements": [
+      "Physical and chemical requirements (yield stress, tensile strength, elongation)."
+    ],
+    "required_documents": [],
+    "consumer_actions": [
+      "Verify the ISI mark on the steel bundle/tag.",
+      "Check the manufacturer's licence number."
+    ],
+    "industry_actions": [
+      "Comply with IS 1786 specifications.",
+      "Apply for BIS licence."
+    ],
+    "next_actions": [],
+    "documents": [],
+    "keywords": [
+      "steel",
+      "rebars",
+      "tmt",
+      "deformed steel",
+      "concrete reinforcement"
+    ],
+    "source_name": "BIS Official QCO Portal - Steel",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "official",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "source_checked_date": "2026-09-08",
+    "notes_evidence": "Steel Quality Control Order.",
+    "collected_at": "2026-09-08T18:04:54.355036",
+    "last_verified": null,
+    "revision": 1,
+    "supersedes_id": null,
+    "testing": {
+      "available": true,
+      "details": [
+        "Testing for physical and chemical properties."
+      ]
+    },
+    "certification": {
+      "available": true,
+      "scheme": "Scheme-I (ISI Mark)",
+      "steps": [
+        "Application",
+        "factory audit",
+        "testing",
+        "grant of licence"
+      ]
+    },
+    "i18n": {
+      "en": {
+        "title": "High strength deformed steel bars and wires for concrete reinforcement",
+        "summary": "Mandatory for high strength deformed steel bars and wires used for concrete reinforcement.",
+        "guidance": "",
+        "keywords": [
+          "steel",
+          "rebars",
+          "tmt",
+          "deformed steel",
+          "concrete reinforcement"
+        ],
+        "aliases": [
+          "steel",
+          "rebars",
+          "tmt"
+        ]
+      },
+      "hi": {
+        "title": "\u0938\u094d\u091f\u0940\u0932 \u092c\u093e\u0930 (\u0938\u0930\u093f\u092f\u093e)",
+        "summary": "IS 1786 \u0915\u0902\u0915\u094d\u0930\u0940\u091f \u0938\u0941\u0926\u0943\u0922\u0940\u0915\u0930\u0923 \u0915\u0947 \u0932\u093f\u090f \u0909\u091a\u094d\u091a \u0936\u0915\u094d\u0924\u093f \u0935\u093e\u0932\u0947 \u0938\u094d\u091f\u0940\u0932 \u092c\u093e\u0930 (\u0938\u0930\u093f\u092f\u093e) \u0915\u0947 \u0935\u093f\u0928\u093f\u0930\u094d\u0926\u0947\u0936 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
+        "guidance": "\u0938\u094d\u091f\u0940\u0932 \u092c\u093e\u0930 \u0915\u093e \u0928\u093f\u0930\u094d\u092e\u093e\u0923 BIS \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u0915\u0947 \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0906\u0924\u093e \u0939\u0948\u0964",
+        "keywords": [
+          "\u0938\u094d\u091f\u0940\u0932 \u092c\u093e\u0930",
+          "\u0938\u0930\u093f\u092f\u093e",
+          "\u0938\u094d\u091f\u0940\u0932",
+          "IS 1786"
+        ],
+        "aliases": [
+          "\u0938\u0930\u093f\u092f\u093e",
+          "\u0938\u094d\u091f\u0940\u0932"
+        ],
+        "requirements": [
+          "\u092d\u094c\u0924\u093f\u0915 \u0914\u0930 \u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u090f\u0901 (\u092f\u0940\u0932\u094d\u0921 \u0938\u094d\u091f\u094d\u0930\u0947\u0938, \u0924\u0928\u094d\u092f \u0936\u0915\u094d\u0924\u093f (tensile strength), \u092c\u0922\u093c\u093e\u0935 (elongation))\u0964"
+        ],
+        "testing": {
+          "details": [
+            "\u092d\u094c\u0924\u093f\u0915 \u0914\u0930 \u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u0917\u0941\u0923\u094b\u0902 \u0915\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915)",
+          "steps": [
+            "\u0906\u0935\u0947\u0926\u0928",
+            "\u092b\u0948\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f",
+            "\u092a\u0930\u0940\u0915\u094d\u0937\u0923",
+            "\u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0928\u093e"
+          ]
+        },
+        "industry_actions": [
+          "IS 1786 \u0935\u093f\u0928\u093f\u0930\u094d\u0926\u0947\u0936\u094b\u0902 \u0915\u093e \u0905\u0928\u0941\u092a\u093e\u0932\u0928 \u0915\u0930\u0947\u0902\u0964",
+          "BIS \u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u0915\u0947 \u0932\u093f\u090f \u0906\u0935\u0947\u0926\u0928 \u0915\u0930\u0947\u0902\u0964"
+        ]
+      },
+      "mr": {
+        "title": "\u0938\u094d\u091f\u0940\u0932 \u092c\u093e\u0930 (\u0938\u0933\u0908)",
+        "summary": "IS 1786 \u0915\u093e\u0901\u0915\u094d\u0930\u0940\u091f \u092e\u091c\u092c\u0941\u0924\u0940\u0915\u0930\u0923\u093e\u0938\u093e\u0920\u0940 \u0909\u091a\u094d\u091a \u0936\u0915\u094d\u0924\u0940\u091a\u094d\u092f\u093e \u0938\u094d\u091f\u0940\u0932 \u092c\u093e\u0930 (\u0938\u0933\u0908) \u091a\u0947 \u0924\u092a\u0936\u0940\u0932 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0924\u0947.",
+        "guidance": "\u0938\u094d\u091f\u0940\u0932 \u092c\u093e\u0930\u091a\u0947 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 BIS \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u094d\u0930\u092e\u093e\u0923\u0940\u0915\u0930\u0923\u093e\u0902\u0924\u0930\u094d\u0917\u0924 \u092f\u0947\u0924\u0947.",
+        "keywords": [
+          "\u0938\u094d\u091f\u0940\u0932 \u092c\u093e\u0930",
+          "\u0938\u0933\u0908",
+          "\u0938\u094d\u091f\u0940\u0932",
+          "IS 1786"
+        ],
+        "aliases": [
+          "\u0938\u0933\u0908",
+          "\u0938\u094d\u091f\u0940\u0932"
+        ],
+        "requirements": [
+          "\u092d\u094c\u0924\u093f\u0915 \u0906\u0923\u093f \u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e (\u092f\u0940\u0932\u094d\u0921 \u0938\u094d\u091f\u094d\u0930\u0947\u0938, \u091f\u0947\u0928\u094d\u0938\u093e\u0908\u0932 \u0938\u094d\u091f\u094d\u0930\u0947\u0902\u0925, \u0907\u0932\u0949\u0928\u094d\u0917\u0947\u0936\u0928)."
+        ],
+        "testing": {
+          "details": [
+            "\u092d\u094c\u0924\u093f\u0915 \u0906\u0923\u093f \u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u0917\u0941\u0923\u0927\u0930\u094d\u092e\u093e\u0902\u091a\u0940 \u091a\u093e\u091a\u0923\u0940."
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915)",
+          "steps": [
+            "\u0905\u0930\u094d\u091c",
+            "\u092b\u0945\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f",
+            "\u091a\u093e\u091a\u0923\u0940",
+            "\u092a\u0930\u0935\u093e\u0928\u093e \u0926\u0947\u0923\u0947"
+          ]
+        },
+        "industry_actions": [
+          "IS 1786 \u0924\u092a\u0936\u0940\u0932\u093e\u0902\u091a\u0947 \u092a\u093e\u0932\u0928 \u0915\u0930\u093e.",
+          "BIS \u092a\u0930\u0935\u093e\u0928\u094d\u092f\u093e\u0938\u093e\u0920\u0940 \u0905\u0930\u094d\u091c \u0915\u0930\u093e."
+        ]
+      }
+    },
+    "mandatory_status": {
+      "is_mandatory": true,
+      "scheme": "COMPULSORY",
+      "qco_reference": "Steel and Steel Products (Quality Control) Order"
+    },
+    "status": "VERIFIED",
+    "verified": true,
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13"
+  },
+  {
+    "id": "kb-016",
+    "title": "Welded Low Carbon Steel Cylinders for LPG",
+    "product_domain": "LPG Cylinders",
+    "service_category": "Product Certification (Scheme-I)",
+    "standard_number": "IS 3196",
+    "standard_title": "Welded Low Carbon Steel Cylinders Exceeding 5 Litre Water Capacity for Low Pressure Liquefiable Gases - Part 1: Cylinders for Liquefied Petroleum Gases (LPG)",
+    "topic": "LPG Cylinders",
+    "summary": "Mandatory for welded low carbon steel cylinders for LPG exceeding 5 litre water capacity.",
+    "applicability": "Mandatory for all LPG cylinders covered under this standard.",
+    "requirements": [
+      "Material, design, construction, and testing requirements."
+    ],
+    "required_documents": [],
+    "consumer_actions": [
+      "Verify the ISI mark.",
+      "Check the tare weight and test date."
+    ],
+    "industry_actions": [
+      "Comply with IS 3196 Part 1 specifications.",
+      "Ensure mandatory testing of every cylinder."
+    ],
+    "next_actions": [],
+    "documents": [],
+    "keywords": [
+      "lpg",
+      "cylinder",
+      "cylinders",
+      "gas cylinder"
+    ],
+    "source_name": "BIS Official QCO Portal - LPG Cylinders",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "official",
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "source_checked_date": "2026-09-08",
+    "notes_evidence": "Gas Cylinders Rules / QCO.",
+    "collected_at": "2026-09-08T18:04:54.355036",
+    "last_verified": null,
+    "revision": 1,
+    "supersedes_id": null,
+    "testing": {
+      "available": true,
+      "details": [
+        "Hydrostatic stretch test, burst test, and pneumatic test required."
+      ]
+    },
+    "certification": {
+      "available": true,
+      "scheme": "Scheme-I (ISI Mark)",
+      "steps": [
+        "Application",
+        "factory audit",
+        "testing",
+        "grant of licence"
+      ]
+    },
+    "i18n": {
+      "en": {
+        "title": "Welded Low Carbon Steel Cylinders for LPG",
+        "summary": "Mandatory for welded low carbon steel cylinders for LPG exceeding 5 litre water capacity.",
+        "guidance": "",
+        "keywords": [
+          "lpg",
+          "cylinder",
+          "cylinders",
+          "gas cylinder"
+        ],
+        "aliases": [
+          "lpg",
+          "cylinder",
+          "cylinders"
+        ]
+      },
+      "hi": {
+        "title": "\u090f\u0932\u092a\u0940\u091c\u0940 \u0938\u093f\u0932\u0947\u0902\u0921\u0930",
+        "summary": "IS 3196 (\u092d\u093e\u0917 1) \u090f\u0932\u092a\u0940\u091c\u0940 \u0915\u0947 \u0932\u093f\u090f \u0935\u0947\u0932\u094d\u0921\u0947\u0921 \u0915\u092e \u0915\u093e\u0930\u094d\u092c\u0928 \u0938\u094d\u091f\u0940\u0932 \u0938\u093f\u0932\u0947\u0902\u0921\u0930 \u0915\u0947 \u0935\u093f\u0928\u093f\u0930\u094d\u0926\u0947\u0936\u094b\u0902 \u0915\u094b \u0915\u0935\u0930 \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
+        "guidance": "\u090f\u0932\u092a\u0940\u091c\u0940 \u0938\u093f\u0932\u0947\u0902\u0921\u0930 \u0915\u093e \u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f BIS \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u0915\u0947 \u0905\u0927\u0940\u0928 \u0939\u0948\u0964",
+        "keywords": [
+          "\u090f\u0932\u092a\u0940\u091c\u0940 \u0938\u093f\u0932\u0947\u0902\u0921\u0930",
+          "\u0917\u0948\u0938 \u0938\u093f\u0932\u0947\u0902\u0921\u0930",
+          "IS 3196"
+        ],
+        "aliases": [
+          "\u0917\u0948\u0938 \u0938\u093f\u0932\u0947\u0902\u0921\u0930",
+          "\u0938\u093f\u0932\u0947\u0902\u0921\u0930"
+        ],
+        "requirements": [
+          "\u0938\u093e\u092e\u0917\u094d\u0930\u0940, \u0921\u093f\u091c\u093e\u0907\u0928, \u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u0914\u0930 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u090f\u0901\u0964"
+        ],
+        "testing": {
+          "details": [
+            "\u0939\u093e\u0907\u0921\u094d\u0930\u094b\u0938\u094d\u091f\u0947\u091f\u093f\u0915 \u0938\u094d\u091f\u094d\u0930\u0947\u091a \u091f\u0947\u0938\u094d\u091f, \u092c\u0930\u094d\u0938\u094d\u091f \u091f\u0947\u0938\u094d\u091f, \u0914\u0930 \u0928\u094d\u092f\u0942\u092e\u0947\u091f\u093f\u0915 \u091f\u0947\u0938\u094d\u091f \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0939\u094b\u0924\u0940 \u0939\u0948\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915)",
+          "steps": [
+            "\u0906\u0935\u0947\u0926\u0928",
+            "\u092b\u0948\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f",
+            "\u092a\u0930\u0940\u0915\u094d\u0937\u0923",
+            "\u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0928\u093e"
+          ]
+        },
+        "industry_actions": [
+          "IS 3196 \u092d\u093e\u0917 1 \u0935\u093f\u0928\u093f\u0930\u094d\u0926\u0947\u0936\u094b\u0902 \u0915\u093e \u0905\u0928\u0941\u092a\u093e\u0932\u0928 \u0915\u0930\u0947\u0902\u0964",
+          "\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915 \u0938\u093f\u0932\u0947\u0902\u0921\u0930 \u0915\u093e \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0938\u0941\u0928\u093f\u0936\u094d\u091a\u093f\u0924 \u0915\u0930\u0947\u0902\u0964"
+        ]
+      },
+      "mr": {
+        "title": "\u090f\u0932\u092a\u0940\u091c\u0940 \u0938\u093f\u0932\u0947\u0902\u0921\u0930",
+        "summary": "IS 3196 (\u092d\u093e\u0917 1) \u090f\u0932\u092a\u0940\u091c\u0940\u0938\u093e\u0920\u0940 \u0935\u0947\u0932\u094d\u0921\u0947\u0921 \u0932\u094b \u0915\u093e\u0930\u094d\u092c\u0928 \u0938\u094d\u091f\u0940\u0932 \u0938\u093f\u0932\u0947\u0902\u0921\u0930\u091a\u0947 \u0924\u092a\u0936\u0940\u0932 \u0915\u0935\u094d\u0939\u0930 \u0915\u0930\u0924\u0947.",
+        "guidance": "\u090f\u0932\u092a\u0940\u091c\u0940 \u0938\u093f\u0932\u0947\u0902\u0921\u0930\u091a\u0947 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f BIS \u092a\u094d\u0930\u092e\u093e\u0923\u0940\u0915\u0930\u0923\u093e\u091a\u094d\u092f\u093e \u0905\u0927\u0940\u0928 \u0906\u0939\u0947.",
+        "keywords": [
+          "\u090f\u0932\u092a\u0940\u091c\u0940 \u0938\u093f\u0932\u0947\u0902\u0921\u0930",
+          "\u0917\u0945\u0938 \u0938\u093f\u0932\u0947\u0902\u0921\u0930",
+          "IS 3196"
+        ],
+        "aliases": [
+          "\u0917\u0945\u0938 \u0938\u093f\u0932\u0947\u0902\u0921\u0930",
+          "\u0938\u093f\u0932\u0947\u0902\u0921\u0930"
+        ],
+        "requirements": [
+          "\u0938\u093e\u092e\u0917\u094d\u0930\u0940, \u0921\u093f\u091d\u093e\u0907\u0928, \u092c\u093e\u0902\u0927\u0915\u093e\u092e \u0906\u0923\u093f \u091a\u093e\u091a\u0923\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e."
+        ],
+        "testing": {
+          "details": [
+            "\u0939\u093e\u092f\u0921\u094d\u0930\u094b\u0938\u094d\u091f\u0945\u091f\u093f\u0915 \u0938\u094d\u091f\u094d\u0930\u0947\u091a \u091f\u0947\u0938\u094d\u091f, \u092c\u0930\u094d\u0938\u094d\u091f \u091f\u0947\u0938\u094d\u091f \u0906\u0923\u093f \u0928\u094d\u092f\u0942\u092e\u0945\u091f\u093f\u0915 \u091f\u0947\u0938\u094d\u091f \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947."
+          ]
+        },
+        "certification": {
+          "scheme": "\u092f\u094b\u091c\u0928\u093e-I (ISI \u092e\u093e\u0930\u094d\u0915)",
+          "steps": [
+            "\u0905\u0930\u094d\u091c",
+            "\u092b\u0945\u0915\u094d\u091f\u0930\u0940 \u0911\u0921\u093f\u091f",
+            "\u091a\u093e\u091a\u0923\u0940",
+            "\u092a\u0930\u0935\u093e\u0928\u093e \u0926\u0947\u0923\u0947"
+          ]
+        },
+        "industry_actions": [
+          "IS 3196 \u092d\u093e\u0917 1 \u0924\u092a\u0936\u0940\u0932\u093e\u0902\u091a\u0947 \u092a\u093e\u0932\u0928 \u0915\u0930\u093e.",
+          "\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915 \u0938\u093f\u0932\u0947\u0902\u0921\u0930\u091a\u0940 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u091a\u093e\u091a\u0923\u0940 \u0938\u0941\u0928\u093f\u0936\u094d\u091a\u093f\u0924 \u0915\u0930\u093e."
+        ]
+      }
+    },
+    "mandatory_status": {
+      "is_mandatory": true,
+      "scheme": "Scheme-I",
+      "qco_reference": "Welded Cylinders (Quality Control) Order"
+    },
+    "status": "VERIFIED",
+    "verified": true,
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13"
+  },
+  {
+    "id": "kb-018",
+    "title": "Information Technology Equipment (Laptops)",
+    "standard_number": "IS 13252 (Part 1)",
+    "topic": "Electronics / IT",
+    "summary": "IS 13252 (Part 1) covers safety requirements for IT equipment including laptops, notebooks, and tablets. It falls under the Compulsory Registration Scheme (CRS).",
+    "applicability": "Applies to mains-powered or battery-powered information technology equipment, including electrical business equipment.",
+    "requirements": [
+      "Electrical safety tests",
+      "Thermal testing",
+      "Component compliance"
+    ],
+    "testing": {
+      "available": true,
+      "details": [
+        "Product must be tested at a BIS-recognised laboratory."
+      ]
+    },
+    "certification": {
+      "available": true,
+      "scheme": "Compulsory Registration Scheme (CRS)",
+      "steps": [
+        "Test at recognised lab.",
+        "Online registration on CRS portal with test report.",
+        "Apply Standard Mark after approval."
+      ]
+    },
+    "required_documents": [],
+    "next_actions": [
+      "Get product tested.",
+      "Create CRS login.",
+      "Submit test report and apply."
+    ],
+    "guidance": "Manufacturers must get their products tested at BIS recognised labs and register under CRS to obtain the standard mark.",
+    "keywords": [
+      "laptops",
+      "notebooks",
+      "is 13252",
+      "crs",
+      "electronics",
+      "meity"
+    ],
+    "source_name": "BIS CRS Portal",
+    "source_url": "https://www.crsbis.in",
+    "verified": false,
+    "i18n": {
+      "en": {
+        "title": "Information Technology Equipment - Safety",
+        "summary": "IS 13252 (Part 1) covers safety requirements for IT equipment including laptops, notebooks, and tablets. It falls under the Compulsory Registration Scheme (CRS).",
+        "guidance": "Manufacturers must get their products tested at BIS recognised labs and register under CRS to obtain the standard mark.",
+        "keywords": [
+          "laptops",
+          "notebooks",
+          "is 13252",
+          "crs",
+          "electronics",
+          "meity"
+        ],
+        "aliases": [
+          "laptop",
+          "tablet"
+        ]
+      },
+      "hi": {
+        "title": "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u094c\u0926\u094d\u092f\u094b\u0917\u093f\u0915\u0940 \u0909\u092a\u0915\u0930\u0923 - \u0938\u0941\u0930\u0915\u094d\u0937\u093e",
+        "summary": "IS 13252 (\u092d\u093e\u0917 1) \u092e\u0947\u0902 \u0932\u0948\u092a\u091f\u0949\u092a, \u0928\u094b\u091f\u092c\u0941\u0915 \u0914\u0930 \u091f\u0948\u092c\u0932\u0947\u091f \u0938\u0939\u093f\u0924 \u0906\u0908\u091f\u0940 \u0909\u092a\u0915\u0930\u0923\u094b\u0902 \u0915\u0940 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u090f\u0902 \u0936\u093e\u092e\u093f\u0932 \u0939\u0948\u0902\u0964 \u092f\u0939 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092f\u094b\u091c\u0928\u093e (CRS) \u0915\u0947 \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0906\u0924\u093e \u0939\u0948\u0964",
+        "guidance": "\u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e\u0913\u0902 \u0915\u094b BIS \u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e\u0913\u0902 \u092e\u0947\u0902 \u0905\u092a\u0928\u0947 \u0909\u0924\u094d\u092a\u093e\u0926\u094b\u0902 \u0915\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0915\u0930\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f \u0914\u0930 \u092e\u093e\u0928\u0915 \u091a\u093f\u0939\u094d\u0928 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f CRS \u0915\u0947 \u0924\u0939\u0924 \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u0915\u0930\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964",
+        "keywords": [
+          "\u0932\u0948\u092a\u091f\u0949\u092a",
+          "\u0928\u094b\u091f\u092c\u0941\u0915",
+          "is 13252",
+          "crs",
+          "\u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928\u093f\u0915\u094d\u0938"
+        ],
+        "aliases": [
+          "\u0932\u0948\u092a\u091f\u0949\u092a",
+          "\u091f\u0948\u092c\u0932\u0947\u091f"
+        ],
+        "requirements": [
+          "\u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923",
+          "\u0925\u0930\u094d\u092e\u0932 \u092a\u0930\u0940\u0915\u094d\u0937\u0923",
+          "\u0918\u091f\u0915 \u0905\u0928\u0941\u0930\u0942\u092a\u0924\u093e"
+        ],
+        "testing": {
+          "details": [
+            "\u0909\u0924\u094d\u092a\u093e\u0926 \u0915\u093e \u092a\u0930\u0940\u0915\u094d\u0937\u0923 BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u092e\u0947\u0902 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964"
+          ]
+        },
+        "certification": {
+          "scheme": "Compulsory Registration Scheme (CRS)",
+          "steps": [
+            "\u092e\u093e\u0928\u094d\u092f\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0932\u0948\u092c \u092e\u0947\u0902 \u092a\u0930\u0940\u0915\u094d\u0937\u0923\u0964",
+            "\u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0930\u093f\u092a\u094b\u0930\u094d\u091f \u0915\u0947 \u0938\u093e\u0925 CRS \u092a\u094b\u0930\u094d\u091f\u0932 \u092a\u0930 \u0911\u0928\u0932\u093e\u0907\u0928 \u092a\u0902\u091c\u0940\u0915\u0930\u0923\u0964",
+            "\u0905\u0928\u0941\u092e\u094b\u0926\u0928 \u0915\u0947 \u092c\u093e\u0926 \u092e\u093e\u0928\u0915 \u091a\u093f\u0939\u094d\u0928 \u0932\u093e\u0917\u0942 \u0915\u0930\u0947\u0902\u0964"
+          ]
+        },
+        "industry_actions": []
+      },
+      "mr": {
+        "title": "\u092e\u093e\u0939\u093f\u0924\u0940 \u0924\u0902\u0924\u094d\u0930\u091c\u094d\u091e\u093e\u0928 \u0909\u092a\u0915\u0930\u0923\u0947 - \u0938\u0941\u0930\u0915\u094d\u0937\u093e",
+        "summary": "IS 13252 (\u092d\u093e\u0917 1) \u092e\u0927\u094d\u092f\u0947 \u0932\u0945\u092a\u091f\u0949\u092a, \u0928\u094b\u091f\u092c\u0941\u0915 \u0906\u0923\u093f \u091f\u0945\u092c\u094d\u0932\u0947\u091f\u0938\u0939 \u0906\u092f\u091f\u0940 \u0909\u092a\u0915\u0930\u0923\u093e\u0902\u091a\u094d\u092f\u093e \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u0902\u091a\u093e \u0938\u092e\u093e\u0935\u0947\u0936 \u0906\u0939\u0947. \u0939\u0947 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0928\u094b\u0902\u0926\u0923\u0940 \u092f\u094b\u091c\u0928\u0947 (CRS) \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u092f\u0947\u0924\u0947.",
+        "guidance": "\u0909\u0924\u094d\u092a\u093e\u0926\u0915\u093e\u0902\u0928\u0940 \u0924\u094d\u092f\u093e\u0902\u091a\u094d\u092f\u093e \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u0902\u091a\u0940 BIS \u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u093e\u0902\u092e\u0927\u094d\u092f\u0947 \u091a\u093e\u091a\u0923\u0940 \u0915\u0930\u0942\u0928 \u0918\u0947\u0923\u0947 \u0906\u0923\u093f \u092e\u093e\u0928\u0915 \u091a\u093f\u0928\u094d\u0939 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0923\u094d\u092f\u093e\u0938\u093e\u0920\u0940 CRS \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0928\u094b\u0902\u0926\u0923\u0940 \u0915\u0930\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947.",
+        "keywords": [
+          "\u0932\u0945\u092a\u091f\u0949\u092a",
+          "\u0928\u094b\u091f\u092c\u0941\u0915",
+          "is 13252",
+          "crs",
+          "\u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928\u093f\u0915\u094d\u0938"
+        ],
+        "aliases": [
+          "\u0932\u0945\u092a\u091f\u0949\u092a",
+          "\u091f\u0945\u092c\u094d\u0932\u0947\u091f"
+        ],
+        "requirements": [
+          "\u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u091a\u093e\u091a\u0923\u0940",
+          "\u0925\u0930\u094d\u092e\u0932 \u091a\u093e\u091a\u0923\u0940",
+          "\u0918\u091f\u0915 \u0905\u0928\u0941\u0930\u0942\u092a\u0924\u093e"
+        ],
+        "testing": {
+          "details": [
+            "\u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u091a\u0940 \u091a\u093e\u091a\u0923\u0940 BIS-\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u0915\u0947\u0932\u0940 \u091c\u093e\u0935\u0940."
+          ]
+        },
+        "certification": {
+          "scheme": "Compulsory Registration Scheme (CRS)",
+          "steps": [
+            "\u092e\u093e\u0928\u094d\u092f\u0924\u093e\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0933\u0947\u0924 \u091a\u093e\u091a\u0923\u0940.",
+            "\u091a\u093e\u091a\u0923\u0940 \u0905\u0939\u0935\u093e\u0932\u093e\u0938\u0939 CRS \u092a\u094b\u0930\u094d\u091f\u0932\u0935\u0930 \u0911\u0928\u0932\u093e\u0907\u0928 \u0928\u094b\u0902\u0926\u0923\u0940.",
+            "\u092e\u0902\u091c\u0941\u0930\u0940\u0928\u0902\u0924\u0930 \u092e\u093e\u0928\u0915 \u091a\u093f\u0928\u094d\u0939 \u0932\u093e\u0917\u0942 \u0915\u0930\u093e."
+          ]
+        },
+        "industry_actions": []
+      }
+    },
+    "status": "PENDING",
+    "retrieved_at": "2026-09-13",
+    "verified_at": "2026-09-13",
+    "mandatory_status": {
+      "is_mandatory": false,
+      "scheme": "SERVICE_GUIDANCE",
+      "qco_reference": null
+    }
+  },
+  {
+    "id": "kb-019",
+    "title": "Mobile / Smartphones",
+    "product_name": "Mobile Phones",
+    "standard_number": "IS/IEC 62368-1:2023 / IS 13252 (Part 1):2010",
+    "aliases": [
+      "mobile phone",
+      "smartphone",
+      "smart phone",
+      "\u092e\u094b\u092c\u093e\u0907\u0932",
+      "\u0938\u094d\u092e\u093e\u0930\u094d\u091f\u092b\u094b\u0928",
+      "\u092e\u094b\u092c\u093e\u0908\u0932",
+      "\u0938\u094d\u092e\u093e\u0930\u094d\u091f\u092b\u094b\u0928"
+    ],
+    "status": "VERIFIED",
+    "verified": true,
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "mandatory_status": {
+      "is_mandatory": true,
+      "scheme": "CRS",
+      "qco_reference": "MeitY CRS Scheme"
+    },
+    "source_name": "BIS Compulsory Registration Scheme (CRS) Products List",
+    "source_url": "https://www.crsbis.in/BIS/products.do",
+    "source_title": "BIS Compulsory Registration Scheme",
+    "retrieved_at": "2026-09-13T12:00:00Z",
+    "verified_at": "2026-09-13T12:00:00Z",
+    "i18n": {
+      "en": {
+        "summary": "Mandatory for all Mobile Phones / Smartphones under the CRS scheme. Migration from IS 13252 (Part 1):2010 to IS/IEC 62368-1:2023 is currently in effect.",
+        "guidance": "Mobile phones must be registered under the BIS Compulsory Registration Scheme (CRS). Note: BIS has notified a migration from IS 13252 (Part 1):2010 to IS/IEC 62368-1:2023. Check official sources for current deadlines.",
+        "title": "Mobile / Smartphones",
+        "aliases": [
+          "mobile phone",
+          "smartphone",
+          "smart phone"
+        ]
+      },
+      "hi": {
+        "summary": "CRS \u092f\u094b\u091c\u0928\u093e \u0915\u0947 \u0924\u0939\u0924 \u0938\u092d\u0940 \u092e\u094b\u092c\u093e\u0907\u0932 \u092b\u094b\u0928 / \u0938\u094d\u092e\u093e\u0930\u094d\u091f\u092b\u094b\u0928 \u0915\u0947 \u0932\u093f\u090f \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f\u0964 \u0909\u0924\u094d\u092a\u093e\u0926 \u0915\u093e \u0926\u093e\u092f\u0930\u093e \u0915\u0921\u093c\u093e\u0908 \u0938\u0947 \u092e\u094b\u092c\u093e\u0907\u0932 \u092b\u094b\u0928 \u0915\u094b \u0915\u0935\u0930 \u0915\u0930\u0924\u093e \u0939\u0948\u0964",
+        "guidance": "\u092d\u093e\u0930\u0924 \u092e\u0947\u0902 \u092c\u0947\u091a\u0947 \u091c\u093e\u0928\u0947 \u092f\u093e \u0906\u092f\u093e\u0924 \u0915\u093f\u090f \u091c\u093e\u0928\u0947 \u0938\u0947 \u092a\u0939\u0932\u0947, \u092e\u094b\u092c\u093e\u0907\u0932 \u092b\u094b\u0928 \u0915\u094b IS 13252 (Part 1):2010 \u0915\u0947 \u0905\u0928\u0941\u0938\u093e\u0930 BIS \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092f\u094b\u091c\u0928\u093e (CRS) \u0915\u0947 \u0924\u0939\u0924 \u092a\u0902\u091c\u0940\u0915\u0943\u0924 \u0939\u094b\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964",
+        "title": "\u092e\u094b\u092c\u093e\u0907\u0932",
+        "aliases": [
+          "\u092e\u094b\u092c\u093e\u0907\u0932",
+          "\u0938\u094d\u092e\u093e\u0930\u094d\u091f\u092b\u094b\u0928",
+          "\u092e\u094b\u092c\u093e\u0908\u0932",
+          "\u0938\u094d\u092e\u093e\u0930\u094d\u091f\u092b\u094b\u0928"
+        ],
+        "certification": {
+          "available": true,
+          "scheme": "\u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092f\u094b\u091c\u0928\u093e (CRS)",
+          "steps": [
+            "\u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e\u0913\u0902 \u0915\u094b \u0906\u0927\u093f\u0915\u093e\u0930\u093f\u0915 CRS \u092a\u094b\u0930\u094d\u091f\u0932 (crsbis.in) \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092f\u094b\u091c\u0928\u093e (CRS) \u0915\u0947 \u0924\u0939\u0924 BIS \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u093e \u0939\u094b\u0917\u093e\u0964"
+          ]
+        }
+      },
+      "mr": {
+        "summary": "CRS \u092f\u094b\u091c\u0928\u0947\u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0938\u0930\u094d\u0935 \u092e\u094b\u092c\u093e\u0908\u0932 \u092b\u094b\u0928 / \u0938\u094d\u092e\u093e\u0930\u094d\u091f\u092b\u094b\u0928\u0938\u093e\u0920\u0940 \u0938\u0915\u094d\u0924\u0940\u091a\u0947. \u0909\u0924\u094d\u092a\u093e\u0926\u0928\u093e\u091a\u0940 \u0935\u094d\u092f\u093e\u092a\u094d\u0924\u0940 \u0915\u0920\u094b\u0930\u092a\u0923\u0947 \u092e\u094b\u092c\u093e\u0908\u0932 \u092b\u094b\u0928\u0932\u093e \u0915\u0935\u094d\u0939\u0930 \u0915\u0930\u0924\u0947.",
+        "guidance": "\u092d\u093e\u0930\u0924\u093e\u0924 \u0935\u093f\u0915\u0923\u094d\u092f\u093e\u092a\u0942\u0930\u094d\u0935\u0940 \u0915\u093f\u0902\u0935\u093e \u0906\u092f\u093e\u0924 \u0915\u0930\u0923\u094d\u092f\u093e\u092a\u0942\u0930\u094d\u0935\u0940, \u092e\u094b\u092c\u093e\u0908\u0932 \u092b\u094b\u0928\u091a\u0940 IS 13252 (Part 1):2010 \u0928\u0941\u0938\u093e\u0930 BIS \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0928\u094b\u0902\u0926\u0923\u0940 \u092f\u094b\u091c\u0928\u093e (CRS) \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0928\u094b\u0902\u0926\u0923\u0940 \u0939\u094b\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947.",
+        "title": "\u0938\u094d\u092e\u093e\u0930\u094d\u091f\u092b\u094b\u0928",
+        "aliases": [
+          "\u092e\u094b\u092c\u093e\u0907\u0932",
+          "\u0938\u094d\u092e\u093e\u0930\u094d\u091f\u092b\u094b\u0928",
+          "\u092e\u094b\u092c\u093e\u0908\u0932",
+          "\u0938\u094d\u092e\u093e\u0930\u094d\u091f\u092b\u094b\u0928"
+        ],
+        "certification": {
+          "available": true,
+          "scheme": "\u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0928\u094b\u0902\u0926\u0923\u0940 \u092f\u094b\u091c\u0928\u093e (CRS)",
+          "steps": [
+            "\u0909\u0924\u094d\u092a\u093e\u0926\u0915\u093e\u0902\u0928\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 CRS \u092a\u094b\u0930\u094d\u091f\u0932 (crsbis.in) \u0926\u094d\u0935\u093e\u0930\u0947 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0928\u094b\u0902\u0926\u0923\u0940 \u092f\u094b\u091c\u0928\u093e (CRS) \u0905\u0902\u0924\u0930\u094d\u0917\u0924 BIS \u0928\u094b\u0902\u0926\u0923\u0940 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947."
+          ]
+        }
+      }
+    },
+    "topic": "Mobile Phones",
+    "summary": "Mandatory for all Mobile Phones / Smartphones under the CRS scheme. Migration from IS 13252 (Part 1):2010 to IS/IEC 62368-1:2023 is currently in effect.",
+    "guidance": "Mobile phones must be registered under the BIS Compulsory Registration Scheme (CRS). Note: BIS has notified a migration from IS 13252 (Part 1):2010 to IS/IEC 62368-1:2023. Check official sources for current deadlines.",
+    "certification": {
+      "available": true,
+      "scheme": "Compulsory Registration Scheme (CRS)",
+      "steps": [
+        "Manufacturers must obtain BIS registration under the Compulsory Registration Scheme (CRS) via the official CRS portal (crsbis.in)."
+      ]
+    },
+    "evidence_metadata": [
+      {
+        "source_url": "https://www.crsbis.in/",
+        "source_title": "BIS Compulsory Registration Scheme Portal",
+        "source_type": "Official BIS Portal",
+        "verification_status": "OFFICIAL_EVIDENCE",
+        "evidence_description": "Establishes CRS as the mandatory certification pathway for this electronic product."
+      }
+    ],
+    "change_information": {
+      "status": "UNAVAILABLE",
+      "summary": "",
+      "impact_areas": [],
+      "affected_users": [],
+      "recommended_actions": [],
+      "evidence": []
+    },
+    "testing": {
+      "required": true,
+      "laboratory_type": "BIS-recognized laboratory",
+      "guidance": "Generate the CRS Test Request and proceed with product testing through a BIS-recognized laboratory.",
+      "source_name": "Official BIS LIMS directory for BIS-recognized laboratories",
+      "source_url": "https://lims.bis.gov.in/home/labs/"
+    },
+    "documents": [
+      {
+        "title": "PAN",
+        "purpose": "Permanent Account Number for entity identification.",
+        "source_name": "Authorized PAN Service (Protean/NSDL)",
+        "source_url": "https://www.onlineservices.nsdl.com/"
+      },
+      {
+        "title": "GST",
+        "purpose": "Goods and Services Tax registration.",
+        "source_name": "GST Portal",
+        "source_url": "https://reg.gst.gov.in/registration/"
+      },
+      {
+        "title": "Incorporation",
+        "purpose": "Certificate of Incorporation for the company.",
+        "source_name": "Ministry of Corporate Affairs",
+        "source_url": "https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation/spice.html"
+      },
+      {
+        "title": "Brand Authorization",
+        "purpose": "Authorization document from the brand owner/manufacturer.",
+        "source_name": "No single government portal - obtain from brand owner/manufacturer"
+      },
+      {
+        "title": "Test Report",
+        "purpose": "Test report from the relevant BIS-recognized laboratory.",
+        "source_name": "BIS-recognized laboratory"
+      }
+    ],
+    "compliance_journey": {
+      "scheme": "Compulsory Registration Scheme (CRS)",
+      "scheme_source_name": "BIS CRS Portal",
+      "scheme_source_url": "https://www.crsbis.in/",
+      "steps": [
+        "Check product applicability",
+        "Generate Test Request",
+        "Select BIS-recognized laboratory",
+        "Submit product/sample for testing",
+        "Obtain and verify test report",
+        "Apply using the verified test report",
+        "Submit required documents"
+      ],
+      "next_action": "Generate the CRS Test Request and proceed with product testing through a BIS-recognized laboratory."
+    }
+  },
+  {
+    "id": "kb-020",
+    "title": "Power Banks",
+    "product_name": "Power Banks",
+    "standard_number": "IS/IEC 62368-1:2023 / IS 13252 (Part 1):2010",
+    "aliases": [
+      "power bank",
+      "portable power bank",
+      "\u092a\u093e\u0935\u0930 \u092c\u0948\u0902\u0915",
+      "\u092a\u0949\u0935\u0930 \u092c\u0901\u0915"
+    ],
+    "status": "VERIFIED",
+    "verified": true,
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "mandatory_status": {
+      "is_mandatory": true,
+      "scheme": "CRS",
+      "qco_reference": "MeitY CRS Scheme"
+    },
+    "source_name": "BIS Compulsory Registration Scheme (CRS) Products List",
+    "source_url": "https://crsbis.in/BIS/products.do",
+    "source_title": "BIS Compulsory Registration Scheme",
+    "retrieved_at": "2026-09-13T12:00:00Z",
+    "verified_at": "2026-09-13T12:00:00Z",
+    "i18n": {
+      "en": {
+        "summary": "Mandatory for Power Banks for use in portable applications. Note: this applies to the power bank unit; internal cells fall under IS 16046.",
+        "guidance": "Power banks for portable use require compulsory CRS registration under IS 13252 (Part 1):2010.",
+        "title": "Power Banks",
+        "aliases": [
+          "power bank",
+          "portable power bank"
+        ]
+      },
+      "hi": {
+        "summary": "\u092a\u094b\u0930\u094d\u091f\u0947\u092c\u0932 \u0909\u092a\u092f\u094b\u0917 \u0915\u0947 \u0932\u093f\u090f \u092a\u093e\u0935\u0930 \u092c\u0948\u0902\u0915 \u0915\u0947 \u0932\u093f\u090f \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f\u0964 \u0927\u094d\u092f\u093e\u0928 \u0926\u0947\u0902: \u092f\u0939 \u092a\u093e\u0935\u0930 \u092c\u0948\u0902\u0915 \u092f\u0942\u0928\u093f\u091f \u092a\u0930 \u0932\u093e\u0917\u0942 \u0939\u094b\u0924\u093e \u0939\u0948; \u0906\u0902\u0924\u0930\u093f\u0915 \u0938\u0947\u0932 IS 16046 \u0915\u0947 \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0906\u0924\u0947 \u0939\u0948\u0902\u0964",
+        "guidance": "\u092a\u094b\u0930\u094d\u091f\u0947\u092c\u0932 \u0909\u092a\u092f\u094b\u0917 \u0915\u0947 \u0932\u093f\u090f \u092a\u093e\u0935\u0930 \u092c\u0948\u0902\u0915 \u0915\u094b IS 13252 (Part 1):2010 \u0915\u0947 \u0924\u0939\u0924 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f CRS \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0939\u094b\u0924\u0940 \u0939\u0948\u0964",
+        "title": "\u092a\u093e\u0935\u0930 \u092c\u0948\u0902\u0915",
+        "aliases": [
+          "\u092a\u093e\u0935\u0930 \u092c\u0948\u0902\u0915",
+          "\u092a\u0949\u0935\u0930 \u092c\u0901\u0915"
+        ],
+        "certification": {
+          "available": true,
+          "scheme": "\u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092f\u094b\u091c\u0928\u093e (CRS)",
+          "steps": [
+            "\u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e\u0913\u0902 \u0915\u094b \u0906\u0927\u093f\u0915\u093e\u0930\u093f\u0915 CRS \u092a\u094b\u0930\u094d\u091f\u0932 (crsbis.in) \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092f\u094b\u091c\u0928\u093e (CRS) \u0915\u0947 \u0924\u0939\u0924 BIS \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u093e \u0939\u094b\u0917\u093e\u0964"
+          ]
+        }
+      },
+      "mr": {
+        "summary": "\u092a\u094b\u0930\u094d\u091f\u0947\u092c\u0932 \u0935\u093e\u092a\u0930\u093e\u0938\u093e\u0920\u0940 \u092a\u0949\u0935\u0930 \u092c\u0901\u0915\u094d\u0938\u0938\u093e\u0920\u0940 \u0938\u0915\u094d\u0924\u0940\u091a\u0947. \u0928\u094b\u0902\u0926: \u0939\u0947 \u092a\u0949\u0935\u0930 \u092c\u0901\u0915 \u092f\u0941\u0928\u093f\u091f\u0935\u0930 \u0932\u093e\u0917\u0942 \u0939\u094b\u0924\u0947; \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0938\u0947\u0932 IS 16046 \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u092f\u0947\u0924\u093e\u0924.",
+        "guidance": "\u092a\u094b\u0930\u094d\u091f\u0947\u092c\u0932 \u0935\u093e\u092a\u0930\u093e\u0938\u093e\u0920\u0940 \u092a\u0949\u0935\u0930 \u092c\u0901\u0915\u094d\u0938\u0928\u093e IS 13252 (Part 1):2010 \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0938\u0915\u094d\u0924\u0940\u091a\u0940 CRS \u0928\u094b\u0902\u0926\u0923\u0940 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947.",
+        "title": "\u092a\u0949\u0935\u0930 \u092c\u0901\u0915",
+        "aliases": [
+          "\u092a\u093e\u0935\u0930 \u092c\u0948\u0902\u0915",
+          "\u092a\u0949\u0935\u0930 \u092c\u0901\u0915"
+        ],
+        "certification": {
+          "available": true,
+          "scheme": "\u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0928\u094b\u0902\u0926\u0923\u0940 \u092f\u094b\u091c\u0928\u093e (CRS)",
+          "steps": [
+            "\u0909\u0924\u094d\u092a\u093e\u0926\u0915\u093e\u0902\u0928\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 CRS \u092a\u094b\u0930\u094d\u091f\u0932 (crsbis.in) \u0926\u094d\u0935\u093e\u0930\u0947 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0928\u094b\u0902\u0926\u0923\u0940 \u092f\u094b\u091c\u0928\u093e (CRS) \u0905\u0902\u0924\u0930\u094d\u0917\u0924 BIS \u0928\u094b\u0902\u0926\u0923\u0940 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947."
+          ]
+        }
+      }
+    },
+    "topic": "Power Banks",
+    "summary": "Mandatory for Power Banks for use in portable applications. Note: this applies to the power bank unit; internal cells fall under IS 16046.",
+    "guidance": "Power banks for portable use require compulsory CRS registration under IS 13252 (Part 1):2010.",
+    "certification": {
+      "available": true,
+      "scheme": "Compulsory Registration Scheme (CRS)",
+      "steps": [
+        "Manufacturers must obtain BIS registration under the Compulsory Registration Scheme (CRS) via the official CRS portal (crsbis.in)."
+      ]
+    },
+    "evidence_metadata": [
+      {
+        "source_url": "https://www.crsbis.in/",
+        "source_title": "BIS Compulsory Registration Scheme Portal",
+        "source_type": "Official BIS Portal",
+        "verification_status": "OFFICIAL_EVIDENCE",
+        "evidence_description": "Establishes CRS as the mandatory certification pathway for this electronic product."
+      }
+    ],
+    "change_information": {
+      "status": "UNAVAILABLE",
+      "summary": "",
+      "impact_areas": [],
+      "affected_users": [],
+      "recommended_actions": [],
+      "evidence": []
+    }
+  },
+  {
+    "id": "kb-021",
+    "title": "LED Bulbs / Lamps",
+    "product_name": "LED Bulbs",
+    "standard_number": "IS 16102 (Part 1):2012",
+    "aliases": [
+      "LED bulb",
+      "LED lamp",
+      "\u090f\u0932\u0908\u0921\u0940 \u092c\u0932\u094d\u092c",
+      "\u090f\u0932\u0908\u0921\u0940 \u0926\u093f\u0935\u093e"
+    ],
+    "status": "VERIFIED",
+    "verified": true,
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "mandatory_status": {
+      "is_mandatory": true,
+      "scheme": "CRS",
+      "qco_reference": "MeitY CRS Scheme"
+    },
+    "source_name": "BIS Compulsory Registration Scheme (CRS) Products List",
+    "source_url": "https://crsbis.in/BIS/products.do",
+    "source_title": "BIS Compulsory Registration Scheme",
+    "retrieved_at": "2026-09-13T12:00:00Z",
+    "verified_at": "2026-09-13T12:00:00Z",
+    "i18n": {
+      "en": {
+        "summary": "Mandatory for self-ballasted LED lamps for general lighting services.",
+        "guidance": "LED bulbs (self-ballasted lamps) must be registered under the CRS scheme per IS 16102 (Part 1):2012.",
+        "title": "LED Bulbs / Lamps",
+        "aliases": [
+          "LED bulb",
+          "LED lamp"
+        ]
+      },
+      "hi": {
+        "summary": "\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u092a\u094d\u0930\u0915\u093e\u0936 \u0938\u0947\u0935\u093e\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f \u0938\u0947\u0932\u094d\u092b-\u092c\u0948\u0932\u093e\u0938\u094d\u091f\u0947\u0921 \u090f\u0932\u0908\u0921\u0940 \u0932\u0948\u0902\u092a \u0915\u0947 \u0932\u093f\u090f \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f\u0964",
+        "guidance": "\u090f\u0932\u0908\u0921\u0940 \u092c\u0932\u094d\u092c (\u0938\u0947\u0932\u094d\u092b-\u092c\u0948\u0932\u093e\u0938\u094d\u091f\u0947\u0921 \u0932\u0948\u0902\u092a) \u0915\u094b IS 16102 (Part 1):2012 \u0915\u0947 \u0905\u0928\u0941\u0938\u093e\u0930 CRS \u092f\u094b\u091c\u0928\u093e \u0915\u0947 \u0924\u0939\u0924 \u092a\u0902\u091c\u0940\u0915\u0943\u0924 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964",
+        "title": "\u090f\u0932\u0908\u0921\u0940 \u092c\u0932\u094d\u092c",
+        "aliases": [
+          "\u090f\u0932\u0908\u0921\u0940 \u092c\u0932\u094d\u092c",
+          "\u090f\u0932\u0908\u0921\u0940 \u0926\u093f\u0935\u093e"
+        ],
+        "certification": {
+          "available": true,
+          "scheme": "\u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092f\u094b\u091c\u0928\u093e (CRS)",
+          "steps": [
+            "\u0928\u093f\u0930\u094d\u092e\u093e\u0924\u093e\u0913\u0902 \u0915\u094b \u0906\u0927\u093f\u0915\u093e\u0930\u093f\u0915 CRS \u092a\u094b\u0930\u094d\u091f\u0932 (crsbis.in) \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092f\u094b\u091c\u0928\u093e (CRS) \u0915\u0947 \u0924\u0939\u0924 BIS \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u093e \u0939\u094b\u0917\u093e\u0964"
+          ]
+        }
+      },
+      "mr": {
+        "summary": "\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u092a\u094d\u0930\u0915\u093e\u0936 \u0938\u0947\u0935\u093e\u0902\u0938\u093e\u0920\u0940 \u0938\u0947\u0932\u094d\u092b-\u092c\u0945\u0932\u093e\u0938\u094d\u091f\u0947\u0921 \u090f\u0932\u0908\u0921\u0940 \u0926\u093f\u0935\u094d\u092f\u093e\u0902\u0938\u093e\u0920\u0940 \u0938\u0915\u094d\u0924\u0940\u091a\u0947.",
+        "guidance": "\u090f\u0932\u0908\u0921\u0940 \u092c\u0932\u094d\u092c (\u0938\u0947\u0932\u094d\u092b-\u092c\u0945\u0932\u093e\u0938\u094d\u091f\u0947\u0921 \u0926\u093f\u0935\u0947) IS 16102 (Part 1):2012 \u0928\u0941\u0938\u093e\u0930 CRS \u092f\u094b\u091c\u0928\u0947\u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0928\u094b\u0902\u0926\u0923\u0940\u0915\u0943\u0924 \u0905\u0938\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947.",
+        "title": "\u090f\u0932\u0908\u0921\u0940 \u0926\u093f\u0935\u093e",
+        "aliases": [
+          "\u090f\u0932\u0908\u0921\u0940 \u092c\u0932\u094d\u092c",
+          "\u090f\u0932\u0908\u0921\u0940 \u0926\u093f\u0935\u093e"
+        ],
+        "certification": {
+          "available": true,
+          "scheme": "\u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0928\u094b\u0902\u0926\u0923\u0940 \u092f\u094b\u091c\u0928\u093e (CRS)",
+          "steps": [
+            "\u0909\u0924\u094d\u092a\u093e\u0926\u0915\u093e\u0902\u0928\u0940 \u0905\u0927\u093f\u0915\u0943\u0924 CRS \u092a\u094b\u0930\u094d\u091f\u0932 (crsbis.in) \u0926\u094d\u0935\u093e\u0930\u0947 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0928\u094b\u0902\u0926\u0923\u0940 \u092f\u094b\u091c\u0928\u093e (CRS) \u0905\u0902\u0924\u0930\u094d\u0917\u0924 BIS \u0928\u094b\u0902\u0926\u0923\u0940 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947."
+          ]
+        }
+      }
+    },
+    "topic": "LED Bulbs",
+    "summary": "Mandatory for self-ballasted LED lamps for general lighting services.",
+    "guidance": "LED bulbs (self-ballasted lamps) must be registered under the CRS scheme per IS 16102 (Part 1):2012.",
+    "certification": {
+      "available": true,
+      "scheme": "Compulsory Registration Scheme (CRS)",
+      "steps": [
+        "Manufacturers must obtain BIS registration under the Compulsory Registration Scheme (CRS) via the official CRS portal (crsbis.in)."
+      ]
+    },
+    "evidence_metadata": [
+      {
+        "source_url": "https://www.crsbis.in/",
+        "source_title": "BIS Compulsory Registration Scheme Portal",
+        "source_type": "Official BIS Portal",
+        "verification_status": "OFFICIAL_EVIDENCE",
+        "evidence_description": "Establishes CRS as the mandatory certification pathway for this electronic product."
+      }
+    ],
+    "change_information": {
+      "status": "UNAVAILABLE",
+      "summary": "",
+      "impact_areas": [],
+      "affected_users": [],
+      "recommended_actions": [],
+      "evidence": []
+    }
+  },
+  {
+    "id": "kb-026",
+    "title": "Electric Ceiling Fans",
+    "product_name": "Ceiling Fans",
+    "standard_number": "IS 374:2019",
+    "aliases": [
+      "ceiling fan",
+      "electric ceiling fan",
+      "\u0938\u0940\u0932\u093f\u0902\u0917 \u092b\u0945\u0928",
+      "\u092a\u0902\u0916\u093e"
+    ],
+    "status": "VERIFIED",
+    "verified": true,
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "mandatory_status": {
+      "is_mandatory": true,
+      "scheme": "COMPULSORY",
+      "qco_reference": "Electric Ceiling Type Fans QCO"
+    },
+    "source_name": "BIS Products under Compulsory Certification",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_title": "ISI Mark Scheme",
+    "retrieved_at": "2026-09-13T12:00:00Z",
+    "verified_at": "2026-09-13T12:00:00Z",
+    "i18n": {
+      "en": {
+        "summary": "Mandatory for electric ceiling type fans intended for domestic use.",
+        "guidance": "Electric ceiling fans must be ISI certified according to IS 374:2019 under the mandatory QCO.",
+        "title": "Electric Ceiling Fans",
+        "aliases": [
+          "ceiling fan",
+          "electric ceiling fan"
+        ]
+      },
+      "hi": {
+        "summary": "\u0918\u0930\u0947\u0932\u0942 \u0909\u092a\u092f\u094b\u0917 \u0915\u0947 \u0932\u093f\u090f \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u093f\u0915 \u0938\u0940\u0932\u093f\u0902\u0917 \u091f\u093e\u0907\u092a \u092a\u0902\u0916\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f\u0964",
+        "guidance": "\u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f QCO \u0915\u0947 \u0924\u0939\u0924 \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u093f\u0915 \u0938\u0940\u0932\u093f\u0902\u0917 \u092a\u0902\u0916\u094b\u0902 \u0915\u094b IS 374:2019 \u0915\u0947 \u0905\u0928\u0941\u0938\u093e\u0930 ISI \u092a\u094d\u0930\u092e\u093e\u0923\u093f\u0924 \u0939\u094b\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964",
+        "title": "\u0938\u0940\u0932\u093f\u0902\u0917 \u092b\u0945\u0928",
+        "aliases": [
+          "\u0938\u0940\u0932\u093f\u0902\u0917 \u092b\u0945\u0928",
+          "\u092a\u0902\u0916\u093e",
+          "\u0938\u0940\u0932\u093f\u0902\u0917 \u092b\u0948\u0928"
+        ]
+      },
+      "mr": {
+        "summary": "\u0918\u0930\u0917\u0941\u0924\u0940 \u0935\u093e\u092a\u0930\u093e\u0938\u093e\u0920\u0940 \u0905\u0938\u0932\u0947\u0932\u094d\u092f\u093e \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u093f\u0915 \u0938\u0940\u0932\u093f\u0902\u0917 \u092a\u094d\u0930\u0915\u093e\u0930\u091a\u094d\u092f\u093e \u092a\u0902\u0916\u094d\u092f\u093e\u0902\u0938\u093e\u0920\u0940 \u0938\u0915\u094d\u0924\u0940\u091a\u0947.",
+        "guidance": "\u0938\u0915\u094d\u0924\u0940\u091a\u094d\u092f\u093e QCO \u0905\u0902\u0924\u0930\u094d\u0917\u0924 \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u093f\u0915 \u0938\u0940\u0932\u093f\u0902\u0917 \u092a\u0902\u0916\u0947 IS 374:2019 \u0928\u0941\u0938\u093e\u0930 ISI \u092a\u094d\u0930\u092e\u093e\u0923\u093f\u0924 \u0905\u0938\u0923\u0947 \u0906\u0935\u0936\u094d\u092f\u0915 \u0906\u0939\u0947.",
+        "title": "\u092a\u0902\u0916\u093e",
+        "aliases": [
+          "\u0938\u0940\u0932\u093f\u0902\u0917 \u092b\u0945\u0928",
+          "\u092a\u0902\u0916\u093e"
+        ]
+      }
+    },
+    "topic": "Ceiling Fans",
+    "summary": "Mandatory for electric ceiling type fans intended for domestic use.",
+    "guidance": "Electric ceiling fans must be ISI certified according to IS 374:2019 under the mandatory QCO.",
+    "change_information": {
+      "status": "UNAVAILABLE",
+      "summary": "",
+      "impact_areas": [],
+      "affected_users": [],
+      "recommended_actions": [],
+      "evidence": []
+    }
+  },
+  {
+    "id": "kb-022",
+    "title": "PVC Pipes",
+    "standard_number": "IS 4985",
+    "topic": "Construction / Pipes",
+    "summary": "Mandatory for PVC pipes.",
+    "verified": true,
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "i18n": {
+      "hi": {
+        "title": "\u092a\u0940\u0935\u0940\u0938\u0940 \u092a\u093e\u0907\u092a",
+        "summary": ""
+      },
+      "mr": {
+        "title": "\u092a\u0940\u0935\u094d\u0939\u0940\u0938\u0940 \u092a\u093e\u0907\u092a",
+        "summary": ""
+      }
+    },
+    "status": "VERIFIED",
+    "source_name": "BIS Portal",
+    "source_url": "https://bis.gov.in"
+  },
+  {
+    "id": "kb-023",
+    "title": "Plywood",
+    "standard_number": "IS 303",
+    "topic": "Construction / Wood",
+    "summary": "Mandatory for plywood.",
+    "verified": true,
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "i18n": {
+      "hi": {
+        "title": "\u092a\u094d\u0932\u093e\u092f\u0935\u0941\u0921",
+        "summary": ""
+      },
+      "mr": {
+        "title": "\u092a\u094d\u0932\u093e\u092f\u0935\u0941\u0921",
+        "summary": ""
+      }
+    },
+    "status": "VERIFIED",
+    "source_name": "BIS Portal",
+    "source_url": "https://bis.gov.in"
+  },
+  {
+    "id": "kb-024",
+    "title": "Safety Footwear",
+    "standard_number": "IS 15298",
+    "topic": "Safety / Footwear",
+    "summary": "Mandatory for safety footwear.",
+    "verified": true,
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "i18n": {
+      "hi": {
+        "title": "\u0938\u0947\u092b\u094d\u091f\u0940 \u091c\u0942\u0924\u0947",
+        "summary": ""
+      },
+      "mr": {
+        "title": "\u0938\u0941\u0930\u0915\u094d\u0937\u093e \u092a\u093e\u0926\u0924\u094d\u0930\u093e\u0923\u0947",
+        "summary": ""
+      }
+    },
+    "status": "VERIFIED",
+    "source_name": "BIS Portal",
+    "source_url": "https://bis.gov.in"
+  },
+  {
+    "id": "kb-025",
+    "title": "Split AC",
+    "standard_number": "IS 1391",
+    "topic": "Electronics / Appliances",
+    "summary": "Mandatory for split AC.",
+    "verified": true,
+    "verification_status": "OFFICIAL_EVIDENCE",
+    "i18n": {
+      "hi": {
+        "title": "\u090f\u0938\u0940",
+        "summary": ""
+      },
+      "mr": {
+        "title": "\u0935\u093e\u0924\u093e\u0928\u0941\u0915\u0942\u0932\u0915",
+        "summary": ""
+      }
+    },
+    "status": "VERIFIED",
+    "source_name": "BIS Portal",
+    "source_url": "https://bis.gov.in"
   }
 ]
