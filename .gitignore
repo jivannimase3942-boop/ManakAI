@@ -32,3 +32,69 @@ Thumbs.db
 
 # ManakAI runtime databases
 backend/pending_knowledge.db
+
+# ManakAI debug / temporary artifacts
+backend/debug*.py
+backend/debug*.json
+backend/*_trace.json
+backend/*_trace.txt
+backend/*_results.json
+backend/*_results.txt
+backend/api_test_out.txt
+backend/evaluation/
+backend/scratch/
+backend/*.db
+backend/dummy.pdf
+backend/test_*.json
+backend/test_*.jpg
+backend/test_*.py
+backend/test_image.jpg
+backend/test_mobile.json
+backend/test_product.pdf
+backend/test_res*.json
+backend/test_yolo*.py
+backend/test_yolo_result.py
+backend/qa_*.py
+backend/qa_*.json
+backend/print_*.py
+backend/find_kb022.py
+backend/gen_fails.py
+backend/live_eval.py
+backend/restore_tests.py
+backend/run_eval.ps1
+backend/script.py
+backend/main_top.py
+backend/make_pdf.py
+backend/check_path.py
+backend/trace_*.py
+backend/verify_safety.py
+
+# Generated evaluation / diagnostic artifacts
+data/eval_knowledge_base.json
+debug_resp.json
+pending_knowledge.db
+mr_res.json
+multi_res.json
+kb022_trace.txt
+latency_out.txt
+transcript_matches.txt
+test_matrix_results.md
+test_results.txt
+final_recheck.txt
+views_assistant.txt
+
+# Temporary frontend artifacts
+frontend/page_dump.html
+frontend/temp_history.json
+frontend/src/pages/Assistant_backup.jsx
+
+# Temporary root files
+dummy.gif
+mobile.jpg
+temp_i18n.py
+update_demo_mode.js
+update_i18n.js
+dump_views.ps1
+extract.ps1
+extract2.ps1
+opencode.json
