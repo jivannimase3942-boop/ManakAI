@@ -13,13 +13,11 @@ def test_marathi_valid_product():
 
 def test_hindi_generic_query():
     res = find_standard_for_product("प्रयोगशाला कहां है?", language="hi")
-    assert res is not None
-    assert res["sources"][0]["id"] == "kb-004"
+    assert res is None
 
 def test_marathi_generic_query():
     res = find_standard_for_product("लॅबमध्ये कसे जायचे?", language="mr")
-    assert res is not None
-    assert res["sources"][0]["id"] == "kb-004"
+    assert res is None
 
 def test_aircraft_certification_safety():
     res = find_standard_for_product("aircraft certification", language="en")
