@@ -18,12 +18,17 @@ SCORE_MARGIN_THRESHOLD = float(os.getenv("SCORE_MARGIN_THRESHOLD", "2.0"))
 # Words that indicate purely generic intent
 GENERIC_INTENT_WORDS = {
     "certification", "certificate", "test", "testing", "tests", "tested", "standard", "requirements", "requirement",
-    "bis", "compliance", "process", "get", "need", "make", "where", "how", "what", "which",
+    "bis", "compliance", "process", "get", "need", "make", "where", "how", "what", "which", "find", "bisrecognized", "bisrecognised",
     "my", "product", "covered", "applies", "number", "explain", "general", "are",
     "can", "do", "does", "done", "be", "for", "i", "verify", "check", "why", "when", "is", "rule", "rules",
     "regulation", "regulations", "guideline", "guidelines", "mandatory", "voluntary", "about",
     "मानक", "नियम", "मानके", "दिशानिर्देश", "मार्गदर्शक", "प्रमाणन", "योजना", "स्कीम", "टेस्टिंग",
-    "परीक्षण", "जांच", "चाचणी", "msme", "micro", "small", "medium", "enterprise", "enterprises"
+    "परीक्षण", "जांच", "चाचणी", "msme", "micro", "small", "medium", "enterprise", "enterprises",
+    "कसे", "जायचे",
+    "में", "कैसे", "जाएं", "जायें", "कहाँ", "कहां", "क्या", "कौन", "के", "की", "का", "और", "से", "पर", "लिए",
+    "करना", "करें", "है", "हैं", "हो", "मुझे", "चाहिए", "जानकारी", "बताएं", "बताइए", "दस्तावेज", "दस्तावेज़",
+    "मध्ये", "काय", "कुठे", "कुठला", "कुठली", "कोणता", "कोणती", "साठी", "मला", "हवे", "हवी", "आहे", "आहेत",
+    "करायचे", "कागदपत्रे", "माहिती", "सांगा"
 }
 
 # Words that unambiguously articulate a specific service/action
@@ -55,6 +60,19 @@ def _check_product_compatibility(query: str, record: Dict[str, Any], sem_score: 
     If product_words exists, at least one must be found in title, topic, or keywords.
     For non-ASCII queries (multilingual), we lack English lexical overlap, so we allow strong semantic evidence (>= 0.72) to establish compatibility.
     """
+    # Prevent exact ID contamination (e.g. "IS 2690" matching "IS 269")
+    import re
+    query_lower = query.lower()
+    explicit_is_match = re.search(r'\bis\s*\d+', query_lower)
+    if explicit_is_match:
+        # If the query contains an explicit IS number, but this record's standard number does not match it, reject.
+        std_num = record.get("standard_number", "").lower()
+        if not std_num:
+            return False
+        base_match = re.search(r'is\s+\d+', std_num)
+        if not base_match or not re.search(r'\b' + re.escape(base_match.group(0)) + r'(?!\d)', query_lower):
+            return False
+
     product_words = _get_product_words(query)
     if not product_words:
         return True
@@ -77,10 +95,15 @@ def _check_product_compatibility(query: str, record: Dict[str, Any], sem_score: 
     matched_words = [word for word in product_words if word in record_text]
     
     if matched_words:
-        # Require sufficient product identity/context before mapping a generic "steel" query to rebar standard
-        if record.get("id") == "kb-015" and "steel" in matched_words:
+        # Require sufficient product identity/context before mapping a generic "steel" or "cylinder" query to a specific standard
+        if record.get("id") == "kb-015" and any(w in matched_words for w in ["steel", "स्टील"]):
             rebar_context = {"rebar", "rebars", "tmt", "bar", "bars", "wire", "wires", "reinforcement", "deformed", "sariya", "सरिया", "सळई"}
             if not any(w in query.lower() for w in rebar_context):
+                return False
+
+        if record.get("id") == "kb-016" and any(w in matched_words for w in ["cylinder", "सिलेंडर", "सिलिंडर"]):
+            lpg_context = {"lpg", "gas", "cooking", "एलपीजी", "गैस", "गॅस"}
+            if not any(w in query.lower() for w in lpg_context):
                 return False
         return True
 
@@ -108,6 +131,16 @@ def _is_query_specific(query: str, is_exact_id: bool) -> bool:
 
     product_words = _get_product_words(query)
     if len(product_words) > 0:
+        return True
+
+    # Allow specific service discovery if it's a full sentence/question about laboratories
+    # (Laboratory discovery does not require a specific product context, whereas licensing does)
+    LAB_WORDS = {
+        "laboratory", "laboratories", "lab", "labs",
+        "प्रयोगशाला", "प्रयोगशालाओं", "प्रयोगशालाएं", "प्रयोगशालाएँ",
+        "प्रयोगशाळा", "प्रयोगशाळेत", "प्रयोगशाळांमध्ये"
+    }
+    if len(words) >= 6 and any(w in LAB_WORDS for w in words):
         return True
 
     return False

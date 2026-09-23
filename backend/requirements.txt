@@ -9,3 +9,5 @@ SQLAlchemy
 pytest
 httpx
 numpy
+python-multipart
+ultralytics==8.4.156
