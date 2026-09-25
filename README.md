@@ -1,111 +1,437 @@
 # ManakAI - BIS Standards Decision and Action Assistant
 
-**Smart India Hackathon 2026 — Problem Statement SIH26107**
+**Smart India Hackathon 2026 | Problem Statement: SIH26107**
 
-> ⚠️ **PROTOTYPE DISCLAIMER**
-> This is a hackathon prototype demonstration for SIH 2026. It is **not** an official Bureau of Indian Standards (BIS) service, and it is not affiliated with or endorsed by BIS. Do not rely on this system for legal or compliance decisions. Please verify all requirements with official BIS sources (bis.gov.in).
+ManakAI is an AI-assisted decision and action system for discovering, understanding, and acting on BIS-related information.
 
-## Project Overview
+> **Prototype Disclaimer**
+>
+> ManakAI is an independent hackathon prototype. It is not an official Bureau of Indian Standards (BIS) service and is not affiliated with or endorsed by BIS. It must not be used as a substitute for official BIS decisions, approvals, certifications, or legal/compliance advice. Always verify requirements with official BIS sources.
 
-ManakAI is an AI-powered BIS Standards Decision and Action Assistant designed for industries, MSMEs, and consumers.
+## The Problem
 
-### Why this is different from Google
-Google helps users *find* information (returning links and documents). ManakAI helps users *understand what applies* and *decide what to do next*.
+BIS standards and compliance information can be difficult for consumers, MSMEs, and industries to interpret and connect with their specific needs.
 
-### Why this is different from generic chatbots
-Generic AI (like ChatGPT) helps users *generate answers*, which often leads to hallucinated standards, clauses, or non-existent laboratory names. ManakAI uses a deterministic rule engine to map intents to a **verified knowledge base**, structuring the response into actionable compliance steps rather than writing long, unstructured paragraphs.
+A conventional search experience primarily returns documents, links, and information. A generic conversational AI system can explain information but may produce unsupported or hallucinated standards, requirements, clauses, or sources.
 
-## Architecture
+The challenge is therefore not only **finding information**, but connecting a user's intent to **verified BIS information while preventing unsupported compliance decisions**.
 
-ManakAI operates using a deterministic Decision Engine supported by an optional LLM layer for conversational polishing.
+## Our Approach
+
+ManakAI combines conversational AI with deterministic retrieval and safety controls.
+
+The LLM is deliberately limited to a **normalization layer**. It can assist with:
+
+* Language normalization
+* Entity extraction
+* Query normalization
+* Handling complex or multilingual natural-language queries
+
+The LLM does **not** decide which BIS standard applies.
+
+The final compliance-oriented response is controlled by deterministic application logic using:
+
+* Intent Detection
+* Keyword Retrieval
+* Semantic Retrieval
+* Hybrid Ranking
+* Candidate Safety Gates
+* Verified Knowledge Records
+* Evidence-backed Responses
+* `NO VERIFIED MATCH` handling
+
+### Core Principle
+
+> **Semantic similarity discovers candidates. Deterministic logic validates them.**
+
+This separation is central to ManakAI's hallucination-resistant architecture.
+
+## How ManakAI Works
 
 ```text
 USER QUERY
-    │
-    ▼
-DETERMINISTIC INTENT CLASSIFICATION (Rule-based)
-    │
-    ▼
-RAG / RETRIEVAL ENGINE (Keyword/Phrase overlap)
-    │
-    ▼
-MATCHED VERIFIED KNOWLEDGE RECORD (JSON)
-    │
-    ▼
-DECISION ENGINE (Maps data to a structured Compliance Response)
-    │
-    ▼
-OPTIONAL LLM LAYER (Polishes 'Why this applies' text only)
-    │
-    ▼
-STRUCTURED DASHBOARD UI (Industry / Consumer Modes)
+    |
+    v
+OPTIONAL LLM NORMALIZATION
+    |
+    +-- Language normalization
+    +-- Entity extraction
+    +-- Query normalization
+    |
+    v
+DETERMINISTIC INTENT ENGINE
+    |
+    +-- Requirements
+    +-- Certification
+    +-- Testing
+    +-- Services
+    +-- Other workflows
+    |
+    v
+HYBRID RETRIEVAL ENGINE
+    |
+    +-- Keyword / lexical retrieval
+    +-- Semantic retrieval
+    |
+    v
+CANDIDATE SAFETY GATES
+    |
+    +-- Verified records only
+    +-- Entity validation
+    +-- State filtering
+    +-- Reject invalid candidates
+    |
+    v
+HYBRID RANKING
+    |
+    +-- Semantic similarity
+    +-- Exact entity matching
+    |
+    v
+SAFETY / CONFIDENCE GATE
+    |
+    +-----------------------------+
+    |                             |
+    v                             v
+VERIFIED MATCH              NO VERIFIED MATCH
+    |                             |
+    v                             v
+DETERMINISTIC DECISION       SAFE FALLBACK
+ENGINE                         |
+    |                           +-- Official BIS resources
+    v
+EVIDENCE-BACKED RESPONSE
+    |
+    +-- Decision Card
+    +-- Why This Answer
+    +-- Evidence
+    +-- Compliance Journey
 ```
 
-### Knowledge Base
-The knowledge base (`data/knowledge_base.json`) uses a structured compliance data model. Every fact is mapped to a specific property (requirements, testing, certification, required documents, etc.). If information is missing, the system explicitly states that it is unavailable rather than fabricating an answer.
+## Knowledge Base
 
-### Retrieval Engine
-The search mechanism parses the user query and uses token overlap and exact phrase matching against titles, standard numbers, and keywords to rank relevant records. It assigns confidence scores (High, Medium, Low, None) to prevent unrelated matches.
+ManakAI uses a structured verified knowledge base containing compliance-oriented records.
 
-### Decision Engine
-The core of ManakAI is the `decision.py` module. It consumes the user query, detects the intent, retrieves the best-matching record, and enforces the structured `ComplianceResponse`. This ensures the output is always actionable and evidence-backed.
+Each record can contain structured information such as:
 
-## API Endpoints
+* Product or service entity
+* Applicable standard
+* Requirements
+* Testing information
+* Certification steps
+* Required documents
+* Sources
+* Verification state
 
-- `GET /api/health` - Check backend health and LLM status.
-- `POST /api/assistant/query` - Submit a natural language query. Returns a structured `ComplianceResponse`.
-- `POST /api/standard-search` - Search specifically for a standard. Returns a `ComplianceResponse`.
-- `GET /api/services` - List available BIS services (Demo).
-- `GET /api/sources` - List of verified sources (Demo).
+The system does not treat an LLM-generated statement as authoritative evidence.
 
-## Local Setup
+When sufficient verified evidence is unavailable, ManakAI does not invent an answer. It returns:
+
+```text
+NO VERIFIED MATCH
+```
+
+This is a deliberate safety outcome, not an application failure.
+
+## Safety Architecture
+
+ManakAI follows a defense-in-depth approach because incorrect compliance guidance can have real-world consequences.
+
+### Verified Retrieval
+
+Only verified knowledge records are eligible for live decision-making.
+
+### State Filtering
+
+Invalid or unsuitable records such as:
+
+* `PENDING`
+* `REJECTED`
+* `SUPERSEDED`
+
+are prevented from being used as authoritative matches.
+
+### Evidence Thresholds
+
+Semantic similarity alone cannot establish BIS applicability.
+
+A candidate must pass deterministic validation and safety gates before a positive result is returned.
+
+### Vague Query Rejection
+
+Queries without enough product, service, or compliance context can result in `NO VERIFIED MATCH` rather than an unsupported recommendation.
+
+### LLM Subordination
+
+The LLM cannot:
+
+* Override the decision engine
+* Select an authoritative BIS standard by itself
+* Invent official sources
+* Create compliance evidence
+* Bypass safety gates
+
+If LLM normalization fails, the system can fall back to deterministic retrieval.
+
+## Why ManakAI?
+
+### Compared with conventional search
+
+Search engines help users **find information**.
+
+ManakAI attempts to connect the user's intent with verified BIS knowledge and present the result as an actionable, evidence-backed workflow.
+
+### Compared with generic AI chatbots
+
+A generic LLM can generate plausible-sounding answers even when evidence is insufficient.
+
+ManakAI deliberately limits the LLM's authority.
+
+The system prioritizes:
+
+**Verified data > deterministic validation > evidence-backed response > conversational explanation**
+
+rather than allowing generated text to become the source of truth.
+
+## Key Features
+
+| Feature                                | Status                 |
+| -------------------------------------- | ---------------------- |
+| Verified Multi-Category Knowledge Base | Implemented            |
+| Required Document Guidance             | Implemented            |
+| Know Before You Buy                    | Implemented            |
+| Consumer Complaint Copilot             | Implemented            |
+| MSME / Industry Compliance Copilot     | Implemented            |
+| Smart Laboratory Guidance              | Implemented            |
+| Official Source / Document Centre      | Implemented            |
+| Multilingual Query Experience          | Implemented            |
+| Voice Assistant                        | Implemented            |
+| User Search History                    | Implemented            |
+| Saved Standards / Products             | Implemented            |
+| Guest User Experience                  | Implemented            |
+| Login / Register Foundation            | Implemented / Deferred |
+| User Dashboard                         | Implemented            |
+| BIS Learning Centre                    | Implemented            |
+| Quiz / Knowledge Test                  | Implemented            |
+| Safety / No-Verified-Match Experience  | Implemented            |
+| Evidence Chain                         | Implemented            |
+| Responsive / Accessibility / UX        | Implemented            |
+
+## Multilingual Experience
+
+ManakAI is architecturally designed to process queries across multiple Indian languages, including:
+
+* English
+* Hindi
+* Marathi
+* Kannada
+* Telugu
+* Tamil
+* Gujarati
+
+The multilingual pipeline uses normalization and deterministic retrieval. If an external LLM provider is unavailable or rate-limited, the application can fall back to its deterministic retrieval path.
+
+## Technology Stack
+
+### Frontend
+
+* React
+* Vite
+* Tailwind CSS
+* Web Speech API
+* Responsive component-based UI
+
+### Backend
+
+* Python
+* FastAPI
+* Deterministic decision engine
+* Hybrid retrieval pipeline
+* Structured compliance response models
+
+### AI / Retrieval
+
+* Optional LLM normalization
+* Keyword / lexical retrieval
+* Semantic retrieval
+* Hybrid ranking
+* Verified knowledge records
+
+### Data
+
+* Structured knowledge-base records
+* Evidence/source metadata
+* Local browser persistence for selected user features
+
+## Repository Structure
+
+```text
+ManakAI/
+│
+├── backend/
+│   └── app/
+│       ├── decision.py
+│       ├── embeddings.py
+│       ├── hybrid_retriever.py
+│       ├── intent.py
+│       ├── knowledge_base.py
+│       ├── llm.py
+│       ├── models.py
+│       ├── rag.py
+│       ├── semantic_retriever.py
+│       └── vision.py
+│
+├── frontend/
+│
+├── data/
+│
+├── docs/
+│   ├── architecture/
+│   ├── audits/
+│   ├── demo/
+│   ├── jury/
+│   ├── product/
+│   ├── roadmap/
+│   └── technical/
+│
+├── tests/
+│
+└── README.md
+```
+
+## Documentation
+
+Detailed project documentation is organized under `docs/`:
+
+* `docs/architecture/` - System architecture, data flow, and AI safety
+* `docs/audits/` - Feature and repository audits
+* `docs/demo/` - Demo guides and demonstration queries
+* `docs/jury/` - Jury cheat sheet and technical brief
+* `docs/product/` - Product overview, feature status, and limitations
+* `docs/roadmap/` - Product roadmap and future development
+* `docs/technical/` - Technical overview and security documentation
+
+## API
+
+The backend exposes API functionality for health checks, assistant queries, standard search, services, and verified sources.
+
+Refer to the backend implementation and technical documentation for the current API contract.
+
+## Local Development
 
 ### Prerequisites
-- Node.js 18+
-- Python 3.10+
 
-### Backend (FastAPI)
+* Python 3.10+
+* Node.js 18+
+* npm
+
+### Backend
+
+From the project root:
+
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload
 ```
-The API will run at `http://localhost:8000`.
 
-### Frontend (React + Vite)
+Windows PowerShell:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the FastAPI application using the project's configured application entry point.
+
+### Frontend
+
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-The app will run at `http://localhost:5173`.
 
-### Environment Variables
-Copy `.env.example` to `backend/.env` (optional):
-```bash
-GEMINI_API_KEY=your_gemini_api_key_here
-LLM_MODEL=gemini-1.5-flash
+The development server will display the local URL in the terminal.
+
+## Environment Configuration
+
+Create the required environment configuration from the provided example file when using optional external LLM functionality.
+
+The LLM is not the authoritative source of compliance decisions. If the external normalization service is unavailable, the deterministic application path is designed to remain operational.
+
+## Demonstration Queries
+
+Example queries include:
+
+```text
+What BIS standard applies to packaged drinking water?
+
+I manufacture packaged drinking water. What requirements do I need?
+
+How can I apply for BIS certification?
+
+Where can I test my product?
+
+What is hallmarking?
+
+Which BIS scheme applies to electronics?
+
+How can a consumer verify HUID?
+
+What documents are required for certification?
 ```
-**Note:** The system is designed to work completely offline and deterministically. If `GEMINI_API_KEY` is not provided, the application runs entirely on the internal Decision Engine without any degradation in structured compliance facts.
 
-## Demo Questions
+The project also contains a larger set of demonstration queries under:
 
-1. `bis standard for drinking water`
-2. `I manufacture packaged drinking water. What do I need?`
-3. `how can I apply for BIS certification?`
-4. `where can I test my product?`
-5. `what is hallmarking?`
-6. `which BIS scheme applies to electronics?`
-7. `how can a consumer verify HUID?`
+```text
+docs/demo/DEMO_QUERIES.md
+```
 
 ## Limitations
-- This prototype uses a local JSON file (`data/knowledge_base.json`) containing only 8 curated demo records.
-- The retrieval engine is a lightweight token-overlap implementation to ensure ease of deployment during the hackathon.
-- There are no live integrations with the official BIS Care API or CMS/e-BIS portals.
+
+ManakAI is a prototype and has defined limitations.
+
+The current knowledge base is curated for the project's demonstration scope and is **not an exhaustive representation of all BIS standards**.
+
+The system does not claim to replace official BIS systems, certification authorities, laboratories, or regulatory decisions.
+
+External LLM providers may also impose availability and quota limitations. When normalization fails, deterministic fallback behavior is used where supported.
+
+For detailed limitations, see:
+
+```text
+docs/product/LIMITATIONS.md
+```
 
 ## Future Scope
-- **Vector Database:** Replace the JSON store with a vector database (like FAISS, Chroma, or pgvector) and embeddings for true semantic search.
-- **Document Ingestion:** Implement OCR and PDF parsing to automatically update the knowledge base from official BIS gazette notifications.
-- **Live Verification:** Integrate with official BIS APIs for real-time licence, HUID, and laboratory status verification.
+
+Potential future development includes:
+
+* Expansion of the verified knowledge base
+* More extensive multilingual validation
+* Improved semantic retrieval
+* Automated verified data ingestion pipelines
+* Stronger source/version tracking
+* Integration with official BIS systems where appropriate and officially supported
+* Expanded laboratory and certification workflows
+* Production-grade authentication and persistence
+* Larger-scale evaluation and retrieval benchmarking
+
+## Project Status
+
+ManakAI currently represents a functional hackathon prototype with an implemented frontend, FastAPI backend, deterministic decision engine, verified knowledge workflow, safety gates, evidence presentation, multilingual architecture, and supporting documentation.
+
+The project prioritizes **traceability, deterministic validation, and safe failure over unrestricted AI generation**.
+
+## Disclaimer
+
+ManakAI is an independent technology prototype created for demonstration purposes.
+
+It is not an official BIS service and is not affiliated with or endorsed by the Bureau of Indian Standards.
+
+For actual standards, certification requirements, licences, laboratory information, fees, regulatory decisions, or other official matters, verify the information directly through official BIS channels.
