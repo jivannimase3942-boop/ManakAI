@@ -19,7 +19,7 @@ app = FastAPI(
     description="Prototype AI assistant for Indian Standards and BIS services Not an official BIS system.",
     version="0.1.0",
 )
-allowed_origins_str = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:5174,http://localhost:5175")
+allowed_origins_str = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:5174,http://localhost:5175,http://localhost:5176,http://127.0.0.1:5173,http://127.0.0.1:5174,http://127.0.0.1:5175,http://127.0.0.1:5176")
 allowed_origins = [origin.strip() for origin in allowed_origins_str.split(",") if origin.strip()]
 
 app.add_middleware(
@@ -125,3 +125,4 @@ def health():
 
 app.include_router(assistant.router)
 app.include_router(analyze.router)
+

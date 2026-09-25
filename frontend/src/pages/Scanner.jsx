@@ -1,10 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ComplianceJourney from '../components/ComplianceJourney.jsx';
-import EvidencePanel from '../components/EvidencePanel.jsx';
-import MsmeComplianceRoadmap from '../components/MsmeComplianceRoadmap.jsx';
-import NoVerifiedMatch from '../components/NoVerifiedMatch.jsx';
 import { api } from '../api.js';
+import { t } from '../i18n.js';
 
 export default function Scanner({ language }) {
   const navigate = useNavigate();
@@ -99,6 +97,12 @@ export default function Scanner({ language }) {
     }
   };
 
+  const confidenceLevel = results?.confidence_level || (
+    (results?.product_identification?.confidence || 0) >= 0.75 ? 'high' :
+    (results?.product_identification?.confidence || 0) >= 0.50 ? 'medium' : 'low'
+  );
+  const confidencePercent = Math.round((results?.product_identification?.confidence || 0) * 100);
+
   // Rendering
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 min-h-[80vh]">
@@ -108,19 +112,19 @@ export default function Scanner({ language }) {
 
       {mode === 'select' && (
         <div className="bg-white border border-slate-200 shadow-sm p-8 text-center rounded-md">
-          <h1 className="text-2xl font-bold text-[#0B1E40] mb-4">📷 Scan & Understand Product</h1>
-          <p className="text-slate-600 mb-8 max-w-lg mx-auto">Upload a product photo, use your camera, or upload a product document (PDF) to verify BIS compliance requirements.</p>
+          <h1 className="text-2xl font-bold text-[#0B1E40] mb-4">{t(language, 'scanner_title')}</h1>
+          <p className="text-slate-600 mb-8 max-w-lg mx-auto">{t(language, 'scanner_description')}</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button onClick={startCamera} className="bg-[#0B1E40] hover:bg-[#152F5A] text-white px-6 py-3 rounded-md font-semibold shadow-sm flex items-center justify-center gap-2">
-              📷 Scan with Camera
+              {t(language, 'scanner_camera')}
             </button>
             <label className="bg-white border-2 border-[#1C4E80] text-[#1C4E80] hover:bg-slate-50 px-6 py-3 rounded-md font-semibold cursor-pointer shadow-sm flex items-center justify-center gap-2">
-              📁 Upload Product
+              {t(language, 'scanner_upload')}
               <input type="file" accept="image/jpeg,image/png,image/webp,application/pdf" className="hidden" onChange={handleFileUpload} />
             </label>
           </div>
-          <p className="text-xs text-slate-500 mt-6">Supported: JPG • JPEG • PNG • WEBP • PDF (Max 10MB)</p>
+          <p className="text-xs text-slate-500 mt-6">{t(language, 'scanner_supported')}</p>
         </div>
       )}
 
@@ -195,30 +199,45 @@ export default function Scanner({ language }) {
 
       {mode === 'results' && results && (
         <div className="space-y-8">
-          {/* Top Section */}
+          {/* Product identification */}
           <div className="bg-white border border-slate-200 p-6 rounded-md shadow-sm">
-            <h2 className="text-sm font-bold text-[#1C4E80] uppercase tracking-wider mb-4 border-b border-slate-100 pb-2">Product Identified</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-              <div><span className="block text-xs text-slate-500">Product</span><span className="font-semibold text-slate-900">{results.product_identification.name}</span></div>
-              <div><span className="block text-xs text-slate-500">Brand</span><span className="font-semibold text-slate-900">{results.product_identification.brand}</span></div>
-              <div><span className="block text-xs text-slate-500">Model</span><span className="font-semibold text-slate-900">{results.product_identification.model}</span></div>
-              <div><span className="block text-xs text-slate-500">Confidence</span><span className="font-semibold text-slate-900">{(results.product_identification.confidence * 100).toFixed(0)}%</span></div>
+            <h2 className="text-sm font-bold text-[#1C4E80] uppercase tracking-wider mb-4 border-b border-slate-100 pb-2">{t(language, confidenceLevel === 'high' ? 'scanner_identified' : confidenceLevel === 'medium' ? 'scanner_possible' : 'scanner_unable')}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+              <div><span className="block text-xs text-slate-500">{t(language, 'scanner_product')}</span><span className="font-semibold text-slate-900">{results.product_identification.name}</span></div>
+              <div><span className="block text-xs text-slate-500">{t(language, 'scanner_category')}</span><span className="font-semibold text-slate-900">{results.product_identification.category}</span></div>
+              <div><span className="block text-xs text-slate-500">{t(language, 'scanner_confidence')}</span><span className="font-semibold text-slate-900">{confidencePercent}%</span></div>
+              <div><span className="block text-xs text-slate-500">{t(language, 'scanner_status')}</span><span className={`font-semibold ${confidenceLevel === 'low' ? 'text-amber-700' : 'text-emerald-700'}`}>{t(language, `scanner_${confidenceLevel}`)}</span></div>
             </div>
+            {preview && <img src={preview} alt={t(language, 'scanner_preview')} className="max-w-full h-auto max-h-72 mx-auto rounded-sm border border-slate-300" />}
+          </div>
 
-            <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Product Attributes</h3>
-            <div className="bg-slate-50 p-4 rounded-sm text-sm text-slate-700 font-mono">
-               {Object.entries(results.attributes || {}).map(([k, v]) => (
-                 <div key={k} className="flex"><span className="w-32 font-bold capitalize">{k}:</span> <span>{typeof v === 'object' ? JSON.stringify(v) : v}</span></div>
-               ))}
+          {/* Detected information */}
+          <div className="bg-white border border-slate-200 p-6 rounded-md shadow-sm">
+            <h2 className="text-sm font-bold text-[#1C4E80] uppercase tracking-wider mb-4">{t(language, 'scanner_detected_information')}</h2>
+            <div className="space-y-3 text-sm text-slate-700">
+              <div><span className="font-bold">{t(language, 'scanner_ocr')}:</span> {results.detected_information?.ocr_text || t(language, 'scanner_not_detected')}</div>
+              <div><span className="font-bold">{t(language, 'scanner_brand')}:</span> {results.detected_information?.brand || results.product_identification.brand || t(language, 'scanner_not_detected')}</div>
+              <div><span className="font-bold">{t(language, 'scanner_model')}:</span> {results.detected_information?.model || results.product_identification.model || t(language, 'scanner_not_detected')}</div>
+              <div><span className="font-bold">{t(language, 'scanner_bis_info')}:</span> {(results.detected_information?.bis_information || []).join(', ') || t(language, 'scanner_not_detected')}</div>
+              <div><span className="font-bold">{t(language, 'scanner_attributes')}:</span> {Object.entries(results.attributes || {}).map(([key, value]) => `${key}: ${typeof value === 'object' ? JSON.stringify(value) : value}`).join('; ') || t(language, 'scanner_not_detected')}</div>
             </div>
           </div>
 
-          {/* Compliance Results */}
-          {!results.match_found ? (
-            <NoVerifiedMatch
-              language={language}
-              fallbackQuery={results.product_identification.name}
-            />
+          {/* BIS compliance guidance */}
+          {confidenceLevel === 'low' ? (
+            <div className="bg-amber-50 border border-amber-300 p-6 rounded-md shadow-sm">
+              <p className="font-semibold text-amber-900">{t(language, 'scanner_retry_message')}</p>
+              <div className="mt-4 flex flex-col sm:flex-row gap-3">
+                <button onClick={() => { setResults(null); startCamera(); }} className="border border-amber-700 text-amber-900 px-4 py-2 rounded-sm font-bold">{t(language, 'scanner_retake')}</button>
+                <label className="border border-amber-700 text-amber-900 px-4 py-2 rounded-sm font-bold cursor-pointer text-center">{t(language, 'scanner_upload_another')}<input type="file" accept="image/jpeg,image/png,image/webp,application/pdf" className="hidden" onChange={handleFileUpload} /></label>
+              </div>
+            </div>
+          ) : !results.match_found ? (
+            <div className="bg-white border border-slate-200 p-6 rounded-md shadow-sm">
+              <h2 className="text-sm font-bold text-[#1C4E80] uppercase tracking-wider mb-3">{t(language, 'scanner_bis_guidance')}</h2>
+              <p className="font-semibold text-slate-900">{t(language, 'scanner_no_verified_info')}</p>
+              <div className="mt-5 flex flex-col sm:flex-row gap-3"><button onClick={() => navigate('/assistant', { state: { prefill: results.product_identification.name } })} className="px-4 py-2 bg-[#0B1E40] text-white font-bold rounded-sm">{t(language, 'scanner_ask')}</button><button onClick={() => navigate('/assistant', { state: { prefill: `Please help me identify the applicable BIS information for ${results.product_identification.name}.` } })} className="px-4 py-2 border border-[#1C4E80] text-[#1C4E80] font-bold rounded-sm">{t(language, 'scanner_detailed_query')}</button><button onClick={() => navigate('/services')} className="px-4 py-2 border border-[#1C4E80] text-[#1C4E80] font-bold rounded-sm">{t(language, 'scanner_service')}</button></div>
+            </div>
           ) : (
             <>
               {/* Applicability */}
@@ -253,24 +272,52 @@ export default function Scanner({ language }) {
                   scheme: results.scheme,
                   compliance_journey: {
                     scheme: results.scheme,
-                    testing: results.structured_testing,
-                    documents: results.structured_documents?.map(d => d.title) || [],
+                    next_action: results.next_actions?.[0],
                     steps: results.next_actions || []
-                  }
+                  },
+                  structured_compliance_journey: results.structured_compliance_journey,
+                  structured_testing: results.structured_testing,
+                  structured_documents: results.structured_documents,
+                  official_sources: results.sources
                 }}
                 language={language}
               />
             </>
           )}
 
-          {results.match_found && (
-            <div className="bg-white border-t border-slate-200 pt-6 mt-8">
-              <h3 className="text-md font-bold text-[#0B1E40] uppercase tracking-wider mb-4">NEXT ACTION</h3>
-              <ul className="list-disc pl-5 text-slate-700 space-y-2 font-medium">
-                 {results.next_actions?.map((na, i) => <li key={i}>{na}</li>)}
-              </ul>
+          {results.reference_guidance && (
+            <div className="bg-white border border-[#E08A2C] p-6 rounded-md shadow-sm">
+              <h2 className="text-sm font-bold text-[#E08A2C] uppercase tracking-wider mb-2">{t(language, 'scanner_reference_guidance')}</h2>
+              <p className="text-sm font-semibold text-slate-800 mb-4">{results.reference_guidance.status}</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700">
+                <div><span className="font-bold">{t(language, 'scanner_validity')}:</span> {results.reference_guidance.validity}</div>
+                <div><span className="font-bold">{t(language, 'scanner_regulatory_status')}:</span> {results.reference_guidance.regulatory_status}</div>
+                <div><span className="font-bold">{t(language, 'scanner_bis_scheme')}:</span> {results.reference_guidance.scheme}</div>
+                <div><span className="font-bold">{t(language, 'scanner_applicant')}:</span> {results.reference_guidance.applicant}</div>
+                <div><span className="font-bold">{t(language, 'scanner_testing')}:</span> {results.reference_guidance.testing}</div>
+                <div><span className="font-bold">{t(language, 'scanner_fees')}:</span> {results.reference_guidance.fees}</div>
+              </div>
+              <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700">
+                <div><span className="font-bold">{t(language, 'scanner_documents')}:</span><ul className="list-disc pl-5 mt-1">{results.reference_guidance.documents?.map((item) => <li key={item}>{item}</li>)}</ul></div>
+                <div><span className="font-bold">{t(language, 'scanner_application_process')}:</span><ol className="list-decimal pl-5 mt-1">{results.reference_guidance.application_process?.map((item) => <li key={item}>{item}</li>)}</ol></div>
+              </div>
+              <p className="mt-4 text-sm text-slate-700"><span className="font-bold">{t(language, 'scanner_marking')}:</span> {results.reference_guidance.marking}</p>
+              <p className="mt-2 text-sm text-slate-700"><span className="font-bold">{t(language, 'scanner_post_registration')}:</span> {results.reference_guidance.post_registration?.join(' ')}</p>
+              <p className="mt-3 text-sm text-amber-800">{results.reference_guidance.important}</p>
             </div>
           )}
+
+          <div className="bg-slate-50 border border-slate-200 p-6 rounded-md shadow-sm">
+            <h2 className="text-sm font-bold text-[#1C4E80] uppercase tracking-wider mb-3">{t(language, 'scanner_sources')}</h2>
+            <p className="text-sm text-slate-700">{t(language, 'scanner_ai_evidence')}: {(results.product_identification.evidence || []).join(', ') || t(language, 'scanner_not_detected')}</p>
+            <p className="text-sm text-slate-700 mt-2">{t(language, 'scanner_verified_sources')}: {results.match_found ? (results.sources?.map((source) => source.source_name || source.title).join(', ') || t(language, 'scanner_not_detected')) : t(language, 'scanner_no_verified_info')}</p>
+            {results.official_links?.length > 0 && (
+              <div className="mt-3 flex flex-wrap gap-3">
+                {results.official_links.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer" className="text-sm font-bold text-[#1C4E80] underline">{source.title || source.url}</a>)}
+              </div>
+            )}
+          </div>
+
         </div>
       )}
 

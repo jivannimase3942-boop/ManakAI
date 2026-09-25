@@ -30,11 +30,11 @@ const ICONS = {
   ),
 }
 
-export default function ServiceCard({ name, description, icon, onClick }) {
+export default function ServiceCard({ name, description, action, icon, onClick }) {
   return (
     <button
       onClick={onClick}
-      className="text-left w-full bg-white border border-navy-100 rounded-xl p-5 shadow-card hover:shadow-cardHover hover:border-navy-200 transition-all focus-visible:outline-2 focus-visible:outline-navy-500"
+      className="text-left w-full h-full min-h-[250px] bg-white border border-navy-100 rounded-xl p-5 shadow-card hover:shadow-cardHover hover:border-navy-200 transition-all focus-visible:outline-2 focus-visible:outline-navy-500 flex flex-col"
     >
       <div className="w-10 h-10 rounded-lg bg-navy-50 flex items-center justify-center mb-3.5">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1c3f74" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -42,7 +42,8 @@ export default function ServiceCard({ name, description, icon, onClick }) {
         </svg>
       </div>
       <h3 className="font-semibold text-navy-900 text-[15px] mb-1">{name}</h3>
-      <p className="text-sm text-navy-600 leading-relaxed">{description}</p>
+      <p className="text-sm text-navy-600 leading-relaxed flex-1">{description}</p>
+      {action && <span className="mt-6 text-xs font-bold uppercase tracking-wider text-[#1C4E80]">{action} <span aria-hidden="true">→</span></span>}
     </button>
   )
 }

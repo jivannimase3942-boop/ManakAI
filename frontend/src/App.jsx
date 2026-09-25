@@ -33,6 +33,7 @@ export default function App() {
           <Route path="/finder" element={<StandardFinder language={language} />} />
           <Route path="/services" element={<Services language={language} />} />
           <Route path="/industry" element={<Industry language={language} />} />
+          <Route path="/msme" element={<Industry language={language} audience="msme" />} />
           <Route path="/consumer" element={<Consumer language={language} />} />
           <Route path="/dashboard" element={<Dashboard language={language} />} />
           <Route path="/learning" element={<Learning language={language} />} />

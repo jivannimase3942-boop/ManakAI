@@ -4,7 +4,7 @@ import { t } from '../i18n.js'
 import { api } from '../api.js'
 import EvidencePanel from '../components/EvidencePanel.jsx'
 
-export default function Industry({ language }) {
+export default function Industry({ language, audience = 'industry' }) {
   const navigate = useNavigate()
   const [compInput, setCompInput] = useState('')
   const [compResult, setCompResult] = useState(null)
@@ -56,8 +56,8 @@ export default function Industry({ language }) {
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      <h1 className="text-3xl font-bold text-slate-900 mb-2">{t(language, 'industry_title')}</h1>
-      <p className="text-slate-600 mb-8">{t(language, 'industry_sub')}</p>
+      <h1 className="text-3xl font-bold text-slate-900 mb-2">{audience === 'msme' ? t(language, 'home_msme_title') : t(language, 'industry_title')}</h1>
+      <p className="text-slate-600 mb-8">{audience === 'msme' ? t(language, 'home_msme_desc') : t(language, 'industry_sub')}</p>
 
       {/* Compliance Guidance */}
       <div className="bg-white border border-slate-200 rounded-xl p-6 shadow-sm mb-6">

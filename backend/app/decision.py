@@ -10,6 +10,33 @@ from .models import ChatMessageIn
 
 USE_HYBRID_RETRIEVAL = os.getenv("USE_HYBRID_RETRIEVAL", "true").lower() == "true"
 
+QUERY_ENRICHMENTS = (
+    ("bis certification", "Product Certification Scheme BIS Certification Scheme"),
+    ("bis registration", "Product Certification Scheme BIS Certification Scheme"),
+    ("bis प्रमाणन", "Product Certification Scheme BIS Certification Scheme"),
+    ("bis प्रमाणपत्र", "Product Certification Scheme BIS Certification Scheme"),
+    ("भारतीय मानक", "Indian Standards What They Are what is an indian standard"),
+    ("भारतीय मानके", "Indian Standards What They Are what is an indian standard"),
+    ("indian standards", "Indian Standards What They Are what is an indian standard"),
+    ("indian standard", "Indian Standards What They Are what is an indian standard"),
+    ("msme", "Product Certification Scheme BIS Certification Scheme"),
+    ("सोन्या-चांदीच्या हॉलमार्किंग", "gold silver hallmarking"),
+    ("हॉलमार्किंग", "gold silver hallmarking"),
+    ("हॉलमार्किंग", "gold silver hallmarking"),
+    ("मान्यताप्राप्त प्रयोगशाळेत", "BIS recognised testing laboratory where to test"),
+    ("मान्यताप्राप्त प्रयोगशाळा", "BIS recognised testing laboratory where to test"),
+    ("मान्यताप्राप्त प्रयोगशाळेत", "BIS recognised testing laboratory where to test"),
+    ("मान्यताप्राप्त प्रयोगशाळा", "BIS recognised testing laboratory where to test"),
+)
+
+def enrich_query_for_existing_records(query: str) -> str:
+    """Add only existing-record vocabulary; never add standards or regulatory claims."""
+    lowered = query.lower()
+    additions = [text for phrase, text in QUERY_ENRICHMENTS if phrase in lowered]
+    if not additions:
+        return query
+    return f"{query} {' '.join(dict.fromkeys(additions))}"
+
 def augment_query_with_history(query: str, history: Optional[List[ChatMessageIn]]) -> str:
     # History context is now strictly handled by the frontend via explicit pronoun resolution.
     # Blindly prepending keywords from history violates the safety bounds and causes context bleed.
@@ -129,7 +156,7 @@ def compose_answer(query: str, intent_name: str, record: dict, language: str) ->
 def generate_compliance_response(query: str, mode: str = "industry", language: str = "en", history: Optional[List[ChatMessageIn]] = None) -> ComplianceResponse:
     from .rag import _is_bis_scope, SCOPE_REJECT_TEXT
 
-    augmented_query = query
+    augmented_query = enrich_query_for_existing_records(query)
 
     if not _is_bis_scope(augmented_query):
         return ComplianceResponse(
@@ -239,6 +266,9 @@ def generate_compliance_response(query: str, mode: str = "industry", language: s
         raw_docs = record.get("documents", [])
         if raw_docs and isinstance(raw_docs, list):
             docs = raw_docs
+
+    if isinstance(docs, list):
+        docs = [doc.get("title", "") if isinstance(doc, dict) else doc for doc in docs]
             
     testing = i18n_record.get("testing", record.get("testing", {}))
     testing_available = testing.get("available", record.get("testing", {}).get("available", False))
@@ -540,5 +570,6 @@ def generate_compliance_response(query: str, mode: str = "industry", language: s
         structured_fees=record.get("fees"),
         regulatory_status=record.get("regulatory_status"),
         official_links=record.get("official_links"),
-        structured_evidence=record.get("evidence")
+        structured_evidence=record.get("evidence"),
+        reference_guidance=record.get("reference_guidance")
     )

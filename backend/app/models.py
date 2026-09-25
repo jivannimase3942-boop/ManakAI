@@ -116,6 +116,7 @@ class ComplianceResponse(BaseModel):
     regulatory_status: Optional[Dict[str, Any]] = None
     official_links: Optional[List[Dict[str, Any]]] = None
     structured_evidence: Optional[List[Dict[str, Any]]] = None
+    reference_guidance: Optional[Dict[str, Any]] = None
 
 
 class ComplianceImpactRequest(BaseModel):
@@ -151,6 +152,8 @@ class ProductAnalysisResponse(BaseModel):
     source_type: str
     product_identification: ProductIdentification
     attributes: Dict[str, Any]
+    detected_information: Dict[str, Any] = {}
+    confidence_level: str = "low"
 
     # Nested fields from ComplianceResponse
     match_found: bool = False
@@ -174,13 +177,14 @@ class ProductAnalysisResponse(BaseModel):
     disclaimer: str = ""
 
     # Structured Phase 2F fields
-    structured_compliance_journey: Optional[List[Dict[str, Any]]] = None
+    structured_compliance_journey: Optional[Dict[str, Any]] = None
     structured_documents: Optional[List[Dict[str, Any]]] = None
     structured_testing: Optional[Dict[str, Any]] = None
     structured_fees: Optional[Dict[str, Any]] = None
     regulatory_status: Optional[Dict[str, Any]] = None
     official_links: Optional[List[Dict[str, Any]]] = None
     structured_evidence: Optional[List[Dict[str, Any]]] = None
+    reference_guidance: Optional[Dict[str, Any]] = None
 
     # Specific attributes for partial/no match
     multiple_candidates: Optional[List[Dict[str, Any]]] = None

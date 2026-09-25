@@ -78,11 +78,14 @@ async def analyze_product(
         "source_type": source_type,
         "product_identification": pi_model,
         "attributes": vision_result.get("attributes", {}),
+        "detected_information": vision_result.get("detected_information", {}),
+        "confidence_level": vision_result.get("confidence_level", "low"),
+        "reference_guidance": None,
         "multiple_candidates": vision_result.get("multiple_candidates", []),
         "error": vision_result.get("error")
     }
 
-    if status in ["failed", "uncertain", "multiple_products"]:
+    if status in ["failed", "uncertain", "multiple_products"] or vision_result.get("confidence_level") == "low":
         return ProductAnalysisResponse(**base_response)
 
     # 2. BIS Mapping using existing decision engine
